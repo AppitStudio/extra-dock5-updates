@@ -1,0 +1,1 @@
+Place the built ExtraDock.dmg here for generate_appcast (this folder's DMG + generated appcast are never committed).
