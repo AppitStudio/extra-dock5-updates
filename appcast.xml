@@ -2,5 +2,33 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ExtraDock</title>
+        <item>
+            <title>5.0.0-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sat, 11 Jul 2026 17:49:29 +0300</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>5.0.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 5.0.0-beta.1 – The First V5 Beta! 🚀✨</h2>
+
+        <h3>🧪 Welcome to the ExtraDock 5 Beta</h3>
+        <ul>
+            <li><strong>Ground-Up Rewrite:</strong> ExtraDock 5 is a brand-new app built for macOS 26 (Tahoe), rebuilt from the ground up for speed and reliability!</li>
+            <li><strong>Import From V4:</strong> Bring your existing docks and settings over from ExtraDock 4 in a couple of clicks!</li>
+            <li><strong>Beta Channel Built In:</strong> Stay on the beta channel in Settings to keep receiving pre-release builds automatically!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>This is the first beta — your feedback shapes the road to 5.0! Please report anything that feels off.</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.0-beta.1/ExtraDock.dmg" length="12855059" type="application/octet-stream" sparkle:edSignature="C5t+hDaImZqzVaj0xRRCRghviZagJ1qHGyoMHXaK2x5J8wbe5qQacQiDFuMbGcrvhlFLKTq7nWN4+rX0QyMiBg=="/>
+        </item>
     </channel>
 </rss>
