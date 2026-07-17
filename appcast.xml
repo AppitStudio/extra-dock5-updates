@@ -5,8 +5,8 @@
         <item>
             <title>5.0.0-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 16 Jul 2026 18:00:37 +0300</pubDate>
-            <sparkle:version>10</sparkle:version>
+            <pubDate>Fri, 17 Jul 2026 11:31:37 +0300</pubDate>
+            <sparkle:version>11</sparkle:version>
             <sparkle:shortVersionString>5.0.0-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
@@ -28,7 +28,7 @@
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.0-beta.1/ExtraDock.dmg" length="13437312" type="application/octet-stream" sparkle:edSignature="10XWq6vBVBAv+Fkl+MM4twk0fHfxLr93nNGPg+j+FpI43fggR7z8c/AzH7HeVPqcMtRSwZmt9+zLZ24o6e2NBQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.0-beta.1/ExtraDock.dmg" length="13438494" type="application/octet-stream" sparkle:edSignature="m4Cf1HrV0MRwVl3bNsJWKl6kY0u543JY+BtubjhheEfjL1eB73N209MSxX0GCK7id/7Zgf514x74Tq+kw0LuCg=="/>
         </item>
     </channel>
 </rss>
