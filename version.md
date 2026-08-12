@@ -1,10 +1,8 @@
-VERSION: 5.0.1-beta.1
+VERSION: 5.0.1-beta.2
 DETAILS:
 
-🐛 bug fix: CPU, GPU and Memory widgets restore Automatic/White/Black/Custom text colors, including V4 imports
-🐛 bug fix: Imported clocks keep their full two-cell width; new Type Size control added
-🐛 bug fix: Flexible Spacer custom width restored to the full 2–3000 point range
-🐛 bug fix: Running Apps per-app click/scroll gesture overrides now persist across restarts
-🐛 bug fix: Hidden V4 docks import correctly and docks land on the expected display
-🐛 bug fix: Relaunching ExtraDock no longer leaves overlapping instances running
-✨ improved: Item gesture menus show when click/scroll gestures are disabled app-wide and offer to enable them in place
+✨ new: Finder widget supports custom icons, with a Use Default reset
+✨ new: Honors the macOS "Animate opening applications" setting (Reduce Motion still takes precedence)
+🐛 bug fix: App Stack custom icons restored to full V4 parity, including imported V4 artwork
+🐛 bug fix: Launcher-style apps (Apps, Screenshot) can no longer leave an icon bouncing and unclickable — bounded by a 20-second watchdog
+🐛 bug fix: Un-minimizing a Chrome-installed web app no longer triggers a second reopen that makes it disappear

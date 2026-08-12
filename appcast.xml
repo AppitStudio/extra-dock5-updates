@@ -3,40 +3,38 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.1-beta.1</title>
+            <title>5.0.1-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Tue, 11 Aug 2026 21:35:25 +0300</pubDate>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>5.0.1-beta.1</sparkle:shortVersionString>
+            <pubDate>Wed, 12 Aug 2026 16:26:37 +0300</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>5.0.1-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.1-beta.1 – Fix &amp; Polish Beta! 🛠️✨</h2>
+        <h2>ExtraDock 5.0.1-beta.2 – Custom Icons &amp; Launch Fixes! 🎨🚀</h2>
+
+        <h3>🎨 What's New</h3>
+        <ul>
+            <li><strong>Custom Finder Icons:</strong> The Finder widget can now wear artwork of your choosing, with a one-click <strong>Use Default</strong> to put it back!</li>
+            <li><strong>Respects Your Launch Animation Setting:</strong> Turn off <em>Animate opening applications</em> in macOS and ExtraDock skips the launch bounce too — Reduce Motion still wins!</li>
+        </ul>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>Gauge Text Colors Are Back:</strong> CPU, GPU and Memory widgets get their Automatic / White / Black / Custom text modes again — including colors carried over from ExtraDock 4!</li>
-            <li><strong>Clock No Longer Shrinks After Import:</strong> Imported clocks keep their full two-cell width, and a new Type Size control lets you dial the size exactly where you want it!</li>
-            <li><strong>Flexible Spacer Width Restored:</strong> Custom width is back to the full 2–3000 point range, and V4 spacer sizes import correctly!</li>
-            <li><strong>Running Apps Gestures Stick:</strong> Per-app click and scroll overrides now save durably and survive a restart!</li>
-            <li><strong>V4 Import &amp; Multi-Display Fixes:</strong> Hidden docks import correctly again, and docks land on the display you expect!</li>
-            <li><strong>No More Double Instances:</strong> Relaunching ExtraDock no longer leaves two copies running at once!</li>
-        </ul>
-
-        <h3>✨ Improvements</h3>
-        <ul>
-            <li><strong>Gesture Menus Tell the Truth:</strong> When click or scroll gestures are off app-wide, item menus now show that clearly and offer <strong>Enable Click Gestures</strong> / <strong>Enable Scroll Gestures</strong> right where you need them!</li>
+            <li><strong>App Stack Custom Icons Are Back:</strong> Full ExtraDock 4 parity — pick your own artwork, revert to default, and imported V4 icons come along for the ride!</li>
+            <li><strong>No More Endless Bouncing:</strong> Launcher-style apps like Apps and Screenshot can no longer leave an icon bouncing and unclickable — a 20-second safety net always ends it!</li>
+            <li><strong>Chrome Web Apps Restore Properly:</strong> Un-minimizing a Chrome-installed web app no longer makes it flash back and disappear!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
-        <p>This beta polishes the first official V5 release — please report anything that still feels off!</p>
+        <p>This beta continues polishing the first official V5 release — please report anything that still feels off!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1-beta.1/ExtraDock.dmg" length="15363961" type="application/octet-stream" sparkle:edSignature="7QyklldvM61L3foNFaOCY/bI9OgigFQ7A2mpIgsn2ZvhVCgqhDDBRDyV6o0HkGzOzOkSxI1XUv/x2u79CsxkBg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1-beta.2/ExtraDock.dmg" length="15411970" type="application/octet-stream" sparkle:edSignature="EEU9+gBtvqz2EF76VQpfBCKr5lo0kJqYI9VmrFKFw9ZbvGMmdA7VgVqxKwuUpjOU7c9TMdcTB+yapm550Fr9BQ=="/>
         </item>
         <item>
             <title>5.0.0</title>
