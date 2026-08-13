@@ -1,8 +1,10 @@
-VERSION: 5.0.1-beta.2
+VERSION: 5.0.1-beta.3
 DETAILS:
 
-✨ new: Finder widget supports custom icons, with a Use Default reset
-✨ new: Honors the macOS "Animate opening applications" setting (Reduce Motion still takes precedence)
-🐛 bug fix: App Stack custom icons restored to full V4 parity, including imported V4 artwork
-🐛 bug fix: Launcher-style apps (Apps, Screenshot) can no longer leave an icon bouncing and unclickable — bounded by a 20-second watchdog
-🐛 bug fix: Un-minimizing a Chrome-installed web app no longer triggers a second reopen that makes it disappear
+✨ new: DockFlow integration bridge — ExtraDock publishes its docks to DockFlow so the two apps can work together
+🐛 bug fix: Running indicators stay fully visible at Small, Medium and Large on every edge and floating orientation
+🐛 bug fix: App artwork refreshes on appearance change — no more stale light-mode icons in Dark Mode
+🐛 bug fix: Clicking Microsoft Teams no longer risks terminating it; running Teams is routed through public activation only
+🐛 bug fix: Launcher and static widgets fill their full cell again (the global 0.8× artwork inset no longer shrinks Medium/Large)
+🐛 bug fix: Dragging a dock across displays no longer shakes or jumps at the screen seam, with steadier edge/corner snapping
+🐛 bug fix: Diagnostics log export no longer fails with an opaque error — it retries without the predicate, writes atomically and verifies the artifact
