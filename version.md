@@ -1,5 +1,6 @@
-VERSION: 5.0.1-beta.4
+VERSION: 5.0.1-beta.5
 DETAILS:
 
-🐛 bug fix: Docks repair themselves after macOS relaunches its own Dock, instead of disappearing — DockFlow keeps seeing them
-🐛 bug fix: Visibility commands from DockFlow are confirmed against the real panel state, so a command that didn't take effect no longer reports success
+🐞 bug fix: Docks survive DockFlow preset switches — ExtraDock reliably detects the native Dock restart DockFlow triggers and repairs every dock
+🐞 bug fix: Hidden docks stay hidden through Dock restarts, and show/hide commands are only confirmed once the window actually reaches the requested state
+⚡ improved: ExtraDock logs Dock restarts, dock repairs, and every DockFlow request/response for easier integration diagnostics
