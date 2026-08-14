@@ -3,27 +3,22 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.1-beta.5</title>
+            <title>5.0.1-beta.6</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 14 Aug 2026 16:25:00 +0300</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>5.0.1-beta.5</sparkle:shortVersionString>
+            <pubDate>Fri, 14 Aug 2026 20:58:00 +0300</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>5.0.1-beta.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.1-beta.5 – Rock-Solid DockFlow Preset Switching! 🔄🛠️</h2>
+        <h2>ExtraDock 5.0.1-beta.6 – Take Control of Running Indicators! 🎯🎨</h2>
 
-        <h3>🐛 Bug Fixes</h3>
+        <h3>✨ What's New</h3>
         <ul>
-            <li><strong>Docks Survive DockFlow Preset Switches:</strong> When DockFlow applies a preset that restarts the macOS Dock, ExtraDock now detects the restart reliably and repairs every dock — no more docks left attached to a stale Dock!</li>
-            <li><strong>Hidden Docks Stay Hidden:</strong> A Dock restart no longer accidentally brings back docks you had hidden — and show/hide is only confirmed once the window actually reaches the requested state!</li>
-        </ul>
-
-        <h3>⚡ Improvements</h3>
-        <ul>
-            <li><strong>Deeper Integration Diagnostics:</strong> ExtraDock now logs Dock restarts, dock repairs, and every DockFlow request and response, making integration issues much easier to trace!</li>
+            <li><strong>App-Wide Running Indicator Toggle:</strong> A new master switch in Settings → Behavior lets you show or hide the running-app dots across every dock at once — individual docks keep their own opt-out too!</li>
+            <li><strong>Custom Indicator Color:</strong> Pick one color for running indicators across all your docks, or leave it on Default to keep each dock's accent color with the adaptive light/dark palette!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -32,7 +27,7 @@
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1-beta.5/ExtraDock.dmg" length="15620946" type="application/octet-stream" sparkle:edSignature="YOZBM/alyV30jxcBO04bxS/kD8pjjl0PvJekBrrWhd+Uo3BokhlNroi6AHWC6uX9gtbpSPLH4MTI5zJYN9ZiDQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1-beta.6/ExtraDock.dmg" length="15637159" type="application/octet-stream" sparkle:edSignature="gN/bexUii3neHxBrvFryMoJsCXEiSV8BhEb5sfuKSNOInpx6kgoTXxxqQtKsavaGmBcCSxk1dfAbPwZpFoQnCg=="/>
         </item>
         <item>
             <title>5.0.0</title>

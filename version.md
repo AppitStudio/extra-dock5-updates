@@ -1,6 +1,5 @@
-VERSION: 5.0.1-beta.5
+VERSION: 5.0.1-beta.6
 DETAILS:
 
-🐞 bug fix: Docks survive DockFlow preset switches — ExtraDock reliably detects the native Dock restart DockFlow triggers and repairs every dock
-🐞 bug fix: Hidden docks stay hidden through Dock restarts, and show/hide commands are only confirmed once the window actually reaches the requested state
-⚡ improved: ExtraDock logs Dock restarts, dock repairs, and every DockFlow request/response for easier integration diagnostics
+✨ new: App-wide master toggle in Settings → Behavior to show or hide running-app indicator dots across every dock (per-dock opt-outs still respected)
+✨ new: App-wide running indicator color override — pick one color for all docks, or keep Default for each dock's accent color with the adaptive light/dark palette
