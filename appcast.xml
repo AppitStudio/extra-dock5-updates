@@ -3,50 +3,61 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.1-beta.6</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 14 Aug 2026 20:58:00 +0300</pubDate>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>5.0.1-beta.6</sparkle:shortVersionString>
+            <title>5.0.1</title>
+            <pubDate>Sat, 15 Aug 2026 12:50:00 +0300</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>5.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.1-beta.6 – Take Control of Running Indicators! 🎯🎨</h2>
+        <h2>ExtraDock 5.0.1 – Polish, Custom Icons & DockFlow! 🎨🔗</h2>
 
         <h3>✨ What's New</h3>
         <ul>
+            <li><strong>DockFlow Integration:</strong> ExtraDock now publishes your docks to DockFlow so the two apps can work together — and the connection stays rock-solid even when DockFlow applies a preset that restarts the macOS Dock!</li>
             <li><strong>App-Wide Running Indicator Toggle:</strong> A new master switch in Settings → Behavior lets you show or hide the running-app dots across every dock at once — individual docks keep their own opt-out too!</li>
             <li><strong>Custom Indicator Color:</strong> Pick one color for running indicators across all your docks, or leave it on Default to keep each dock's accent color with the adaptive light/dark palette!</li>
+            <li><strong>Custom Finder Icons:</strong> The Finder widget can now wear artwork of your choosing, with a one-click <strong>Use Default</strong> to put it back!</li>
+            <li><strong>Clock Type Size Control:</strong> A new Type Size control on the Clock widget lets you dial the text size exactly where you want it!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Running Dots, the Native Way:</strong> Running indicators now sit just outside the icon with native-Dock spacing — slightly larger, never overlapping your artwork, and always legible in both light and dark appearance!</li>
+            <li><strong>Respects Your Launch Animation Setting:</strong> Turn off <em>Animate opening applications</em> in macOS and ExtraDock skips the launch bounce too — Reduce Motion still wins!</li>
+            <li><strong>Gesture Menus Tell the Truth:</strong> When click or scroll gestures are off app-wide, item menus now show that clearly and offer <strong>Enable Click Gestures</strong> / <strong>Enable Scroll Gestures</strong> right where you need them!</li>
+            <li><strong>Deeper Integration Diagnostics:</strong> ExtraDock now logs Dock restarts, dock repairs, and every DockFlow request and response, making integration issues much easier to trace!</li>
+        </ul>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Docks Survive a Dock Restart:</strong> When macOS relaunches its own Dock, your ExtraDock docks repair themselves instead of disappearing — hidden docks stay hidden, and show/hide is only confirmed once the window actually reaches the requested state!</li>
+            <li><strong>Gauge Text Colors Are Back:</strong> CPU, GPU and Memory widgets get their Automatic / White / Black / Custom text modes again — including colors carried over from ExtraDock 4!</li>
+            <li><strong>Clock No Longer Shrinks After Import:</strong> Imported clocks keep their full two-cell width!</li>
+            <li><strong>Flexible Spacer Width Restored:</strong> Custom width is back to the full 2–3000 point range, and V4 spacer sizes import correctly!</li>
+            <li><strong>Running Apps Gestures Stick:</strong> Per-app click and scroll overrides now save durably and survive a restart!</li>
+            <li><strong>V4 Import & Multi-Display Fixes:</strong> Hidden docks import correctly again, and docks land on the display you expect!</li>
+            <li><strong>Smooth Multi-Display Dragging:</strong> Dragging a dock between displays no longer shakes or jumps at the screen seam, with steadier edge and corner snapping!</li>
+            <li><strong>App Stack Custom Icons Are Back:</strong> Full ExtraDock 4 parity — pick your own artwork, revert to default, and imported V4 icons come along for the ride!</li>
+            <li><strong>No More Endless Bouncing:</strong> Launcher-style apps like Apps and Screenshot can no longer leave an icon bouncing and unclickable — a 20-second safety net always ends it!</li>
+            <li><strong>Chrome Web Apps Restore Properly:</strong> Un-minimizing a Chrome-installed web app no longer makes it flash back and disappear!</li>
+            <li><strong>Microsoft Teams Stays Alive:</strong> Clicking Teams in your dock no longer risks terminating it — it now uses safe public activation!</li>
+            <li><strong>Running Indicators No Longer Clip:</strong> The running dot stays fully visible at Small, Medium, and Large on every edge and floating orientation!</li>
+            <li><strong>Dark Mode Icons Refresh:</strong> App artwork updates the moment you switch appearance — no more stale light-mode icons!</li>
+            <li><strong>Widgets Fill Their Cells Again:</strong> Launcher and static widgets are back to full size — no more shrunken artwork at Medium and Large!</li>
+            <li><strong>No More Double Instances:</strong> Relaunching ExtraDock no longer leaves two copies running at once!</li>
+            <li><strong>Reliable Diagnostics Export:</strong> Exporting logs no longer fails with a cryptic error — it retries, verifies the file, and reports real problems clearly!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
-        <p>This beta continues polishing the first official V5 release — please report anything that still feels off!</p>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
 
-        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+        <p style="margin-top: 20px;"><em>Thank you to everyone who tested the 5.0.1 betas — your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1-beta.6/ExtraDock.dmg" length="15637159" type="application/octet-stream" sparkle:edSignature="gN/bexUii3neHxBrvFryMoJsCXEiSV8BhEb5sfuKSNOInpx6kgoTXxxqQtKsavaGmBcCSxk1dfAbPwZpFoQnCg=="/>
-        </item>
-        <item>
-            <title>5.0.0</title>
-            <pubDate>Sun, 09 Aug 2026 18:56:03 +0300</pubDate>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>5.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.0 🚀</h2>
-
-        <ul>
-            <li><strong>First official release for ExtraDock 5!</strong></li>
-        </ul>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.0/ExtraDock.dmg" length="15211789" type="application/octet-stream" sparkle:edSignature="nFQFjrzELFATeWY5YwAbmT/hUdLNwVJvQcJApvofnO23ZCdpIs5jWzCjT94UTQQ3EJQegJJ7VHKcz7WTOaqeCw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1/ExtraDock.dmg" length="15636393" type="application/octet-stream" sparkle:edSignature="Q3cviOSnK0xz/qncKoqhR6/Aspl5fg2jZyVkGzwKEcFlQ/wjlEHdDZ6OrJouKFnOf8HHVTUU24grS36IxguNAg=="/>
         </item>
     </channel>
 </rss>
