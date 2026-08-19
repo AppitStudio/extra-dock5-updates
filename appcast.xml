@@ -3,96 +3,46 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.2-beta.2</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Wed, 19 Aug 2026 12:30:55 +0300</pubDate>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>5.0.2-beta.2</sparkle:shortVersionString>
+            <title>5.0.2</title>
+            <pubDate>Wed, 19 Aug 2026 19:05:00 +0300</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>5.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.2-beta.2 – Bars That Fit Your Icons! 📐✨</h2>
+        <h2>ExtraDock 5.0.2 – Battery Widget & Bars That Fit! 🔋📐</h2>
 
         <h3>✨ What's New</h3>
         <ul>
-            <li><strong>Auto Bar Thickness:</strong> Bar thickness now sits right under Icon size and defaults to <strong>Auto</strong> — the bar grows and shrinks to hug your icons, so big icons never overflow a bar that forgot to grow!</li>
-            <li><strong>Pin It When You Want To:</strong> Pick any thickness preset or drag the new Custom slider and the bar stays exactly there — thickness is still fully yours, with Auto offered as a mode rather than a rule!</li>
-            <li><strong>Custom Icon Size Slider:</strong> Icon size gains a Custom segment with the exact 20–128 pt slider, and the presets settle into one clear Small / Medium / Large vocabulary everywhere!</li>
-            <li><strong>Everything Refits:</strong> Menu quick-sets, "Match macOS Dock Size", themes, paste and import all refit the bar automatically — and an Auto refit carries the matching Soft / Round corner radius with it!</li>
+            <li><strong>Bluetooth Battery Widget:</strong> See the charge level of your AirPods, Magic Keyboard, Mouse, Trackpad, controllers and other Bluetooth accessories right in your dock!</li>
+            <li><strong>Auto Bar Thickness:</strong> Bars now grow and shrink to hug your icons by default, so big icons never overflow — or pick any thickness yourself to pin it!</li>
+            <li><strong>Custom Icon Size:</strong> A new Custom option gives you an exact 20–128 pt slider for icon size!</li>
+            <li><strong>Dock Actions Everywhere:</strong> Right-click any dock item or drag handle for an ExtraDock menu with Hide Dock, Pin to Edge, Copy/Paste Settings and more!</li>
+            <li><strong>Drag Handle on Hover:</strong> Hover a floating dock for a second and a compact move handle appears — even with the permanent handle turned off!</li>
+            <li><strong>Smooth First Appearance:</strong> Docks now fade and scale in gently when they first appear!</li>
         </ul>
 
-        <h3>🐛 Bug Fixes</h3>
+        <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Bars Corrected at Launch:</strong> A bar your icons had outgrown is fixed when ExtraDock starts instead of surprising you mid-edit, and the settings control can never show Auto while the bar disagrees!</li>
-            <li><strong>Your Custom Radii Stay Put:</strong> Custom absolute corner radii are never rescaled by a refit!</li>
-        </ul>
-
-        <h3>🚀 What's Next?</h3>
-        <p>This beta continues the 5.0.2 cycle — please report anything that still feels off!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.2-beta.2/ExtraDock.dmg" length="16208669" type="application/octet-stream" sparkle:edSignature="uVR6bxnN4y0g1BMpO62MfeY7C+a74YX215Ya+D8IdhgV/Tdaw5SjCaII+18D6m+QPED0Fexu/UHRrfTrFNW7Dg=="/>
-        </item>
-        <item>
-            <title>5.0.1</title>
-            <pubDate>Sat, 15 Aug 2026 12:50:00 +0300</pubDate>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>5.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.1 – Polish, Custom Icons & DockFlow! 🎨🔗</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>DockFlow Integration:</strong> ExtraDock now publishes your docks to DockFlow so the two apps can work together — and the connection stays rock-solid even when DockFlow applies a preset that restarts the macOS Dock!</li>
-            <li><strong>App-Wide Running Indicator Toggle:</strong> A new master switch in Settings → Behavior lets you show or hide the running-app dots across every dock at once — individual docks keep their own opt-out too!</li>
-            <li><strong>Custom Indicator Color:</strong> Pick one color for running indicators across all your docks, or leave it on Default to keep each dock's accent color with the adaptive light/dark palette!</li>
-            <li><strong>Custom Finder Icons:</strong> The Finder widget can now wear artwork of your choosing, with a one-click <strong>Use Default</strong> to put it back!</li>
-            <li><strong>Clock Type Size Control:</strong> A new Type Size control on the Clock widget lets you dial the text size exactly where you want it!</li>
-        </ul>
-
-        <h3>⚡ Improvements</h3>
-        <ul>
-            <li><strong>Running Dots, the Native Way:</strong> Running indicators now sit just outside the icon with native-Dock spacing — slightly larger, never overlapping your artwork, and always legible in both light and dark appearance!</li>
-            <li><strong>Respects Your Launch Animation Setting:</strong> Turn off <em>Animate opening applications</em> in macOS and ExtraDock skips the launch bounce too — Reduce Motion still wins!</li>
-            <li><strong>Gesture Menus Tell the Truth:</strong> When click or scroll gestures are off app-wide, item menus now show that clearly and offer <strong>Enable Click Gestures</strong> / <strong>Enable Scroll Gestures</strong> right where you need them!</li>
-            <li><strong>Deeper Integration Diagnostics:</strong> ExtraDock now logs Dock restarts, dock repairs, and every DockFlow request and response, making integration issues much easier to trace!</li>
-        </ul>
-
-        <h3>🐛 Bug Fixes</h3>
-        <ul>
-            <li><strong>Docks Survive a Dock Restart:</strong> When macOS relaunches its own Dock, your ExtraDock docks repair themselves instead of disappearing — hidden docks stay hidden, and show/hide is only confirmed once the window actually reaches the requested state!</li>
-            <li><strong>Gauge Text Colors Are Back:</strong> CPU, GPU and Memory widgets get their Automatic / White / Black / Custom text modes again — including colors carried over from ExtraDock 4!</li>
-            <li><strong>Clock No Longer Shrinks After Import:</strong> Imported clocks keep their full two-cell width!</li>
-            <li><strong>Flexible Spacer Width Restored:</strong> Custom width is back to the full 2–3000 point range, and V4 spacer sizes import correctly!</li>
-            <li><strong>Running Apps Gestures Stick:</strong> Per-app click and scroll overrides now save durably and survive a restart!</li>
-            <li><strong>V4 Import & Multi-Display Fixes:</strong> Hidden docks import correctly again, and docks land on the display you expect!</li>
-            <li><strong>Smooth Multi-Display Dragging:</strong> Dragging a dock between displays no longer shakes or jumps at the screen seam, with steadier edge and corner snapping!</li>
-            <li><strong>App Stack Custom Icons Are Back:</strong> Full ExtraDock 4 parity — pick your own artwork, revert to default, and imported V4 icons come along for the ride!</li>
-            <li><strong>No More Endless Bouncing:</strong> Launcher-style apps like Apps and Screenshot can no longer leave an icon bouncing and unclickable — a 20-second safety net always ends it!</li>
-            <li><strong>Chrome Web Apps Restore Properly:</strong> Un-minimizing a Chrome-installed web app no longer makes it flash back and disappear!</li>
-            <li><strong>Microsoft Teams Stays Alive:</strong> Clicking Teams in your dock no longer risks terminating it — it now uses safe public activation!</li>
-            <li><strong>Running Indicators No Longer Clip:</strong> The running dot stays fully visible at Small, Medium, and Large on every edge and floating orientation!</li>
-            <li><strong>Dark Mode Icons Refresh:</strong> App artwork updates the moment you switch appearance — no more stale light-mode icons!</li>
-            <li><strong>Widgets Fill Their Cells Again:</strong> Launcher and static widgets are back to full size — no more shrunken artwork at Medium and Large!</li>
-            <li><strong>No More Double Instances:</strong> Relaunching ExtraDock no longer leaves two copies running at once!</li>
-            <li><strong>Reliable Diagnostics Export:</strong> Exporting logs no longer fails with a cryptic error — it retries, verifies the file, and reports real problems clearly!</li>
+            <li><strong>No More Jitter:</strong> Floating docks parked next to the macOS Dock stay perfectly still!</li>
+            <li><strong>Dragging Icons Just Moves Icons:</strong> Dragging an icon no longer moves the whole dock — only empty bar space does!</li>
+            <li><strong>Reserve Dock Space Self-Heals:</strong> No more toggling it off and on to get your space back!</li>
+            <li><strong>Item Names Show on Hover:</strong> Hover labels and "Always show label" work reliably again, with no extra permissions needed!</li>
+            <li><strong>No Startup Flash:</strong> Docks appear directly at their saved position instead of jumping there a moment later!</li>
+            <li><strong>Divider Is Compact Again:</strong> Back to its original slim footprint, with Side spacing that actually changes it!</li>
+            <li><strong>Trash Prompt Stays Visible:</strong> The Empty Trash confirmation can no longer hide behind the Manager window!</li>
+            <li><strong>No Stuck Bouncing:</strong> Launcher apps can't leave an icon bouncing forever!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
         <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
 
-        <p style="margin-top: 20px;"><em>Thank you to everyone who tested the 5.0.1 betas — your feedback drives every improvement we make. 💙</em></p>
+        <p style="margin-top: 20px;"><em>Thank you to everyone who tested the 5.0.2 betas — your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1/ExtraDock.dmg" length="15636393" type="application/octet-stream" sparkle:edSignature="Q3cviOSnK0xz/qncKoqhR6/Aspl5fg2jZyVkGzwKEcFlQ/wjlEHdDZ6OrJouKFnOf8HHVTUU24grS36IxguNAg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.2/ExtraDock.dmg" length="16209300" type="application/octet-stream" sparkle:edSignature="g9PXCAG1vOqRVvVIAEmpY412azqki8WHry7X+DuDWLDV8HrYh6mXV8NxTLaO1VX0XIb6xnVqHTV+EDsjq5/xDw=="/>
         </item>
     </channel>
 </rss>
