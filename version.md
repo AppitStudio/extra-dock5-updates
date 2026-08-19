@@ -1,15 +1,9 @@
-VERSION: 5.0.2-beta.1
+VERSION: 5.0.2-beta.2
 DETAILS:
 
-✨ new: Bluetooth Battery widget — charge and connection state for AirPods, Magic Keyboard/Mouse/Trackpad, controllers and any accessory macOS reports a level for (V4 Bluetooth widgets import across)
-✨ new: The floating dock's drag handle opens the dock's options menu
-✨ new: Dedicated ExtraDock submenu in every dock item's right-click menu
-✨ new: Docks animate into place on first presentation (Reduce Motion respected)
-✨ new: Floating docks reveal their drag handle after a short hover
-🐛 bug fix: Corrected BLE accessory battery readings across the different ways macOS reports them
-🐛 bug fix: Startup positioning waits until displays settle, so docks appear on the expected screen
-🐛 bug fix: Reworked floating dock frame ownership and drag arbitration for steadier dragging
-🐛 bug fix: Reserved dock screen space now self-heals instead of leaving a gap
-🐛 bug fix: Compact dividers restored to their slim footprint
-🐛 bug fix: Empty Trash confirmation comes to the front instead of hiding behind windows
-🐛 bug fix: Stale app-launch callbacks can no longer leave an icon animating
+✨ new: Bar thickness moved under Icon size and defaults to Auto — the bar fits the tallest cell plus padding, so large icons no longer overflow a bar that never grew
+✨ new: Custom bar thickness slider; picking any preset or dragging Custom pins the bar permanently
+✨ new: Icon size gains a Custom segment with the exact 20–128 pt slider; the "Huge" preset folds into Custom so quick-set and the Style tab share one Small/Medium/Large vocabulary
+⚡ improved: Menu quick-set, "Match macOS Dock Size", themes, paste and import all refit an Auto bar, carrying the matching Soft/Round corner radius
+🐛 bug fix: Auto bars normalize on load as well as on mutation — a bar its icons had outgrown is corrected at launch, and the control can never show Auto while the bar disagrees
+🐛 bug fix: Custom absolute corner radii are never rescaled by a refit
