@@ -1,8 +1,7 @@
-VERSION: 5.0.3-beta.3
+VERSION: 5.0.3-beta.4
 DETAILS:
 
-✨ new: `DockDiagnosticsExporter` writes a human-readable support report for the selected dock, reached from a new Dock Actions menu in the Manager toolbar ("Export Dock Diagnostics…"), restoring V4's `DockSettingsService.copyTroubleshootingSummary` behavior as a saved file
-✨ new: Settings → Diagnostics gains an All Docks export that emits one report covering every persisted dock, alongside the existing screen-decision-log and log exports
-✨ new: Reports embed app version, OS version, Accessibility/Screen Recording permission state, persisted `DockConfig`/`AppSettings` JSON, and per-instance runtime snapshots (panel frame, alpha, window number, resolved visibility, collapse/reveal fractions, screen frames and fingerprint) — one persisted dock yields several snapshots when Show on All Screens is on
-🔧 improved: Item paths, bundle IDs, custom item names, folder/network URLs and raw widget `configJSON` payloads are redacted from the embedded configuration before writing, so exports are safe to attach to a support email
-🔧 improved: Both exports are indexed by Settings search; report formatting is pure and headless-testable, with collection and `NSSavePanel` presentation kept app-side
+🐞 bug fix: `IconGeometry.liftVector` gave neutral floating **vertical** docks the horizontal floating transform `(x: 0, y: -lift)`, so every cursor-derived magnification change translated icons along the bar's own main axis — the same axis the mouse was traversing — producing the reported hover "shake"
+🐞 bug fix: Magnification lift is now orientation-aware — a neutral floating vertical dock grows symmetrically from its slot center with zero translation, matching what `growthAnchor` already did
+🔧 improved: Floating horizontal docks keep bottom-Dock-style upward lift and edge-resolved top/left/right docks keep their directional lift — only the neutral-vertical case changed
+🔧 improved: The same helper still drives both rendered pixels and reported magnified hit regions, so a magnified icon's click target continues to match its appearance; the discrete launch/attention bounce is unchanged

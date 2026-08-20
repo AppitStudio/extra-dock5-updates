@@ -3,34 +3,32 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.3-beta.3</title>
+            <title>5.0.3-beta.4</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 20 Aug 2026 21:35:00 +0300</pubDate>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>5.0.3-beta.3</sparkle:shortVersionString>
+            <pubDate>Thu, 20 Aug 2026 22:15:58 +0300</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>5.0.3-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.3-beta.3 &#8211; Tell Us Exactly What Went Wrong! &#129658;&#128203;</h2>
+        <h2>ExtraDock 5.0.3-beta.4 &#8211; Rock-Steady Magnification! &#127959;&#65039;&#8205;&#9794;&#65039;&#10024;</h2>
 
-        <h3>&#10024; What's New</h3>
+        <h3>&#128030; Bug Fixes</h3>
         <ul>
-            <li><strong>Export Dock Diagnostics:</strong> Pick a dock in the Manager, open the new <strong>Dock Actions</strong> button in the toolbar and choose <strong>Export Dock Diagnostics&#8230;</strong> &#8212; you get a readable text report of that dock's settings and live state to attach to a support email!</li>
-            <li><strong>Export Every Dock at Once:</strong> Settings &#8594; Diagnostics gains an <strong>All Docks</strong> export that puts every dock you've configured into a single report, right next to the existing screen and log exports!</li>
-            <li><strong>Real Troubleshooting Detail:</strong> Reports capture your ExtraDock and macOS versions, Accessibility and Screen Recording permission status, and each dock's live position, visibility, collapse state and screen &#8212; the things we always end up asking for!</li>
-            <li><strong>Private by Design:</strong> App paths, custom item names, folder and network locations and raw widget data are redacted before anything is written, so a diagnostics file is safe to share!</li>
-            <li><strong>Findable in Search:</strong> The new exports show up in Settings search, so typing &#8220;diagnostics&#8221; takes you straight there!</li>
+            <li><strong>No More Hover Shake on Vertical Docks:</strong> On a floating vertical dock with magnification, sliding the mouse along the bar made icons drift and shimmy up and down &#8212; they now grow perfectly in place, straight out from their resting spot!</li>
+            <li><strong>Every Other Dock Style Untouched:</strong> Floating horizontal docks keep their familiar upward lift, and edge-pinned docks still grow away from their edge exactly as before!</li>
+            <li><strong>Clicks Land Where You See Them:</strong> The same fix drives both the drawn icons and their clickable area, so a magnified icon's hit target matches its appearance precisely!</li>
         </ul>
 
         <h3>&#128640; What's Next?</h3>
-        <p>If a dock ever misbehaves, export its diagnostics before restarting and send the file over &#8212; it makes fixes dramatically faster!</p>
+        <p>Keep the reports coming &#8212; this one came straight from a tester's screen recording and was fixed within the day!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. &#128153;</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.3/ExtraDock.dmg" length="16290061" type="application/octet-stream" sparkle:edSignature="nBttldNbewe9Go8Ps0hdw75cYPRHjoYfyqQCAWBPvZ41J2F9n0qjappYuYAl3lC2F0sXfSVGY5HnQI2Nc4BnAg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.4/ExtraDock.dmg" length="16292628" type="application/octet-stream" sparkle:edSignature="D3W5ohchIAHAwu27Imq50JK9KL/0FfUdZegLu7cv7JWgR/ifZsVerHnDC/FOAq0Ka9wLZ3gH3UnmFYMv9+l2AQ=="/>
         </item>
         <item>
             <title>5.0.2</title>
