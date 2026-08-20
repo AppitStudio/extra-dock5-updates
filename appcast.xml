@@ -3,6 +3,33 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.0.3-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Thu, 20 Aug 2026 14:47:02 +0300</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>5.0.3-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 5.0.3-beta.1 – Every V4 Dock Imports Cleanly! 📥🔧</h2>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Duplicated V4 Docks Import Successfully:</strong> If you ever duplicated a dock in ExtraDock 4, its copy could share item identities with the original — and importing that setup into ExtraDock 5 failed outright. Those docks now import cleanly, with every item kept in its original order!</li>
+            <li><strong>Repaired Automatically, Explained Clearly:</strong> When ExtraDock fixes a shared identity it keeps the original item untouched, gives the copy a safe new one, and lists what it repaired in a new <strong>Repaired automatically</strong> section of the import report — no action needed from you!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>This beta opens the 5.0.3 cycle — if you have an ExtraDock 4 setup that previously refused to import, please try it again and let us know!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.1/ExtraDock.dmg" length="16240681" type="application/octet-stream" sparkle:edSignature="EpxNmbSYgvBjBGl5BxfDcFy0uNwXPpkFHji9AX5Y3Wy8G0U3PT+Jt3WufK9EW59Sy7BT/0lMari0KKtVwUkADA=="/>
+        </item>
+        <item>
             <title>5.0.2</title>
             <pubDate>Wed, 19 Aug 2026 19:05:00 +0300</pubDate>
             <sparkle:version>30</sparkle:version>
