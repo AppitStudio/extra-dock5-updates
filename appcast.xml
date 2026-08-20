@@ -3,31 +3,40 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.3-beta.1</title>
+            <title>5.0.3-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 20 Aug 2026 14:47:02 +0300</pubDate>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>5.0.3-beta.1</sparkle:shortVersionString>
+            <pubDate>Thu, 20 Aug 2026 20:32:19 +0300</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>5.0.3-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.3-beta.1 – Every V4 Dock Imports Cleanly! 📥🔧</h2>
+        <h2>ExtraDock 5.0.3-beta.2 – Every Dock, One Click Away! 🎛️✨</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Per-Dock Menu in the Menu Bar:</strong> The ExtraDock status icon now lists every dock you've configured as its own submenu — Show/Hide, Enabled, Position Mode, Size and <strong>Open in Manager…</strong> are all one click away, with <strong>New Dock</strong> right at the top!</li>
+            <li><strong>Lock Position Is Back:</strong> Floating docks get ExtraDock 4's <strong>Lock Position</strong> toggle right in their menu — pin a dock exactly where you like it!</li>
+            <li><strong>Five-Character Collapse Labels:</strong> Custom text on the collapse button now accepts up to five characters instead of three, matching ExtraDock 4!</li>
+            <li><strong>A Bigger Collapse Button:</strong> The collapse button now fills the largest square its slot allows — at default settings it grows from 33 pt to 48 pt, so your label is far easier to read!</li>
+        </ul>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>Duplicated V4 Docks Import Successfully:</strong> If you ever duplicated a dock in ExtraDock 4, its copy could share item identities with the original — and importing that setup into ExtraDock 5 failed outright. Those docks now import cleanly, with every item kept in its original order!</li>
-            <li><strong>Repaired Automatically, Explained Clearly:</strong> When ExtraDock fixes a shared identity it keeps the original item untouched, gives the copy a safe new one, and lists what it repaired in a new <strong>Repaired automatically</strong> section of the import report — no action needed from you!</li>
+            <li><strong>The Menu Bar Dropdown Is No Longer Empty:</strong> Media and your dock list could go missing from the status icon menu depending on launch timing — the menu now builds itself once everything is ready!</li>
+            <li><strong>Collapse Text Stays the Same Size:</strong> Opening or closing a dock no longer resizes the label on its collapse button!</li>
+            <li><strong>Floating Docks Hold Still:</strong> Just moving the mouse could nudge a floating dock back and forth between two positions — pointer movement no longer replays the dock's window geometry!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
-        <p>This beta opens the 5.0.3 cycle — if you have an ExtraDock 4 setup that previously refused to import, please try it again and let us know!</p>
+        <p>The new menu bar dock list is the big one to try — open a few docks, flip them between Floating and Pinned, and tell us how it feels!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.1/ExtraDock.dmg" length="16240681" type="application/octet-stream" sparkle:edSignature="EpxNmbSYgvBjBGl5BxfDcFy0uNwXPpkFHji9AX5Y3Wy8G0U3PT+Jt3WufK9EW59Sy7BT/0lMari0KKtVwUkADA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.2/ExtraDock.dmg" length="16246585" type="application/octet-stream" sparkle:edSignature="wNyQTG25SBbl61rw+GapkF0QdO3DEMzbdZ/CtwnE4jbwbCXJKwJ/ozD68ILehcczpTAnljsYl2ddzE1+xSmnAw=="/>
         </item>
         <item>
             <title>5.0.2</title>
