@@ -3,32 +3,32 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.3-beta.4</title>
+            <title>5.0.3-beta.5</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 20 Aug 2026 22:15:58 +0300</pubDate>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>5.0.3-beta.4</sparkle:shortVersionString>
+            <pubDate>Fri, 21 Aug 2026 11:50:00 +0300</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>5.0.3-beta.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.3-beta.4 &#8211; Rock-Steady Magnification! &#127959;&#65039;&#8205;&#9794;&#65039;&#10024;</h2>
+        <h2>ExtraDock 5.0.3-beta.5 &#8211; Per-Screen Settings That Stay Put! &#128421;&#65039;&#127919;</h2>
 
         <h3>&#128030; Bug Fixes</h3>
         <ul>
-            <li><strong>No More Hover Shake on Vertical Docks:</strong> On a floating vertical dock with magnification, sliding the mouse along the bar made icons drift and shimmy up and down &#8212; they now grow perfectly in place, straight out from their resting spot!</li>
-            <li><strong>Every Other Dock Style Untouched:</strong> Floating horizontal docks keep their familiar upward lift, and edge-pinned docks still grow away from their edge exactly as before!</li>
-            <li><strong>Clicks Land Where You See Them:</strong> The same fix drives both the drawn icons and their clickable area, so a magnified icon's hit target matches its appearance precisely!</li>
+            <li><strong>Screens Tab Follows the Dock You Picked:</strong> Switching docks in the sidebar while the <strong>Screens</strong> tab was open left the screen assignments still pointing at the dock you just left &#8212; the tab now re-loads for the newly selected dock every time!</li>
+            <li><strong>Toggles Land on the Right Dock:</strong> Flipping a known-screen switch or <strong>Show on All Screens</strong> after switching docks no longer writes to the previous dock, so per-screen settings stop looking like they apply to everything!</li>
+            <li><strong>Clean Slate per Dock:</strong> Repair, rename, forget and export state resets with the selection instead of carrying over from the last dock you were editing!</li>
         </ul>
 
-        <h3>&#128640; What's Next?</h3>
-        <p>Keep the reports coming &#8212; this one came straight from a tester's screen recording and was fixed within the day!</p>
+        <h3>&#128640; What&#8217;s Next?</h3>
+        <p>Multi-display scenarios keep getting sharper &#8212; if a dock ever shows up on the wrong screen, send a report and it goes straight to the top of the list!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. &#128153;</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.4/ExtraDock.dmg" length="16292628" type="application/octet-stream" sparkle:edSignature="D3W5ohchIAHAwu27Imq50JK9KL/0FfUdZegLu7cv7JWgR/ifZsVerHnDC/FOAq0Ka9wLZ3gH3UnmFYMv9+l2AQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.5/ExtraDock.dmg" length="16292066" type="application/octet-stream" sparkle:edSignature="BDB8u/AaU7KVDdHmz6U17PhRtHzGuSkgu9SfWvLlVvUh/eZ4jnoEo3f/FM8ehzx0JGtgWdcN54w5V4h8HsyPCA=="/>
         </item>
         <item>
             <title>5.0.2</title>
