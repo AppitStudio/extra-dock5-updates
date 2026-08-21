@@ -1,7 +1,8 @@
-VERSION: 5.0.3-beta.6
+VERSION: 5.0.3-beta.7
 DETAILS:
 
-🐞 bug fix: An unlocked floating `DockPanel` accepted *any* same-size origin write while `allowsUserDrag` was true, so AppKit/SwiftUI layout and hover probes moved an idle panel one point off its engine frame at ~0.37 s cadence — the reporter's dock parked beside the native Dock hopped up and down continuously without being touched
-🔧 improved: `allowsUserDrag` is now treated as a capability, not frame ownership — `shouldAcceptFrameChange` only lets a same-size origin write through inside an explicit transaction: `DockController`'s new `applyExplicitDragOrigin(_:)` latch or the existing native AppKit background-drag latch
-🔧 improved: `DockController`'s idle frame-origin reconciliation routes through `applyExplicitDragOrigin(_:)` instead of calling `setFrameOrigin` directly, so the choke point has no general-purpose escape hatch
-🔧 improved: No positioning-engine, screen-resolver, or persistence rule changed — `PanelChokePointTests` covers the idle-probe rejection alongside the accepted explicit-drag and native-background paths
+🐞 bug fix: Finder representations (FinderWidget, pinned Finder, Live Dock Finder) executed lifecycle-seeded `ClickSemantics` machines against a 150 ms CG snapshot, so alternating the native Dock with ExtraDock could minimize, reopen or dead-click Finder from contradictory state
+🔧 improved: Every Finder representation now enters one `ActivationService` transaction using a live `NSWorkspace` process plus the owning dock's frontmost action; native-Dock policy applies None/Minimize/Hide/Cycle only when the live frontmost PID and a live on-screen user-facing window agree, otherwise it focuses/restores/reopens
+🔧 improved: CG caches are transaction-local and the reopen path can restore a live AX main/focused minimized window without accepting cached descriptors or V4's residual ghosts, so a minimize/restore cycle returns the same window ID with no duplicate
+new: Finder widget and Live Dock Finder expose the Finder-standard **New Finder Window** context-menu command (widget opens its configured location, app element opens Home), gated on the authoritative `com.apple.finder` bundle ID
+🐞 bug fix: AX move/resize callbacks now sample `NSEvent.pressedMouseButtons` at event time, so keyboard/automation window writes get one debounced PID-targeted correction plus a settle recheck and land inside reserved dock space even with Active on Drag off
