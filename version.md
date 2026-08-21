@@ -1,7 +1,7 @@
-VERSION: 5.0.3-beta.5
+VERSION: 5.0.3-beta.6
 DETAILS:
 
-🐞 bug fix: `DockScreensEditor`'s private `ScreenAssignmentModel` stayed bound to the previously selected dock's UUID when the sidebar selection changed while the **Screens** tab was active — the title and row selection moved to dock B while assignment state and toggle writes still targeted dock A, making per-dock screen settings look universal
-🐞 bug fix: Known-screen toggles and **Show on All Screens** now write to the dock you actually have selected, not the one you switched away from
-🔧 improved: `DockDetailEditor` keys the dock-scoped Screens editor by `config.id`, so a selection change rebuilds the immutable-ID model and clears its repair/rename/forget/export transient state; the Manager-owned Screens tab selection is unchanged
-🔧 improved: No resolver, EDID, registry, confidence, persistence-schema, or runtime placement rule changed — a hosted two-dock regression test proves only the selected dock mutates
+🐞 bug fix: An unlocked floating `DockPanel` accepted *any* same-size origin write while `allowsUserDrag` was true, so AppKit/SwiftUI layout and hover probes moved an idle panel one point off its engine frame at ~0.37 s cadence — the reporter's dock parked beside the native Dock hopped up and down continuously without being touched
+🔧 improved: `allowsUserDrag` is now treated as a capability, not frame ownership — `shouldAcceptFrameChange` only lets a same-size origin write through inside an explicit transaction: `DockController`'s new `applyExplicitDragOrigin(_:)` latch or the existing native AppKit background-drag latch
+🔧 improved: `DockController`'s idle frame-origin reconciliation routes through `applyExplicitDragOrigin(_:)` instead of calling `setFrameOrigin` directly, so the choke point has no general-purpose escape hatch
+🔧 improved: No positioning-engine, screen-resolver, or persistence rule changed — `PanelChokePointTests` covers the idle-probe rejection alongside the accepted explicit-drag and native-background paths
