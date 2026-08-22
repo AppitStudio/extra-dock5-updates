@@ -3,34 +3,31 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.3-beta.7</title>
+            <title>5.0.3-beta.8</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 21 Aug 2026 19:25:00 +0300</pubDate>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>5.0.3-beta.7</sparkle:shortVersionString>
+            <pubDate>Sat, 22 Aug 2026 11:47:58 +0300</pubDate>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>5.0.3-beta.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.3-beta.7 &#8211; Finder Clicks That Feel Native! &#128450;&#65039;&#128433;&#65039;</h2>
+        <h2>ExtraDock 5.0.3-beta.8 – Launchers Stop Bouncing! ⚡🎯</h2>
 
-        <h3>&#128030; Bug Fixes</h3>
+        <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Finder Follows Your Dock&#8217;s Click Behavior:</strong> Clicking Finder in an ExtraDock dock now honors that dock&#8217;s frontmost action &#8212; None, Minimize, Hide or Cycle &#8212; instead of always jumping to a folder!</li>
-            <li><strong>No More Dead Clicks Between Docks:</strong> Alternating between the macOS Dock and ExtraDock could minimize, reopen or do nothing at random when the desktop was active but no Finder window was open &#8212; every click now reads Finder&#8217;s live state!</li>
-            <li><strong>Your Window Comes Back:</strong> Minimizing Finder from a dock and clicking again restores that exact window instead of opening a duplicate!</li>
-            <li><strong>New Finder Window Command:</strong> Right-click the Finder widget or a Live Dock Finder icon for the standard <em>New Finder Window</em> item &#8212; the widget opens your configured folder, the app icon opens Home!</li>
-            <li><strong>Reserved Space Survives Keyboard Tiling:</strong> Snapping a window to a half with a keyboard shortcut or window manager now settles inside your reserved dock space, even with Active on Drag turned off!</li>
+            <li><strong>Apps and Screenshot Open Instantly:</strong> Clicking Apps, Screenshot or any similar system launcher left its icon bouncing for 20–30 seconds even though the window was already open — the icon now settles the moment the app hands off!</li>
+            <li><strong>Clicks Aren’t Swallowed Anymore:</strong> While a launcher was stuck bouncing, further clicks on that item were ignored — the item stays responsive right away!</li>
         </ul>
 
-        <h3>&#128640; What&#8217;s Next?</h3>
-        <p>Finder now clicks like the real thing everywhere &#8212; if any app still activates the wrong way, send a report and it goes straight to the top of the list!</p>
+        <h3>🚀 What’s Next?</h3>
+        <p>The fix reads each app’s own bundle information rather than hard-coding names, so any app that opens its window and quits behaves correctly — tell us if you spot one that still bounces!</p>
 
-        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. &#128153;</em></p>
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.7/ExtraDock.dmg" length="16332167" type="application/octet-stream" sparkle:edSignature="gRlSkWlk2FF6ryUKBJonqCi4seFejF2mkQZ2OUxG/jT9x1ZB3jJtsHjjaDRAx6ipJny+igS0O5SMu8fIhnhRAg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.8/ExtraDock.dmg" length="16339766" type="application/octet-stream" sparkle:edSignature="aUIC/tdknV8CsrXJDCHdtX+7Tny0e/9Vq793u5tRW6k474EjVUOVACnOF3HUKn9a91/PQawCb+Iou0/aEacVAA=="/>
         </item>
         <item>
             <title>5.0.2</title>
