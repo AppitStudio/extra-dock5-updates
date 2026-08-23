@@ -3,73 +3,45 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.3-beta.8</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sat, 22 Aug 2026 11:47:58 +0300</pubDate>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>5.0.3-beta.8</sparkle:shortVersionString>
+            <title>5.0.3</title>
+            <pubDate>Sun, 23 Aug 2026 16:45:00 +0300</pubDate>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>5.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.3-beta.8 – Launchers Stop Bouncing! ⚡🎯</h2>
+        <h2>ExtraDock 5.0.3 – Every Dock, One Click Away 🎛️</h2>
 
-        <h3>🐞 Bug Fixes</h3>
+        <p>A stabilization release: floating docks hold their position, Finder clicks behave like Finder clicks, launcher apps stop bouncing, and every dock you’ve configured is now reachable straight from the menu bar.</p>
+
+        <h3>✨ What’s New</h3>
         <ul>
-            <li><strong>Apps and Screenshot Open Instantly:</strong> Clicking Apps, Screenshot or any similar system launcher left its icon bouncing for 20–30 seconds even though the window was already open — the icon now settles the moment the app hands off!</li>
-            <li><strong>Clicks Aren’t Swallowed Anymore:</strong> While a launcher was stuck bouncing, further clicks on that item were ignored — the item stays responsive right away!</li>
+            <li><strong>Every Dock in the Menu Bar:</strong> The ExtraDock status icon now lists each configured dock as its own submenu — Show/Hide, Enabled, Position Mode, Size and <strong>Open in Manager…</strong>, with <strong>New Dock</strong> right at the top. The same list appears in the ExtraDock app menu.</li>
+            <li><strong>Lock Position Is Back:</strong> Floating docks get ExtraDock 4’s <strong>Lock Position</strong> toggle right in their menu, so a dock stays exactly where you put it.</li>
+            <li><strong>Export Dock Diagnostics:</strong> The Manager’s dock menu and Settings → Diagnostics can now write a readable report of a dock’s settings and live state, or all docks at once. App paths, custom names, folder and network locations are redacted first, so the file is safe to send along with a support email.</li>
+            <li><strong>A Bigger Collapse Button:</strong> The collapse button now fills the largest square its slot allows (33 pt → 48 pt at default settings), and custom text accepts up to five characters instead of three. Labels no longer shrink or clip as the dock opens and closes.</li>
+        </ul>
+
+        <h3>🐞 Fixed</h3>
+        <ul>
+            <li><strong>Floating docks stay put:</strong> Moving the pointer near a dock, or simply leaving one idle next to the macOS Dock, could make it drift, shake or hop between two positions. Only a real drag moves a dock now.</li>
+            <li><strong>Magnification grows straight out:</strong> On a vertical floating dock, magnified icons slid along the bar instead of growing in place. They now expand symmetrically, and their click target matches what you see.</li>
+            <li><strong>Finder clicks behave like Finder clicks:</strong> Finder now honors your dock’s frontmost action — None, Minimize, Hide or Cycle — instead of always jumping to a folder. Minimizing and clicking again restores that window rather than opening a duplicate, and alternating between the macOS Dock and ExtraDock no longer produces dead clicks. Both Finder menus gained the standard <strong>New Finder Window</strong> command.</li>
+            <li><strong>Launcher apps stop bouncing:</strong> Apps, Screenshot and similar system launchers open their window and quit within milliseconds, which left their icon bouncing for 20–30 seconds with clicks ignored. The icon now settles the moment the app hands off.</li>
+            <li><strong>Reserve Dock Space respects keyboard and window-manager moves:</strong> Snapping a window to a half with a shortcut or Raycast now settles inside your reserved space, even with Active on Drag turned off.</li>
+            <li><strong>The Screens tab follows the dock you picked:</strong> Switching docks in the sidebar while <strong>Screens</strong> was open left assignments pointing at the previous dock, making per-dock screen settings look universal. Toggles now land on the dock you’re actually editing.</li>
+            <li><strong>Old ExtraDock 4 dock copies import cleanly:</strong> Copies made before March 2026 reused item IDs and failed on import. They’re now repaired automatically, preserving V4 order and content.</li>
         </ul>
 
         <h3>🚀 What’s Next?</h3>
-        <p>The fix reads each app’s own bundle information rather than hard-coding names, so any app that opens its window and quits behaves correctly — tell us if you spot one that still bounces!</p>
+        <p>Nearly every fix in this release started as a tester report or a screen recording — keep them coming, and they go straight to the top of the list.</p>
 
-        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+        <p style="margin-top: 20px;"><em>Thank you to everyone who tested the 5.0.3 betas — your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3-beta.8/ExtraDock.dmg" length="16339766" type="application/octet-stream" sparkle:edSignature="aUIC/tdknV8CsrXJDCHdtX+7Tny0e/9Vq793u5tRW6k474EjVUOVACnOF3HUKn9a91/PQawCb+Iou0/aEacVAA=="/>
-        </item>
-        <item>
-            <title>5.0.2</title>
-            <pubDate>Wed, 19 Aug 2026 19:05:00 +0300</pubDate>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>5.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.2 – Battery Widget & Bars That Fit! 🔋📐</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>Bluetooth Battery Widget:</strong> See the charge level of your AirPods, Magic Keyboard, Mouse, Trackpad, controllers and other Bluetooth accessories right in your dock!</li>
-            <li><strong>Auto Bar Thickness:</strong> Bars now grow and shrink to hug your icons by default, so big icons never overflow — or pick any thickness yourself to pin it!</li>
-            <li><strong>Custom Icon Size:</strong> A new Custom option gives you an exact 20–128 pt slider for icon size!</li>
-            <li><strong>Dock Actions Everywhere:</strong> Right-click any dock item or drag handle for an ExtraDock menu with Hide Dock, Pin to Edge, Copy/Paste Settings and more!</li>
-            <li><strong>Drag Handle on Hover:</strong> Hover a floating dock for a second and a compact move handle appears — even with the permanent handle turned off!</li>
-            <li><strong>Smooth First Appearance:</strong> Docks now fade and scale in gently when they first appear!</li>
-        </ul>
-
-        <h3>🐞 Bug Fixes</h3>
-        <ul>
-            <li><strong>No More Jitter:</strong> Floating docks parked next to the macOS Dock stay perfectly still!</li>
-            <li><strong>Dragging Icons Just Moves Icons:</strong> Dragging an icon no longer moves the whole dock — only empty bar space does!</li>
-            <li><strong>Reserve Dock Space Self-Heals:</strong> No more toggling it off and on to get your space back!</li>
-            <li><strong>Item Names Show on Hover:</strong> Hover labels and "Always show label" work reliably again, with no extra permissions needed!</li>
-            <li><strong>No Startup Flash:</strong> Docks appear directly at their saved position instead of jumping there a moment later!</li>
-            <li><strong>Divider Is Compact Again:</strong> Back to its original slim footprint, with Side spacing that actually changes it!</li>
-            <li><strong>Trash Prompt Stays Visible:</strong> The Empty Trash confirmation can no longer hide behind the Manager window!</li>
-            <li><strong>No Stuck Bouncing:</strong> Launcher apps can't leave an icon bouncing forever!</li>
-        </ul>
-
-        <h3>🚀 What's Next?</h3>
-        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you to everyone who tested the 5.0.2 betas — your feedback drives every improvement we make. 💙</em></p>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.2/ExtraDock.dmg" length="16209300" type="application/octet-stream" sparkle:edSignature="g9PXCAG1vOqRVvVIAEmpY412azqki8WHry7X+DuDWLDV8HrYh6mXV8NxTLaO1VX0XIb6xnVqHTV+EDsjq5/xDw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3/ExtraDock.dmg" length="16340529" type="application/octet-stream" sparkle:edSignature="D3h7C5AZ1fKXilqlR4dOl048yqHod68V4omdyLl1KufHMPhFB6CE9euGpmox1NpjaEBT8HRtGmWwvZ1pVjWLCg=="/>
         </item>
     </channel>
 </rss>
