@@ -43,5 +43,32 @@
 
             <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3/ExtraDock.dmg" length="16340529" type="application/octet-stream" sparkle:edSignature="D3h7C5AZ1fKXilqlR4dOl048yqHod68V4omdyLl1KufHMPhFB6CE9euGpmox1NpjaEBT8HRtGmWwvZ1pVjWLCg=="/>
         </item>
+        <item>
+            <title>5.0.2</title>
+            <pubDate>Wed, 19 Aug 2026 19:05:00 +0300</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>5.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.2/ExtraDock.dmg" length="16209300" type="application/octet-stream" sparkle:edSignature="g9PXCAG1vOqRVvVIAEmpY412azqki8WHry7X+DuDWLDV8HrYh6mXV8NxTLaO1VX0XIb6xnVqHTV+EDsjq5/xDw=="/>
+        </item>
+        <item>
+            <title>5.0.1</title>
+            <pubDate>Sat, 15 Aug 2026 12:50:00 +0300</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>5.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.1/ExtraDock.dmg" length="15636393" type="application/octet-stream" sparkle:edSignature="Q3cviOSnK0xz/qncKoqhR6/Aspl5fg2jZyVkGzwKEcFlQ/wjlEHdDZ6OrJouKFnOf8HHVTUU24grS36IxguNAg=="/>
+        </item>
+        <item>
+            <title>5.0.0</title>
+            <pubDate>Sun, 09 Aug 2026 18:56:03 +0300</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>5.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.0/ExtraDock.dmg" length="15211789" type="application/octet-stream" sparkle:edSignature="nFQFjrzELFATeWY5YwAbmT/hUdLNwVJvQcJApvofnO23ZCdpIs5jWzCjT94UTQQ3EJQegJJ7VHKcz7WTOaqeCw=="/>
+        </item>
     </channel>
 </rss>
