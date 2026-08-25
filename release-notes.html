@@ -79,6 +79,31 @@
 </head>
 
 <body>
+    <div data-sparkle-version="5.0.4-beta.1">
+        <h2>ExtraDock 5.0.4-beta.1 - Two Identical Monitors, Told Apart! 🖥️🖥️</h2>
+
+        <p>A targeted beta for anyone running two displays of the same model. If you have that setup, please test it — screen selection, a relaunch, and a few sleep/wake cycles.</p>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Identical monitors are now separate screens:</strong> Two panels of the same model shared one identity, so toggling one screen toggled its twin, removing one removed the other, and per-app placement could land on the wrong panel — each row is now its own screen!</li>
+            <li><strong>Your choice survives sleep and wake:</strong> Selecting a screen records the confirmed layout, so a display that comes back with a recycled system ID no longer drags your docks to the other monitor!</li>
+            <li><strong>No more copied display identity:</strong> Matching now confirms same-model panels against the display's own UUID and refuses an ambiguous match instead of guessing, so one monitor can never inherit its sibling's hardware identity!</li>
+            <li><strong>A tidier Known Screens list:</strong> Screens you hid and leftover ExtraDock 4 entries that nothing references no longer clutter the list, while offline screens that are still assigned stay manageable!</li>
+            <li><strong>ExtraDock 4 screen imports land correctly:</strong> A V4 dock pinned to a screen imports as pinned, and a movable one keeps its preferred screen without being locked to it!</li>
+        </ul>
+
+        <h3>🔧 Improvements</h3>
+        <ul>
+            <li><strong>Consistent app name:</strong> The app now presents itself as <strong>ExtraDock</strong> everywhere in macOS — Finder, the menu bar and System Settings!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This fix was verified against the diagnostics two of you sent in, but it still needs a real two-identical-monitor machine. Please select only your secondary screen, relaunch, run a few sleep/wake cycles, then reconnect — and if anything lands on the wrong panel, export Screen Diagnostics and All Dock Diagnostics right away and send them over!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+    </div>
+
     <div data-sparkle-version="5.0.3">
         <h2>ExtraDock 5.0.3 – Every Dock, One Click Away 🎛️</h2>
 

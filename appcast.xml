@@ -3,45 +3,41 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.3</title>
-            <pubDate>Sun, 23 Aug 2026 16:45:00 +0300</pubDate>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>5.0.3</sparkle:shortVersionString>
+            <title>5.0.4-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Tue, 25 Aug 2026 22:04:00 +0300</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>5.0.4-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.3 – Every Dock, One Click Away 🎛️</h2>
+        <h2>ExtraDock 5.0.4-beta.1 – Two Identical Monitors, Told Apart! 🖥️🖥️</h2>
 
-        <p>A stabilization release: floating docks hold their position, Finder clicks behave like Finder clicks, launcher apps stop bouncing, and every dock you’ve configured is now reachable straight from the menu bar.</p>
+        <p>A targeted beta for anyone running two displays of the same model. If you have that setup, please test it — screen selection, a relaunch, and a few sleep/wake cycles.</p>
 
-        <h3>✨ What’s New</h3>
+        <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Every Dock in the Menu Bar:</strong> The ExtraDock status icon now lists each configured dock as its own submenu — Show/Hide, Enabled, Position Mode, Size and <strong>Open in Manager…</strong>, with <strong>New Dock</strong> right at the top. The same list appears in the ExtraDock app menu.</li>
-            <li><strong>Lock Position Is Back:</strong> Floating docks get ExtraDock 4’s <strong>Lock Position</strong> toggle right in their menu, so a dock stays exactly where you put it.</li>
-            <li><strong>Export Dock Diagnostics:</strong> The Manager’s dock menu and Settings → Diagnostics can now write a readable report of a dock’s settings and live state, or all docks at once. App paths, custom names, folder and network locations are redacted first, so the file is safe to send along with a support email.</li>
-            <li><strong>A Bigger Collapse Button:</strong> The collapse button now fills the largest square its slot allows (33 pt → 48 pt at default settings), and custom text accepts up to five characters instead of three. Labels no longer shrink or clip as the dock opens and closes.</li>
+            <li><strong>Identical monitors are now separate screens:</strong> Two panels of the same model shared one identity, so toggling one screen toggled its twin, removing one removed the other, and per-app placement could land on the wrong panel — each row is now its own screen!</li>
+            <li><strong>Your choice survives sleep and wake:</strong> Selecting a screen records the confirmed layout, so a display that comes back with a recycled system ID no longer drags your docks to the other monitor!</li>
+            <li><strong>No more copied display identity:</strong> Matching now confirms same-model panels against the display's own UUID and refuses an ambiguous match instead of guessing, so one monitor can never inherit its sibling's hardware identity!</li>
+            <li><strong>A tidier Known Screens list:</strong> Screens you hid and leftover ExtraDock 4 entries that nothing references no longer clutter the list, while offline screens that are still assigned stay manageable!</li>
+            <li><strong>ExtraDock 4 screen imports land correctly:</strong> A V4 dock pinned to a screen imports as pinned, and a movable one keeps its preferred screen without being locked to it!</li>
         </ul>
 
-        <h3>🐞 Fixed</h3>
+        <h3>🔧 Improvements</h3>
         <ul>
-            <li><strong>Floating docks stay put:</strong> Moving the pointer near a dock, or simply leaving one idle next to the macOS Dock, could make it drift, shake or hop between two positions. Only a real drag moves a dock now.</li>
-            <li><strong>Magnification grows straight out:</strong> On a vertical floating dock, magnified icons slid along the bar instead of growing in place. They now expand symmetrically, and their click target matches what you see.</li>
-            <li><strong>Finder clicks behave like Finder clicks:</strong> Finder now honors your dock’s frontmost action — None, Minimize, Hide or Cycle — instead of always jumping to a folder. Minimizing and clicking again restores that window rather than opening a duplicate, and alternating between the macOS Dock and ExtraDock no longer produces dead clicks. Both Finder menus gained the standard <strong>New Finder Window</strong> command.</li>
-            <li><strong>Launcher apps stop bouncing:</strong> Apps, Screenshot and similar system launchers open their window and quit within milliseconds, which left their icon bouncing for 20–30 seconds with clicks ignored. The icon now settles the moment the app hands off.</li>
-            <li><strong>Reserve Dock Space respects keyboard and window-manager moves:</strong> Snapping a window to a half with a shortcut or Raycast now settles inside your reserved space, even with Active on Drag turned off.</li>
-            <li><strong>The Screens tab follows the dock you picked:</strong> Switching docks in the sidebar while <strong>Screens</strong> was open left assignments pointing at the previous dock, making per-dock screen settings look universal. Toggles now land on the dock you’re actually editing.</li>
-            <li><strong>Old ExtraDock 4 dock copies import cleanly:</strong> Copies made before March 2026 reused item IDs and failed on import. They’re now repaired automatically, preserving V4 order and content.</li>
+            <li><strong>Consistent app name:</strong> The app now presents itself as <strong>ExtraDock</strong> everywhere in macOS — Finder, the menu bar and System Settings!</li>
         </ul>
 
         <h3>🚀 What’s Next?</h3>
-        <p>Nearly every fix in this release started as a tester report or a screen recording — keep them coming, and they go straight to the top of the list.</p>
+        <p>This fix was verified against the diagnostics two of you sent in, but it still needs a real two-identical-monitor machine. Please select only your secondary screen, relaunch, run a few sleep/wake cycles, then reconnect — and if anything lands on the wrong panel, export Screen Diagnostics and All Dock Diagnostics right away and send them over!</p>
 
-        <p style="margin-top: 20px;"><em>Thank you to everyone who tested the 5.0.3 betas — your feedback drives every improvement we make. 💙</em></p>
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.3/ExtraDock.dmg" length="16340529" type="application/octet-stream" sparkle:edSignature="D3h7C5AZ1fKXilqlR4dOl048yqHod68V4omdyLl1KufHMPhFB6CE9euGpmox1NpjaEBT8HRtGmWwvZ1pVjWLCg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4-beta.1/ExtraDock.dmg" length="16355615" type="application/octet-stream" sparkle:edSignature="q8FqHIEMzbUTTdepHdzf2Ox0ZVv5eKLjAkKocVC587JJ+pc+9Zd4BESQUrR3Ut4u1Wwt0W8QC+l6I10jldX4AQ=="/>
         </item>
     </channel>
 </rss>
