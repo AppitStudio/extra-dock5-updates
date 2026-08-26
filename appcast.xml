@@ -3,41 +3,40 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.4-beta.1</title>
+            <title>5.0.4-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Tue, 25 Aug 2026 22:04:00 +0300</pubDate>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>5.0.4-beta.1</sparkle:shortVersionString>
+            <pubDate>Wed, 26 Aug 2026 18:12:00 +0300</pubDate>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>5.0.4-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.4-beta.1 – Two Identical Monitors, Told Apart! 🖥️🖥️</h2>
+        <h2>ExtraDock 5.0.4-beta.2 – DockFlow Profiles Play Nice With Auto-Hide! 🔄🫥</h2>
 
-        <p>A targeted beta for anyone running two displays of the same model. If you have that setup, please test it — screen selection, a relaunch, and a few sleep/wake cycles.</p>
+        <p>Everything from beta.1 (the identical-monitor fixes) plus one targeted DockFlow fix. If you switch DockFlow profiles and use auto-hiding docks, this beta is for you.</p>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Identical monitors are now separate screens:</strong> Two panels of the same model shared one identity, so toggling one screen toggled its twin, removing one removed the other, and per-app placement could land on the wrong panel — each row is now its own screen!</li>
-            <li><strong>Your choice survives sleep and wake:</strong> Selecting a screen records the confirmed layout, so a display that comes back with a recycled system ID no longer drags your docks to the other monitor!</li>
-            <li><strong>No more copied display identity:</strong> Matching now confirms same-model panels against the display's own UUID and refuses an ambiguous match instead of guessing, so one monitor can never inherit its sibling's hardware identity!</li>
-            <li><strong>A tidier Known Screens list:</strong> Screens you hid and leftover ExtraDock 4 entries that nothing references no longer clutter the list, while offline screens that are still assigned stay manageable!</li>
-            <li><strong>ExtraDock 4 screen imports land correctly:</strong> A V4 dock pinned to a screen imports as pinned, and a movable one keeps its preferred screen without being locked to it!</li>
+            <li><strong>Profile switches no longer pin your docks open:</strong> A dock selected by a DockFlow profile was being pinned onscreen, outranking auto-hide and fullscreen rules until you toggled it by hand — now it simply returns to its own configured visibility!</li>
+            <li><strong>Auto-hide docks stay revealable:</strong> A dock restored to automatic hiding is put back on screen at the right level with its hidden geometry intact, so its edge and halo can reveal it again just like normal!</li>
+            <li><strong>All-screen replicas follow along:</strong> Releasing a dock back to automatic now propagates to every replica, instead of leaving copies on other screens stuck in the old state!</li>
+            <li><strong>No surprise rehide after a profile switch:</strong> A pending hotkey rehide timer is cancelled when a profile hands the dock back to automatic, so it won't vanish a moment later!</li>
         </ul>
 
-        <h3>🔧 Improvements</h3>
+        <h3>🖥️ Still Testing From beta.1</h3>
         <ul>
-            <li><strong>Consistent app name:</strong> The app now presents itself as <strong>ExtraDock</strong> everywhere in macOS — Finder, the menu bar and System Settings!</li>
+            <li><strong>Two identical monitors, told apart:</strong> Same-model panels are separate screens again, your choice survives sleep and wake, and no monitor inherits its sibling's identity!</li>
         </ul>
 
         <h3>🚀 What’s Next?</h3>
-        <p>This fix was verified against the diagnostics two of you sent in, but it still needs a real two-identical-monitor machine. Please select only your secondary screen, relaunch, run a few sleep/wake cycles, then reconnect — and if anything lands on the wrong panel, export Screen Diagnostics and All Dock Diagnostics right away and send them over!</p>
+        <p>The DockFlow fix is verified against the test suite but still wants a real machine: pair this with DockFlow 1.76, put an auto-hide dock and a LiveDock dock in a profile, then select it, deselect it, relaunch, and reveal after a hide. If a dock stays pinned or won't reveal, export All Dock Diagnostics and send them over!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4-beta.1/ExtraDock.dmg" length="16355615" type="application/octet-stream" sparkle:edSignature="q8FqHIEMzbUTTdepHdzf2Ox0ZVv5eKLjAkKocVC587JJ+pc+9Zd4BESQUrR3Ut4u1Wwt0W8QC+l6I10jldX4AQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4-beta.2/ExtraDock.dmg" length="16358431" type="application/octet-stream" sparkle:edSignature="LF10HTnmOKdxkEgoi0tEdjJQMboxfgUQnkjtoJbQrTW40ZTeg9ojrLFaEx9pwPHn3Ove6R5gw+fKtOe5gksOBA=="/>
         </item>
     </channel>
 </rss>

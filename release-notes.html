@@ -79,6 +79,30 @@
 </head>
 
 <body>
+    <div data-sparkle-version="5.0.4-beta.2">
+        <h2>ExtraDock 5.0.4-beta.2 - DockFlow Profiles Play Nice With Auto-Hide! 🔄🫥</h2>
+
+        <p>Everything from beta.1 (the identical-monitor fixes) plus one targeted DockFlow fix. If you switch DockFlow profiles and use auto-hiding docks, this beta is for you.</p>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Profile switches no longer pin your docks open:</strong> A dock selected by a DockFlow profile was being pinned onscreen, outranking auto-hide and fullscreen rules until you toggled it by hand — now it simply returns to its own configured visibility!</li>
+            <li><strong>Auto-hide docks stay revealable:</strong> A dock restored to automatic hiding is put back on screen at the right level with its hidden geometry intact, so its edge and halo can reveal it again just like normal!</li>
+            <li><strong>All-screen replicas follow along:</strong> Releasing a dock back to automatic now propagates to every replica, instead of leaving copies on other screens stuck in the old state!</li>
+            <li><strong>No surprise rehide after a profile switch:</strong> A pending hotkey rehide timer is cancelled when a profile hands the dock back to automatic, so it won't vanish a moment later!</li>
+        </ul>
+
+        <h3>🖥️ Still Testing From beta.1</h3>
+        <ul>
+            <li><strong>Two identical monitors, told apart:</strong> Same-model panels are separate screens again, your choice survives sleep and wake, and no monitor inherits its sibling's identity!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>The DockFlow fix is verified against the test suite but still wants a real machine: pair this with DockFlow 1.76, put an auto-hide dock and a LiveDock dock in a profile, then select it, deselect it, relaunch, and reveal after a hide. If a dock stays pinned or won't reveal, export All Dock Diagnostics and send them over!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+    </div>
+
     <div data-sparkle-version="5.0.4-beta.1">
         <h2>ExtraDock 5.0.4-beta.1 - Two Identical Monitors, Told Apart! 🖥️🖥️</h2>
 

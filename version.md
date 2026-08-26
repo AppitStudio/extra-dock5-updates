@@ -1,9 +1,7 @@
-VERSION: 5.0.4-beta.1
+VERSION: 5.0.4-beta.2
 DETAILS:
 
-🐞 bug fix: Two displays of the same model shared one screen identity — toggling or removing one affected its twin and per-app placement could capture the wrong panel; duplicate rows are now instance-qualified and independent
-🐞 bug fix: Selecting a screen now records the user-confirmed topology, so a recycled runtime display ID after sleep/wake no longer moves docks to the sibling monitor; genuine ties stay ambiguous instead of resolving by iteration order
-🐞 bug fix: Display-service matching gates identical vendor/product candidates on the CoreGraphics display UUID and refuses unresolved ties, so one panel can no longer inherit its sibling's EDID UUID
-🐞 bug fix: Explicitly hidden screens and unreferenced V4 ghost entries no longer clutter Known Screens, while referenced offline assignments remain manageable
-🐞 bug fix: Legacy attachedToScreen intent imports as a restrictive assignment, and movable V4 docks keep a nonrestrictive preferred screen
-🔧 improved: CFBundleDisplayName is set, so macOS shows the app as ExtraDock everywhere
+🐞 bug fix: DockFlow profile-selected docks were routed through the sticky Show Dock command, installing a manual override that outranked auto-hide and fullscreen policy until toggled by hand; they now clear the override and return to their configured visibility, while profile-hidden docks stay sticky-hidden
+🐞 bug fix: A dock restored to automatic hiding is ordered back into WindowServer at the correct level with its hidden reveal geometry, so its edge and halo can reveal it again
+🐞 bug fix: Clearing a manual override now propagates to all-screen replicas instead of leaving them in the previous state
+🐞 bug fix: A pending hotkey rehide timer is cancelled when a profile releases a dock back to automatic
