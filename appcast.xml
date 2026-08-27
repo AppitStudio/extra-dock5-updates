@@ -3,40 +3,40 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.4-beta.2</title>
+            <title>5.0.4-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Wed, 26 Aug 2026 18:12:00 +0300</pubDate>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>5.0.4-beta.2</sparkle:shortVersionString>
+            <pubDate>Thu, 27 Aug 2026 09:45:00 +0300</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>5.0.4-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.4-beta.2 – DockFlow Profiles Play Nice With Auto-Hide! 🔄🫥</h2>
+        <h2>ExtraDock 5.0.4-beta.3 – Widgets That Fit, Badges That Behave! 📶🔴</h2>
 
-        <p>Everything from beta.1 (the identical-monitor fixes) plus one targeted DockFlow fix. If you switch DockFlow profiles and use auto-hiding docks, this beta is for you.</p>
+        <p>Everything from beta.1 and beta.2, plus two new fixes: live widgets now grow the dock to fit their content, and stray iPhone Handoff metadata can no longer masquerade as a notification badge.</p>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Profile switches no longer pin your docks open:</strong> A dock selected by a DockFlow profile was being pinned onscreen, outranking auto-hide and fullscreen rules until you toggled it by hand — now it simply returns to its own configured visibility!</li>
-            <li><strong>Auto-hide docks stay revealable:</strong> A dock restored to automatic hiding is put back on screen at the right level with its hidden geometry intact, so its edge and halo can reveal it again just like normal!</li>
-            <li><strong>All-screen replicas follow along:</strong> Releasing a dock back to automatic now propagates to every replica, instead of leaving copies on other screens stuck in the old state!</li>
-            <li><strong>No surprise rehide after a profile switch:</strong> A pending hotkey rehide timer is cancelled when a profile hands the dock back to automatic, so it won't vanish a moment later!</li>
+            <li><strong>Live widgets grow instead of squeezing:</strong> Bluetooth Battery kept two accessory tiles readable but crammed three or more into the same footprint — your 1–4 cell choice is now a minimum, and the widget claims extra whole cells whenever its visible tiles need them!</li>
+            <li><strong>No more mystery red capsule:</strong> The native Dock can intermittently expose an iPhone Mirroring/Handoff device identifier, which ExtraDock was rendering as a red notification badge stretched across several icons — those values are now rejected outright!</li>
+            <li><strong>Badges stay badge-sized:</strong> Badge content is independently capped, so no unexpected future source can blow a capsule out across neighboring dock items. Ordinary counts, dots, <code>99+</code>, and short text badges are untouched!</li>
         </ul>
 
-        <h3>🖥️ Still Testing From beta.1</h3>
+        <h3>🔄 Still Testing From beta.1 &amp; beta.2</h3>
         <ul>
+            <li><strong>DockFlow profiles play nice with auto-hide:</strong> Profile-selected docks no longer get pinned open, restored docks stay revealable, replicas follow along, and no surprise rehide after a switch!</li>
             <li><strong>Two identical monitors, told apart:</strong> Same-model panels are separate screens again, your choice survives sleep and wake, and no monitor inherits its sibling's identity!</li>
         </ul>
 
         <h3>🚀 What’s Next?</h3>
-        <p>The DockFlow fix is verified against the test suite but still wants a real machine: pair this with DockFlow 1.76, put an auto-hide dock and a LiveDock dock in a profile, then select it, deselect it, relaunch, and reveal after a hide. If a dock stays pinned or won't reveal, export All Dock Diagnostics and send them over!</p>
+        <p>Both new fixes pass the full test suite but want real hardware. For widgets: add a Bluetooth Battery widget, connect three or more accessories, and confirm the dock grows rather than compresses. For badges: with Accessibility and notification badges enabled, use iPhone Handoff and confirm ordinary badges still appear while the device identifier never does. If something looks off, export All Dock Diagnostics and send them over!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4-beta.2/ExtraDock.dmg" length="16358431" type="application/octet-stream" sparkle:edSignature="LF10HTnmOKdxkEgoi0tEdjJQMboxfgUQnkjtoJbQrTW40ZTeg9ojrLFaEx9pwPHn3Ove6R5gw+fKtOe5gksOBA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4-beta.3/ExtraDock.dmg" length="16377085" type="application/octet-stream" sparkle:edSignature="mRMjrv0ENvprMGLhsuYT+8HTBOnq5xSekByZ/R3ChOToaaQLUOB2frX0w6RHWfLVHmg+9WLtHf0oExbrhVPlAg=="/>
         </item>
     </channel>
 </rss>

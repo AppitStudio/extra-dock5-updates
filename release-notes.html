@@ -79,6 +79,30 @@
 </head>
 
 <body>
+    <div data-sparkle-version="5.0.4-beta.3">
+        <h2>ExtraDock 5.0.4-beta.3 - Widgets That Fit, Badges That Behave! 📶🔴</h2>
+
+        <p>Everything from beta.1 and beta.2, plus two new fixes: live widgets now grow the dock to fit their content, and stray iPhone Handoff metadata can no longer masquerade as a notification badge.</p>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Live widgets grow instead of squeezing:</strong> Bluetooth Battery kept two accessory tiles readable but crammed three or more into the same footprint &mdash; your 1&ndash;4 cell choice is now a minimum, and the widget claims extra whole cells whenever its visible tiles need them!</li>
+            <li><strong>No more mystery red capsule:</strong> The native Dock can intermittently expose an iPhone Mirroring/Handoff device identifier, which ExtraDock was rendering as a red notification badge stretched across several icons &mdash; those values are now rejected outright!</li>
+            <li><strong>Badges stay badge-sized:</strong> Badge content is independently capped, so no unexpected future source can blow a capsule out across neighboring dock items. Ordinary counts, dots, <code>99+</code>, and short text badges are untouched!</li>
+        </ul>
+
+        <h3>🔄 Still Testing From beta.1 &amp; beta.2</h3>
+        <ul>
+            <li><strong>DockFlow profiles play nice with auto-hide:</strong> Profile-selected docks no longer get pinned open, restored docks stay revealable, replicas follow along, and no surprise rehide after a switch!</li>
+            <li><strong>Two identical monitors, told apart:</strong> Same-model panels are separate screens again, your choice survives sleep and wake, and no monitor inherits its sibling's identity!</li>
+        </ul>
+
+        <h3>🚀 What’s Next?</h3>
+        <p>Both new fixes pass the full test suite but want real hardware. For widgets: add a Bluetooth Battery widget, connect three or more accessories, and confirm the dock grows rather than compresses. For badges: with Accessibility and notification badges enabled, use iPhone Handoff and confirm ordinary badges still appear while the device identifier never does. If something looks off, export All Dock Diagnostics and send them over!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+    </div>
+
     <div data-sparkle-version="5.0.4-beta.2">
         <h2>ExtraDock 5.0.4-beta.2 - DockFlow Profiles Play Nice With Auto-Hide! 🔄🫥</h2>
 

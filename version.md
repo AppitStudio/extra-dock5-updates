@@ -1,7 +1,6 @@
-VERSION: 5.0.4-beta.2
+VERSION: 5.0.4-beta.3
 DETAILS:
 
-🐞 bug fix: DockFlow profile-selected docks were routed through the sticky Show Dock command, installing a manual override that outranked auto-hide and fullscreen policy until toggled by hand; they now clear the override and return to their configured visibility, while profile-hidden docks stay sticky-hidden
-🐞 bug fix: A dock restored to automatic hiding is ordered back into WindowServer at the correct level with its hidden reveal geometry, so its edge and halo can reveal it again
-🐞 bug fix: Clearing a manual override now propagates to all-screen replicas instead of leaving them in the previous state
-🐞 bug fix: A pending hotkey rehide timer is cancelled when a profile releases a dock back to automatic
+🐞 bug fix: Live widget content is no longer compressed into the persisted footprint — the user's 1–4 cell selection is treated as a minimum and the widget requests additional whole cells whenever its visible tiles require them (Bluetooth Battery with three or more accessories)
+🐞 bug fix: iPhone Mirroring/Handoff reverse-DNS device identifiers exposed by the native Dock through AXStatusLabel were rendered as a fixed-size red notification capsule spanning several dock icons; both live badge tiers now share one system-value parser that rejects reverse-DNS identifiers, URLs, control text, oversized labels, and non-count text from numeric-only fallback fields
+🐞 bug fix: Badge display content is independently capped at eight characters at the renderer, so an unexpected future source cannot expand a capsule across neighboring items even if it bypasses the live readers
