@@ -3,40 +3,48 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.4-beta.3</title>
+            <title>5.0.4-beta.4</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 27 Aug 2026 09:45:00 +0300</pubDate>
-            <sparkle:version>42</sparkle:version>
-            <sparkle:shortVersionString>5.0.4-beta.3</sparkle:shortVersionString>
+            <pubDate>Fri, 28 Aug 2026 11:05:00 +0300</pubDate>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>5.0.4-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.4-beta.3 – Widgets That Fit, Badges That Behave! 📶🔴</h2>
+        <h2>ExtraDock 5.0.4-beta.4 – Shortcuts And Auto-Hide, Finally Friends! ⌨️🫥</h2>
 
-        <p>Everything from beta.1 and beta.2, plus two new fixes: live widgets now grow the dock to fit their content, and stray iPhone Handoff metadata can no longer masquerade as a notification badge.</p>
+        <p>Everything from beta.1 through beta.3, plus one targeted fix: a keyboard shortcut can no longer lock an auto-hiding dock out of its edge reveal.</p>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Live widgets grow instead of squeezing:</strong> Bluetooth Battery kept two accessory tiles readable but crammed three or more into the same footprint — your 1–4 cell choice is now a minimum, and the widget claims extra whole cells whenever its visible tiles need them!</li>
-            <li><strong>No more mystery red capsule:</strong> The native Dock can intermittently expose an iPhone Mirroring/Handoff device identifier, which ExtraDock was rendering as a red notification badge stretched across several icons — those values are now rejected outright!</li>
-            <li><strong>Badges stay badge-sized:</strong> Badge content is independently capped, so no unexpected future source can blow a capsule out across neighboring dock items. Ordinary counts, dots, <code>99+</code>, and short text badges are untouched!</li>
+            <li><strong>Hotkeys stop breaking edge reveal:</strong> If a dock used <strong>Hide Automatically</strong> together with <strong>Toggle with keyboard shortcut</strong>, hiding it via the shortcut (or letting the shortcut's re-hide timer fire) marked it as manually hidden — and manual hides outrank auto-hide, so the mouse reveal strip could never bring it back!</li>
+            <li><strong>The shortcut is now a temporary overlay:</strong> With auto-hide on, a shortcut press can reveal an auto-hidden or fullscreen-hidden dock, and a second press or the timed re-hide hands control straight back to automatic policy — so edge dwell works again right afterwards!</li>
+            <li><strong>No DockFlow rescue required:</strong> Switching a DockFlow profile used to be the only way to un-stick these docks. That workaround is no longer needed to get your dock back!</li>
         </ul>
 
-        <h3>🔄 Still Testing From beta.1 &amp; beta.2</h3>
+        <h3>🔒 Unchanged On Purpose</h3>
         <ul>
-            <li><strong>DockFlow profiles play nice with auto-hide:</strong> Profile-selected docks no longer get pinned open, restored docks stay revealable, replicas follow along, and no surprise rehide after a switch!</li>
-            <li><strong>Two identical monitors, told apart:</strong> Same-model panels are separate screens again, your choice survives sleep and wake, and no monitor inherits its sibling's identity!</li>
+            <li><strong>Explicit hides stay sticky:</strong> Hiding a dock from the menu or an App Intent still outranks the reveal strip, exactly as before!</li>
+            <li><strong>Docks without auto-hide are untouched:</strong> They keep the familiar sticky hotkey toggle and timed manual-hide behavior, with V4's delay and hover-paused re-hide timing intact!</li>
+        </ul>
+
+        <h3>🔄 Still Testing From beta.1 – beta.3</h3>
+        <ul>
+            <li><strong>Live widgets grow instead of squeezing:</strong> Your 1–4 cell choice is a minimum, and the widget claims extra whole cells whenever its visible tiles need them!</li>
+            <li><strong>No more mystery red capsule:</strong> iPhone Mirroring/Handoff device identifiers are rejected instead of being drawn as a stretched notification badge!</li>
+            <li><strong>DockFlow profiles play nice with auto-hide:</strong> Profile-selected docks no longer get pinned open, and restored docks stay revealable!</li>
+            <li><strong>Two identical monitors, told apart:</strong> Same-model panels are separate screens again, and your choice survives sleep and wake!</li>
         </ul>
 
         <h3>🚀 What’s Next?</h3>
-        <p>Both new fixes pass the full test suite but want real hardware. For widgets: add a Bluetooth Battery widget, connect three or more accessories, and confirm the dock grows rather than compresses. For badges: with Accessibility and notification badges enabled, use iPhone Handoff and confirm ordinary badges still appear while the device identifier never does. If something looks off, export All Dock Diagnostics and send them over!</p>
+        <p>The hotkey fix passes 24/24 focused reveal tests and 4/4 DockFlow integration tests, but it really wants real hardware. Set up a left-edge dock with both Hide Automatically and a toggle shortcut, then try: one press to dismiss, the timed re-hide, a second press, hover pause and resume, and edge reveal after every one of those paths — without touching DockFlow. If any path leaves the dock stuck, export All Dock Diagnostics and send them over!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4-beta.3/ExtraDock.dmg" length="16377085" type="application/octet-stream" sparkle:edSignature="mRMjrv0ENvprMGLhsuYT+8HTBOnq5xSekByZ/R3ChOToaaQLUOB2frX0w6RHWfLVHmg+9WLtHf0oExbrhVPlAg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4-beta.4/ExtraDock.dmg" length="16377857" type="application/octet-stream" sparkle:edSignature="D00AjxTo+jB0cd+rqveG3XYZVvI8Dkfxi7zbQopKJsbhCmPBuGqTTIxDplK9FfI3c5AuMZLcusAYzoImDknNDA=="/>
         </item>
     </channel>
 </rss>

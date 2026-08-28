@@ -79,6 +79,38 @@
 </head>
 
 <body>
+    <div data-sparkle-version="5.0.4-beta.4">
+        <h2>ExtraDock 5.0.4-beta.4 - Shortcuts And Auto-Hide, Finally Friends! ⌨️🫥</h2>
+
+        <p>Everything from beta.1 through beta.3, plus one targeted fix: a keyboard shortcut can no longer lock an auto-hiding dock out of its edge reveal.</p>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Hotkeys stop breaking edge reveal:</strong> If a dock used <strong>Hide Automatically</strong> together with <strong>Toggle with keyboard shortcut</strong>, hiding it via the shortcut (or letting the shortcut's re-hide timer fire) marked it as manually hidden &mdash; and manual hides outrank auto-hide, so the mouse reveal strip could never bring it back!</li>
+            <li><strong>The shortcut is now a temporary overlay:</strong> With auto-hide on, a shortcut press can reveal an auto-hidden or fullscreen-hidden dock, and a second press or the timed re-hide hands control straight back to automatic policy &mdash; so edge dwell works again right afterwards!</li>
+            <li><strong>No DockFlow rescue required:</strong> Switching a DockFlow profile used to be the only way to un-stick these docks. That workaround is no longer needed to get your dock back!</li>
+        </ul>
+
+        <h3>🔒 Unchanged On Purpose</h3>
+        <ul>
+            <li><strong>Explicit hides stay sticky:</strong> Hiding a dock from the menu or an App Intent still outranks the reveal strip, exactly as before!</li>
+            <li><strong>Docks without auto-hide are untouched:</strong> They keep the familiar sticky hotkey toggle and timed manual-hide behavior, with V4's delay and hover-paused re-hide timing intact!</li>
+        </ul>
+
+        <h3>🔄 Still Testing From beta.1 &ndash; beta.3</h3>
+        <ul>
+            <li><strong>Live widgets grow instead of squeezing:</strong> Your 1&ndash;4 cell choice is a minimum, and the widget claims extra whole cells whenever its visible tiles need them!</li>
+            <li><strong>No more mystery red capsule:</strong> iPhone Mirroring/Handoff device identifiers are rejected instead of being drawn as a stretched notification badge!</li>
+            <li><strong>DockFlow profiles play nice with auto-hide:</strong> Profile-selected docks no longer get pinned open, and restored docks stay revealable!</li>
+            <li><strong>Two identical monitors, told apart:</strong> Same-model panels are separate screens again, and your choice survives sleep and wake!</li>
+        </ul>
+
+        <h3>🚀 What’s Next?</h3>
+        <p>The hotkey fix passes 24/24 focused reveal tests and 4/4 DockFlow integration tests, but it really wants real hardware. Set up a left-edge dock with both Hide Automatically and a toggle shortcut, then try: one press to dismiss, the timed re-hide, a second press, hover pause and resume, and edge reveal after every one of those paths &mdash; without touching DockFlow. If any path leaves the dock stuck, export All Dock Diagnostics and send them over!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+    </div>
+
     <div data-sparkle-version="5.0.4-beta.3">
         <h2>ExtraDock 5.0.4-beta.3 - Widgets That Fit, Badges That Behave! 📶🔴</h2>
 

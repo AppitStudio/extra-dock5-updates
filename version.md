@@ -1,6 +1,6 @@
-VERSION: 5.0.4-beta.3
+VERSION: 5.0.4-beta.4
 DETAILS:
 
-🐞 bug fix: Live widget content is no longer compressed into the persisted footprint — the user's 1–4 cell selection is treated as a minimum and the widget requests additional whole cells whenever its visible tiles require them (Bluetooth Battery with three or more accessories)
-🐞 bug fix: iPhone Mirroring/Handoff reverse-DNS device identifiers exposed by the native Dock through AXStatusLabel were rendered as a fixed-size red notification capsule spanning several dock icons; both live badge tiers now share one system-value parser that rejects reverse-DNS identifiers, URLs, control text, oversized labels, and non-count text from numeric-only fallback fields
-🐞 bug fix: Badge display content is independently capped at eight characters at the renderer, so an unexpected future source cannot expand a capsule across neighboring items even if it bypasses the live readers
+🐞 bug fix: A dock combining Hide Automatically with Toggle with keyboard shortcut could be locked out of edge reveal — both a shortcut-initiated hide and the shortcut's configured re-hide timer installed a manual hidden override, and manual hide outranks auto-hide, so the mouse reveal strip could never reopen the dock (DockFlow only appeared to repair it because a profile switch clears that override)
+🐞 bug fix: In combined auto-hide + hotkey mode the keyboard shortcut is now a temporary visibility overlay — a press can reveal an auto-hidden or fullscreen-hidden dock, and a second press or the timed re-hide releases the override and returns the dock to automatic policy, so subsequent edge dwell reveals it normally
+🔒 unchanged: Explicit menu/App Intent hide remains sticky and still beats the reveal strip; docks without auto-hide keep the existing sticky hotkey toggle and timed manual-hide behavior, preserving V4's delay and hover-paused re-hide timing; the DockFlow protocol and implementation are unchanged
