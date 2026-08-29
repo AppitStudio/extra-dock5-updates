@@ -1,6 +1,11 @@
-VERSION: 5.0.4-beta.4
+VERSION: 5.0.4
 DETAILS:
 
-🐞 bug fix: A dock combining Hide Automatically with Toggle with keyboard shortcut could be locked out of edge reveal — both a shortcut-initiated hide and the shortcut's configured re-hide timer installed a manual hidden override, and manual hide outranks auto-hide, so the mouse reveal strip could never reopen the dock (DockFlow only appeared to repair it because a profile switch clears that override)
-🐞 bug fix: In combined auto-hide + hotkey mode the keyboard shortcut is now a temporary visibility overlay — a press can reveal an auto-hidden or fullscreen-hidden dock, and a second press or the timed re-hide releases the override and returns the dock to automatic policy, so subsequent edge dwell reveals it normally
-🔒 unchanged: Explicit menu/App Intent hide remains sticky and still beats the reveal strip; docks without auto-hide keep the existing sticky hotkey toggle and timed manual-hide behavior, preserving V4's delay and hover-paused re-hide timing; the DockFlow protocol and implementation are unchanged
+bug fix: Quitting an app from a dock icon's menu no longer leaves ExtraDock unresponsive when the app is slow to close
+bug fix: Two identical monitors are told apart again — each screen keeps its own dock assignment through sleep, wake, and replugging
+bug fix: A keyboard shortcut no longer locks an auto-hiding dock out of its edge reveal; the shortcut is now a temporary peek
+bug fix: DockFlow profile switches no longer pin docks open, and restored docks stay revealable
+bug fix: Live widgets grow to fit their visible tiles instead of squeezing content into the chosen cell count
+bug fix: iPhone Mirroring and Handoff no longer appear as a stretched red notification badge
+improved: Diagnostics exports capture the last five hours of activity instead of only the current session
+improved: ExtraDock reports its full display name to macOS
