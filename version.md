@@ -1,11 +1,7 @@
-VERSION: 5.0.4
+VERSION: 5.0.5-beta.1
 DETAILS:
 
-bug fix: Quitting an app from a dock icon's menu no longer leaves ExtraDock unresponsive when the app is slow to close
-bug fix: Two identical monitors are told apart again — each screen keeps its own dock assignment through sleep, wake, and replugging
-bug fix: A keyboard shortcut no longer locks an auto-hiding dock out of its edge reveal; the shortcut is now a temporary peek
-bug fix: DockFlow profile switches no longer pin docks open, and restored docks stay revealable
-bug fix: Live widgets grow to fit their visible tiles instead of squeezing content into the chosen cell count
-bug fix: iPhone Mirroring and Handoff no longer appear as a stretched red notification badge
-improved: Diagnostics exports capture the last five hours of activity instead of only the current session
-improved: ExtraDock reports its full display name to macOS
+renamed: "Hide native macOS Dock" is now "Deep-hide native macOS Dock", and the setting states that macOS can still reveal its Dock at the physical screen edge or in Mission Control
+improved: A failed Dock reload gets one bounded retry instead of rewriting preference keys or looping
+improved: Deep-hide is re-applied automatically when macOS replaces the Dock process, and never touches your Dock while deep-hide is off
+improved: All Docks Diagnostics captures live Dock preferences, apply/retry state, Dock process identity, on-screen Dock window geometry, screen frames, and pointer-to-edge context — never window titles

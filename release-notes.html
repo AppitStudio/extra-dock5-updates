@@ -79,6 +79,38 @@
 </head>
 
 <body>
+    <div data-sparkle-version="5.0.5-beta.1">
+        <h2>ExtraDock 5.0.5-beta.1 – An Honest Deep-Hide, And The Evidence To Prove It! 🔍🖥️</h2>
+
+        <p>This is a diagnostic beta. The native-Dock deep-hide is now hardened and, more importantly, honest about what macOS will and won't let it do — and it finally collects the evidence we need to chase the remaining edge case.</p>
+
+        <h3>✨ Improvements</h3>
+        <ul>
+            <li><strong>The setting now tells the truth:</strong> <em>Hide native macOS Dock</em> is now <em>Deep-hide native macOS Dock</em>, and it says plainly that macOS can still reveal its own Dock at the physical screen edge or in Mission Control!</li>
+            <li><strong>A stubborn Dock gets one polite retry:</strong> If the preferences apply but the Dock refuses to reload, ExtraDock makes a single bounded retry instead of rewriting keys or spinning up a restart loop!</li>
+            <li><strong>Deep-hide survives a Dock restart:</strong> When macOS replaces the Dock process, suppression is re-applied automatically — and when deep-hide is off, your own Dock settings are never touched!</li>
+            <li><strong>Much richer support exports:</strong> All Docks Diagnostics now captures live Dock preferences, the last apply and retry result, Dock process identity, on-screen Dock window geometry, screen frames, and where your pointer was relative to the edge. Window titles are never collected!</li>
+        </ul>
+
+        <h3>🧪 What We Need You To Test</h3>
+        <ul>
+            <li><strong>Turn on Deep-hide native macOS Dock</strong> and restart ExtraDock, then try to coax the system Dock out at the physical screen edge — once slowly, once with a fast flick!</li>
+            <li><strong>Try it on every edge you use:</strong> bottom, left, and right, and with more than one display attached if you have them!</li>
+            <li><strong>Check Mission Control too</strong> — note whether the Dock appears there!</li>
+            <li><strong>If it escapes, export All Docks Diagnostics immediately</strong> and send it over with your macOS build, which edge the Dock is on, and your display layout. That export is what turns this from a hunch into a fix!</li>
+        </ul>
+
+        <h3>🔒 Deliberately Not Shipped</h3>
+        <ul>
+            <li><strong>No private APIs, no cursor-triggered Dock restarts, no guessed reveal-zone geometry:</strong> We'd rather measure the real behavior first than ship a hack that breaks in a future macOS!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>Your results from the edge-approach matrix decide whether a physical-edge mitigation is even possible. Until that evidence is in, the deep-hide bug stays open on purpose!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+    </div>
+
     <div data-sparkle-version="5.0.4">
         <h2>ExtraDock 5.0.4 - Docks That Stay Where You Put Them! 🖥️✨</h2>
 
