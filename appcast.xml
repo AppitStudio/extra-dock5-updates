@@ -3,48 +3,45 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.5-beta.1</title>
+            <title>5.0.5-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 30 Aug 2026 17:52:00 +0300</pubDate>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>5.0.5-beta.1</sparkle:shortVersionString>
+            <pubDate>Sun, 30 Aug 2026 21:24:00 +0300</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>5.0.5-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.5-beta.1 – An Honest Deep-Hide, And The Evidence To Prove It! 🔍🖥️</h2>
+        <h2>ExtraDock 5.0.5-beta.2 – Desktop Widgets Know Their Place! 🪟✨</h2>
 
-        <p>This is a diagnostic beta. The native-Dock deep-hide is now hardened and, more importantly, honest about what macOS will and won't let it do — and it finally collects the evidence we need to chase the remaining edge case.</p>
+        <p>Everything from beta.1, plus a fix for desktop-widget docks reaching through the windows on top of them.</p>
 
-        <h3>✨ Improvements</h3>
+        <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>The setting now tells the truth:</strong> <em>Hide native macOS Dock</em> is now <em>Deep-hide native macOS Dock</em>, and it says plainly that macOS can still reveal its own Dock at the physical screen edge or in Mission Control!</li>
-            <li><strong>A stubborn Dock gets one polite retry:</strong> If the preferences apply but the Dock refuses to reload, ExtraDock makes a single bounded retry instead of rewriting keys or spinning up a restart loop!</li>
-            <li><strong>Deep-hide survives a Dock restart:</strong> When macOS replaces the Dock process, suppression is re-applied automatically — and when deep-hide is off, your own Dock settings are never touched!</li>
-            <li><strong>Much richer support exports:</strong> All Docks Diagnostics now captures live Dock preferences, the last apply and retry result, Dock process identity, on-screen Dock window geometry, screen frames, and where your pointer was relative to the edge. Window titles are never collected!</li>
+            <li><strong>A covered desktop-widget dock stops stealing your mouse:</strong> Docks in desktop widget mode sit behind your app windows, but they were still claiming hovers and clicks through whatever was covering them — ExtraDock now asks macOS what is really under the pointer before reacting!</li>
+            <li><strong>Name pills stay on their own layer:</strong> The item name that appears on hover used to pop above every app window, even for a dock parked behind them — it now follows its dock's layer, above your desktop icons but below your windows!</li>
         </ul>
 
         <h3>🧪 What We Need You To Test</h3>
         <ul>
-            <li><strong>Turn on Deep-hide native macOS Dock</strong> and restart ExtraDock, then try to coax the system Dock out at the physical screen edge — once slowly, once with a fast flick!</li>
-            <li><strong>Try it on every edge you use:</strong> bottom, left, and right, and with more than one display attached if you have them!</li>
-            <li><strong>Check Mission Control too</strong> — note whether the Dock appears there!</li>
-            <li><strong>If it escapes, export All Docks Diagnostics immediately</strong> and send it over with your macOS build, which edge the Dock is on, and your display layout. That export is what turns this from a hunch into a fix!</li>
+            <li><strong>Park a dock in desktop widget mode</strong> and cover it with a normal app window, then move the pointer across the covered area — the dock should stay quiet and the app should get the clicks!</li>
+            <li><strong>Uncover it again</strong> and confirm hover, name pills, and clicks all come straight back!</li>
+            <li><strong>Check a normal (non-widget) dock too</strong> — it should behave exactly as before, floating above your windows!</li>
         </ul>
 
-        <h3>🔒 Deliberately Not Shipped</h3>
+        <h3>🔍 Still Under Investigation</h3>
         <ul>
-            <li><strong>No private APIs, no cursor-triggered Dock restarts, no guessed reveal-zone geometry:</strong> We'd rather measure the real behavior first than ship a hack that breaks in a future macOS!</li>
+            <li><strong>The deep-hide edge case from beta.1 is still open:</strong> If macOS reveals its own Dock at the physical screen edge, please keep exporting All Docks Diagnostics and sending it over — that evidence is what will close it!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
-        <p>Your results from the edge-approach matrix decide whether a physical-edge mitigation is even possible. Until that evidence is in, the deep-hide bug stays open on purpose!</p>
+        <p>Once these two land clean across your setups, 5.0.5 goes stable! Your reports decide when!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.5-beta.1/ExtraDock.dmg" length="16441599" type="application/octet-stream" sparkle:edSignature="+5Zah8MTkCzZaqlqtThdjj0wMW7XkD4vM1ofHY1vuMWISduHAZIU9vkuaHrs0uiDJyO6OS++sTb3Il2fFcvuBg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.5-beta.2/ExtraDock.dmg" length="16444947" type="application/octet-stream" sparkle:edSignature="tOohzzFMcJ6PcwboVFguHBkTvY8Wy/VmlyglKqWqQGtDdNDlnZyeU2vf3M8UiLOn6FkODZ2ecY6NgKlO6rBlAA=="/>
         </item>
         <item>
             <title>5.0.4</title>

@@ -79,6 +79,35 @@
 </head>
 
 <body>
+    <div data-sparkle-version="5.0.5-beta.2">
+        <h2>ExtraDock 5.0.5-beta.2 - Desktop Widgets Know Their Place! 🪟✨</h2>
+
+        <p>Everything from beta.1, plus a fix for desktop-widget docks reaching through the windows on top of them.</p>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>A covered desktop-widget dock stops stealing your mouse:</strong> Docks in desktop widget mode sit behind your app windows, but they were still claiming hovers and clicks through whatever was covering them — ExtraDock now asks macOS what is really under the pointer before reacting!</li>
+            <li><strong>Name pills stay on their own layer:</strong> The item name that appears on hover used to pop above every app window, even for a dock parked behind them — it now follows its dock's layer, above your desktop icons but below your windows!</li>
+        </ul>
+
+        <h3>🧪 What We Need You To Test</h3>
+        <ul>
+            <li><strong>Park a dock in desktop widget mode</strong> and cover it with a normal app window, then move the pointer across the covered area — the dock should stay quiet and the app should get the clicks!</li>
+            <li><strong>Uncover it again</strong> and confirm hover, name pills, and clicks all come straight back!</li>
+            <li><strong>Check a normal (non-widget) dock too</strong> — it should behave exactly as before, floating above your windows!</li>
+        </ul>
+
+        <h3>🔍 Still Under Investigation</h3>
+        <ul>
+            <li><strong>The deep-hide edge case from beta.1 is still open:</strong> If macOS reveals its own Dock at the physical screen edge, please keep exporting All Docks Diagnostics and sending it over — that evidence is what will close it!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>Once these two land clean across your setups, 5.0.5 goes stable! Your reports decide when!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
+    </div>
+
     <div data-sparkle-version="5.0.5-beta.1">
         <h2>ExtraDock 5.0.5-beta.1 – An Honest Deep-Hide, And The Evidence To Prove It! 🔍🖥️</h2>
 
