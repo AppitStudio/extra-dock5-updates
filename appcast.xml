@@ -3,34 +3,35 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.5-beta.3</title>
+            <title>5.0.5-beta.4</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 31 Aug 2026 13:02:26 +0300</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>5.0.5-beta.3</sparkle:shortVersionString>
+            <pubDate>Mon, 31 Aug 2026 18:48:31 +0300</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>5.0.5-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.5-beta.3 – Unified Licensing Beta! 🔑✨</h2>
+        <h2>ExtraDock 5.0.5-beta.4 – Version Access Recovery Beta! 🔐⬇️</h2>
 
-        <p>This beta moves ExtraDock's direct-license flow onto the unified Appit Services SDK while preserving the existing license experience.</p>
+        <p>This beta adds server-authoritative installed-version access while preserving compatibility with older clients and alternative license providers.</p>
 
         <h3>🧪 What We Need You To Test</h3>
         <ul>
-            <li><strong>Existing licenses:</strong> Confirm an already activated ExtraDock installation remains licensed after updating!</li>
-            <li><strong>Fresh activation:</strong> Activate a direct license and confirm the license type, update entitlement, and device limit are shown correctly!</li>
-            <li><strong>Offline and recovery behavior:</strong> Relaunch without connectivity and confirm a previously validated license continues to behave correctly!</li>
+            <li><strong>Expired update windows:</strong> Confirm a version released after your included update period opens the dedicated recovery screen instead of the normal docks!</li>
+            <li><strong>Eligible download:</strong> Confirm Download opens the exact newest ExtraDock DMG included with the license!</li>
+            <li><strong>Renew and refresh:</strong> Confirm the website action opens correctly and a renewed license restores docks, shortcuts, and commands after Refresh!</li>
+            <li><strong>Compatibility:</strong> Confirm eligible, lifetime, offline same-version, and alternative-license users continue working normally!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
-        <p>Once the shared licensing flow passes the beta matrix across all Appit apps, it will be ready for the stable rollout!</p>
+        <p>Once installed-version recovery passes the beta matrix across all Appit apps, it will be ready for the stable rollout!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.5-beta.3/ExtraDock.dmg" length="17004466" type="application/octet-stream" sparkle:edSignature="Tzekp6v8JUkqNlqX7CpRPbd9A3ZZv0dqDkI/6RJGqn0LNa7k7SdyHTrXAa64Qk1hvcSpz2cSchK5P/V1MN2vAg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.5-beta.4/ExtraDock.dmg" length="17180065" type="application/octet-stream" sparkle:edSignature="nyuta3jHwKygxMO/SoHEHPzc9lj4IqwouexARdPsw9Sz5Q7JezfwOazJngqiqIj/xlQha2g3cwa0WkvkvQIPDQ=="/>
         </item>
         <item>
             <title>5.0.4</title>
