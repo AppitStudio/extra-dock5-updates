@@ -3,73 +3,24 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.5-beta.4</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 31 Aug 2026 18:48:31 +0300</pubDate>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>5.0.5-beta.4</sparkle:shortVersionString>
+            <title>5.0.5</title>
+            <pubDate>Tue, 01 Sep 2026 07:16:47 +0300</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>5.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.5-beta.4 – Version Access Recovery Beta! 🔐⬇️</h2>
+        <h2>ExtraDock 5.0.5 - Improved License Authentication</h2>
 
-        <p>This beta adds server-authoritative installed-version access while preserving compatibility with older clients and alternative license providers.</p>
-
-        <h3>🧪 What We Need You To Test</h3>
+        <h3>Improvements</h3>
         <ul>
-            <li><strong>Expired update windows:</strong> Confirm a version released after your included update period opens the dedicated recovery screen instead of the normal docks!</li>
-            <li><strong>Eligible download:</strong> Confirm Download opens the exact newest ExtraDock DMG included with the license!</li>
-            <li><strong>Renew and refresh:</strong> Confirm the website action opens correctly and a renewed license restores docks, shortcuts, and commands after Refresh!</li>
-            <li><strong>Compatibility:</strong> Confirm eligible, lifetime, offline same-version, and alternative-license users continue working normally!</li>
+            <li><strong>License authentication:</strong> License authentication flow improved.</li>
         </ul>
-
-        <h3>🚀 What's Next?</h3>
-        <p>Once installed-version recovery passes the beta matrix across all Appit apps, it will be ready for the stable rollout!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you for helping test ExtraDock 5! Your feedback drives every improvement we make. 💙</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.5-beta.4/ExtraDock.dmg" length="17180065" type="application/octet-stream" sparkle:edSignature="nyuta3jHwKygxMO/SoHEHPzc9lj4IqwouexARdPsw9Sz5Q7JezfwOazJngqiqIj/xlQha2g3cwa0WkvkvQIPDQ=="/>
-        </item>
-        <item>
-            <title>5.0.4</title>
-            <pubDate>Sat, 29 Aug 2026 15:32:00 +0300</pubDate>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>5.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.4 – Docks That Stay Where You Put Them! 🖥️✨</h2>
-
-        <p>Everything from the 5.0.4 beta rounds, now stable — plus two fresh fixes.</p>
-
-        <h3>🐞 Bug Fixes</h3>
-        <ul>
-            <li><strong>Quitting an app no longer freezes ExtraDock:</strong> Choosing Quit from a dock icon's menu could leave the dock and menu bar unresponsive if the app was slow to close — clicks would fall straight through to the desktop!</li>
-            <li><strong>Two identical monitors are told apart:</strong> Two displays of the same make and model used to share one identity, so docks landed on the wrong panel — each screen now keeps its own assignment through sleep, wake, and replugging!</li>
-            <li><strong>Keyboard shortcuts work with auto-hide:</strong> Using a shortcut on a dock set to hide automatically could lock it out of its edge reveal for good — the shortcut is now a temporary peek that hands control straight back!</li>
-            <li><strong>DockFlow profiles play nice with auto-hide:</strong> Switching profiles no longer pins docks open, and restored docks stay revealable!</li>
-            <li><strong>Live widgets grow instead of squeezing:</strong> Your 1–4 cell choice is a minimum now — a widget claims extra space whenever its visible tiles need it!</li>
-            <li><strong>No more mystery red capsule:</strong> iPhone Mirroring and Handoff no longer get drawn as a stretched notification badge!</li>
-        </ul>
-
-        <h3>✨ Improvements</h3>
-        <ul>
-            <li><strong>Better support logs:</strong> Saving diagnostics now captures the last five hours of activity instead of just the current session, so reporting a problem gets it fixed faster!</li>
-            <li><strong>A proper app name:</strong> ExtraDock now shows its full name everywhere macOS asks for it!</li>
-        </ul>
-
-        <h3>🚀 What's Next?</h3>
-        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.4/ExtraDock.dmg" length="16389529" type="application/octet-stream" sparkle:edSignature="UyTJAYa1YNWMc6Q4nJGkZKzGKzaAIakCFJs3LGljkDPaMHHNp6O69u2UGxx2cWfwdo4eZDH4pJwHEDETsWvgAQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.5/ExtraDock.dmg" length="17257653" type="application/octet-stream" sparkle:edSignature="mtQ8e0P5FJOToGLDbtwesCTfKi+Ruy9hxAibc/jpxxjRJps2plcgO3dDIpdYxaCbar3dVxXsNZQolsl6hQFCCQ=="/>
         </item>
     </channel>
 </rss>
