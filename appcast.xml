@@ -3,25 +3,34 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.6-beta.1</title>
+            <title>5.0.6-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Tue, 01 Sep 2026 17:47:33 +0300</pubDate>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>5.0.6-beta.1</sparkle:shortVersionString>
+            <pubDate>Wed, 02 Sep 2026 22:29:58 +0300</pubDate>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>5.0.6-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.6 (Beta 1) - Labels Above Desktop Widgets</h2>
+        <h2>ExtraDock 5.0.6 (Beta 2) - Smoother Docks, Steadier Layout</h2>
+
+        <h3>Improvements</h3>
+        <ul>
+            <li><strong>Smoother pointer tracking:</strong> Moving the pointer no longer re-runs the full dock geometry pass on every movement, so docks stay responsive!</li>
+            <li><strong>Ambient effects:</strong> Ambient effects now render beneath your app icons instead of over them!</li>
+            <li><strong>Dock shortcuts:</strong> A dock's keyboard shortcut can now switch a disabled dock back on and off again!</li>
+        </ul>
 
         <h3>Bug Fixes</h3>
         <ul>
-            <li><strong>Dock item labels:</strong> Item labels now appear above macOS desktop widgets and stay below normal app windows, so they are never covered on the desktop.</li>
+            <li><strong>Reserve Dock Space:</strong> Reserved space no longer churns on every animation tick, and it no longer goes silently stale!</li>
+            <li><strong>Pinned top docks:</strong> Docks pinned to the top of the screen now stay below the menu bar!</li>
+            <li><strong>Dock item labels:</strong> Item labels appear above macOS desktop widgets and stay below normal app windows, so they are never covered on the desktop!</li>
         </ul>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.6-beta.1/ExtraDock.dmg" length="17255740" type="application/octet-stream" sparkle:edSignature="mVEmYoS2qXADq1WwpdL2xDizlJHhMvQt199gflbETzt2X7/6ghFTcQwsUnX7ucw2PPePA/+hVFsl7EJ3OKTwBQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.6-beta.2/ExtraDock.dmg" length="17286826" type="application/octet-stream" sparkle:edSignature="RQd+OpZkUAhiqYoYYOrGjbEYwnoeyDCLzVNQxsPP+ZF8eNMIrXUVdPZv8I/lnLTicuYSh9slPQ3n0sIEPBLkAw=="/>
         </item>
         <item>
             <title>5.0.5</title>
