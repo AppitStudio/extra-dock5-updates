@@ -5,8 +5,8 @@
         <item>
             <title>5.0.6-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Wed, 02 Sep 2026 22:29:58 +0300</pubDate>
-            <sparkle:version>51</sparkle:version>
+            <pubDate>Thu, 03 Sep 2026 17:36:09 +0300</pubDate>
+            <sparkle:version>52</sparkle:version>
             <sparkle:shortVersionString>5.0.6-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
@@ -30,7 +30,7 @@
         </ul>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.6-beta.2/ExtraDock.dmg" length="17286826" type="application/octet-stream" sparkle:edSignature="RQd+OpZkUAhiqYoYYOrGjbEYwnoeyDCLzVNQxsPP+ZF8eNMIrXUVdPZv8I/lnLTicuYSh9slPQ3n0sIEPBLkAw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.6-beta.2/ExtraDock.dmg" length="17284258" type="application/octet-stream" sparkle:edSignature="IB0xW6uQ0ece0mrm2xmatgFh1CEAcUhizUlsLsd0w6f4M7Ndcjh+aSxxpMBUlNE+5N+cRZ+mD9kIz3hl9evRAw=="/>
         </item>
         <item>
             <title>5.0.5</title>
