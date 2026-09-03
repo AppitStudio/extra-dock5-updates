@@ -3,50 +3,39 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.6-beta.3</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 03 Sep 2026 21:02:35 +0300</pubDate>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>5.0.6-beta.3</sparkle:shortVersionString>
+            <title>5.0.6</title>
+            <pubDate>Thu, 03 Sep 2026 21:52:59 +0300</pubDate>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>5.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.6 (Beta 3) - Dock Shortcuts Are Back</h2>
+        <h2>ExtraDock 5.0.6 - Faster, Lighter, and Better Behaved! ⚡🪶</h2>
 
-        <h3>Bug Fixes</h3>
+        <h3>⚡ Improvements</h3>
         <ul>
-            <li><strong>Dock shortcuts:</strong> A dock's global keyboard shortcut works again! The license check at launch was switching every shortcut off a moment after registering it, and it took Shortcuts actions and DockFlow commands down with it.</li>
+            <li><strong>Dock keyboard shortcuts:</strong> Dock keyboard shortcuts now work more reliably!</li>
+            <li><strong>Resource usage:</strong> ExtraDock now uses fewer system resources, especially CPU!</li>
+            <li><strong>Reserve Dock Space:</strong> Reserved dock space now recovers more reliably after sleep and external monitor disconnections!</li>
         </ul>
 
-        <h3>Improvements</h3>
+        <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Support logs:</strong> The exported log now records shortcut registration, key presses, and license admission, so shortcut reports can be diagnosed straight from the log!</li>
+            <li><strong>Rays effect:</strong> The Rays effect has been reworked with very lightweight rendering!</li>
+            <li><strong>Ambient effects:</strong> Rays, Snow, and Fireworks now render behind app icons instead of covering them!</li>
+            <li><strong>Top-pinned docks:</strong> Docks pinned to the top now sit correctly below the menu bar instead of overlapping it!</li>
+            <li><strong>Desktop Widget labels:</strong> Labels now appear above desktop widgets while remaining underneath application windows, just like the dock widget!</li>
         </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.6-beta.3/ExtraDock.dmg" length="17299868" type="application/octet-stream" sparkle:edSignature="a7wovsmTkt1FB19DhM2axYiHrKBAZTrBpRROX0Cur7rxOo8wz/3/V7EGx391Wk9RuqQkZvcOXkhN2WPV/FvwBg=="/>
-        </item>
-        <item>
-            <title>5.0.5</title>
-            <pubDate>Tue, 01 Sep 2026 07:16:47 +0300</pubDate>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>5.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.5 - Improved License Authentication</h2>
-
-        <h3>Improvements</h3>
-        <ul>
-            <li><strong>License authentication:</strong> License authentication flow improved.</li>
-        </ul>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.5/ExtraDock.dmg" length="17257653" type="application/octet-stream" sparkle:edSignature="mtQ8e0P5FJOToGLDbtwesCTfKi+Ruy9hxAibc/jpxxjRJps2plcgO3dDIpdYxaCbar3dVxXsNZQolsl6hQFCCQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.6/ExtraDock.dmg" length="17298946" type="application/octet-stream" sparkle:edSignature="l2UT0wdc0tVIPEDXyTM4bvvykKs4q3Cfqwi5tUjlOT/mTT9dCxHCwovb5Ty335CAuC7mBoZxX0YR+HwOQnbLAQ=="/>
         </item>
     </channel>
 </rss>
