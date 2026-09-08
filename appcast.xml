@@ -3,72 +3,35 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.7-beta.2</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 07 Sep 2026 21:46:16 +0300</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>5.0.7-beta.2</sparkle:shortVersionString>
+            <title>5.0.7</title>
+            <pubDate>Tue, 08 Sep 2026 13:17:16 +0300</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>5.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.7 (Beta 2) - Pick Your Trigger</h2>
+        <h2>ExtraDock 5.0.7 - Meet the Notch, and Expand Your Way! 🖤✨</h2>
 
-        <p>Everything from Beta 1 (notch layout, relaunch and startup-license fixes), plus:</p>
-
-        <h3>What's New</h3>
+        <h3>✨ What's New</h3>
         <ul>
-            <li><strong>Choose what expands a collapsed dock:</strong> Manager → Style → Collapse (and the notch Pill settings) now has an Expand using control: Automatic, Handle only, Entire dock, or Click only. Turn off "Use default hover area size" for an Extra hover area slider (Exact / Small / Large).</li>
-            <li><strong>Reveal distance for floating docks:</strong> Behavior → Auto-Hide now offers a Reveal distance setting (Exact / Near / Standard) that controls how close the pointer must get before a hidden floating dock slides in.</li>
-            <li><strong>Notch pill click:</strong> Clicking a folded notch pill now expands it.</li>
+            <li><strong>Notch layout:</strong> A dock can now live in the notch! Pick Layout → Notch in the Manager and it folds into a sleek black notch shape that unfolds on hover, with a When-idle control (Show / Pill / Hidden)!</li>
+            <li><strong>Choose what expands a collapsed dock:</strong> Style → Collapse (and the notch Pill settings) now has an Expand using control: Automatic, Handle only, Entire dock, or Click only, plus an optional Extra hover area slider!</li>
+            <li><strong>Reveal distance for floating docks:</strong> Behavior → Auto-Hide lets you choose how close the pointer must get before a hidden floating dock slides in (Exact / Near / Standard)!</li>
+            <li><strong>Notch pill click:</strong> Clicking a folded notch pill now expands it!</li>
         </ul>
-
-        <h3>Bug Fixes</h3>
-        <ul>
-            <li><strong>App Stack popups stay on top:</strong> An App Stack opened where two docks overlap is no longer covered by the other dock, so its close button stays reachable.</li>
-            <li><strong>No more freezes from license or Stripe work:</strong> Every license and Stripe Keychain read/write now runs off the main thread, so launch, Keychain consent, license import/replace/remove and the Stripe settings can no longer stall the app.</li>
-        </ul>
-
-        <h3>What We Need You To Test</h3>
-        <ul>
-            <li><strong>Expand triggers:</strong> Try all four Expand using options on left, right, top and bottom docks. Each should expand only from its own target. Then turn off "Use default hover area size" and compare Exact, Small and Large. Changes should apply live.</li>
-            <li><strong>Floating reveal distance:</strong> On a floating auto-hiding dock, turn off "Use default reveal distance" and try Exact, Near and Standard. Exact should reveal only when the pointer touches the bar.</li>
-            <li><strong>Notch click-only:</strong> Set When-idle to Pill and Expand using to Click only. Hovering should do nothing; a click should expand the pill.</li>
-            <li><strong>Persistence:</strong> Quit and relaunch. Every setting above should survive, and untouched docks should behave exactly as before.</li>
-            <li><strong>App Stack overlap:</strong> Overlap a horizontal and a vertical dock, open an App Stack near the overlap, then hover the other dock. The App Stack and its close button must stay in front. Repeat with floating and notch docks and on a second display. Check Escape, click-outside and close-button dismissal, then reopen.</li>
-            <li><strong>License and Stripe:</strong> Launch, answer the Keychain consent, import a license key, replace it and remove it. In Settings → Integrations → Stripe, save a key, refresh the widget and delete it. The app must stay responsive throughout.</li>
-            <li><strong>A day of normal use:</strong> If ExtraDock ever freezes, use Activity Monitor → Sample Process and send the sample with your dock layout, display setup and macOS version.</li>
-        </ul>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.7-beta.2/ExtraDock.dmg" length="17519636" type="application/octet-stream" sparkle:edSignature="3CLeB8C3VHUFpZKmmUrOlnh/tDo+neE6r0BrCDn0PNEPJefVQwvNJMfUVh3TtOzlKE8V5wNjE5Tx6hf5LOj9Bw=="/>
-        </item>
-        <item>
-            <title>5.0.6</title>
-            <pubDate>Thu, 03 Sep 2026 21:52:59 +0300</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>5.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.6 - Faster, Lighter, and Better Behaved! ⚡🪶</h2>
 
         <h3>⚡ Improvements</h3>
         <ul>
-            <li><strong>Dock keyboard shortcuts:</strong> Dock keyboard shortcuts now work more reliably!</li>
-            <li><strong>Resource usage:</strong> ExtraDock now uses fewer system resources, especially CPU!</li>
-            <li><strong>Reserve Dock Space:</strong> Reserved dock space now recovers more reliably after sleep and external monitor disconnections!</li>
+            <li><strong>Smoother licensing:</strong> License and Stripe Keychain work now runs off the main thread, so launch, Keychain consent, license import and the Stripe settings never stall the app!</li>
         </ul>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Rays effect:</strong> The Rays effect has been reworked with very lightweight rendering!</li>
-            <li><strong>Ambient effects:</strong> Rays, Snow, and Fireworks now render behind app icons instead of covering them!</li>
-            <li><strong>Top-pinned docks:</strong> Docks pinned to the top now sit correctly below the menu bar instead of overlapping it!</li>
-            <li><strong>Desktop Widget labels:</strong> Labels now appear above desktop widgets while remaining underneath application windows, just like the dock widget!</li>
+            <li><strong>App Stack popups stay on top:</strong> An App Stack opened where two docks overlap is no longer covered by the other dock, so its close button stays reachable!</li>
+            <li><strong>Docks after relaunch:</strong> Docks no longer stay hidden after a relaunch once the Spaces shield releases!</li>
+            <li><strong>Startup license check:</strong> ExtraDock now recovers from a stalled license check at launch!</li>
         </ul>
 
         <h3>What's Next?</h3>
@@ -77,7 +40,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.6/ExtraDock.dmg" length="17298946" type="application/octet-stream" sparkle:edSignature="l2UT0wdc0tVIPEDXyTM4bvvykKs4q3Cfqwi5tUjlOT/mTT9dCxHCwovb5Ty335CAuC7mBoZxX0YR+HwOQnbLAQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.7/ExtraDock.dmg" length="17520867" type="application/octet-stream" sparkle:edSignature="ytquNLyIUugQ2BVFAC00G4z8zJ47I/awhvSLm4CuIb6YygfUeke0K7yHW4ahmpWBB20Ff74pE0QksZ7xLODcCQ=="/>
         </item>
     </channel>
 </rss>
