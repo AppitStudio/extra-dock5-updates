@@ -3,6 +3,62 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.0.8-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Thu, 10 Sep 2026 20:43:21 +0300</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>5.0.8-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 5.0.8 (Beta 1) - Bigger Icons, Live Icons</h2>
+
+        <p>Everything in 5.0.7, plus:</p>
+
+        <h3>What's New</h3>
+        <ul>
+            <li><strong>Bigger hover magnification:</strong> Manager → Style → Hover Magnification → Max scale now goes up to 4× (was 2.5×). Neighboring icons slide apart around the pointer instead of being overlapped, and labels, badges, running dots, previews and click targets follow the moved icons. The 1.5× default and your saved value are unchanged.</li>
+            <li><strong>Live Clock and Calendar icons:</strong> Apple's Clock shows a real analog face with moving hands and Calendar shows today's month and date, in pinned docks, the Live Dock and Space Awareness. Automatic; a custom icon on that item keeps the custom artwork.</li>
+            <li><strong>Drag handle side for floating docks:</strong> Manager → Position → Floating Position → Drag handle side: Automatic, Screen edge, Inward, Left/Right (Top/Bottom for vertical docks). Applies to the permanent and the hover handle; if there is no room at the chosen end, the hover handle uses the other end.</li>
+            <li><strong>Reveal pinned docks before the screen edge:</strong> Behavior → Auto-Hide on a pinned dock now has Reveal when pointer is: At screen edge or Near screen edge, plus an Advanced reveal distance (Narrow / Standard / Wide, 4–60 pt). Clicks outside the dock still reach other apps.</li>
+            <li><strong>Show Manager on launch:</strong> Settings → General → Startup has the Show Manager on launch toggle back. With it off, ExtraDock starts quietly, including at login. First-run onboarding still opens the Manager.</li>
+        </ul>
+
+        <h3>Improvements</h3>
+        <ul>
+            <li><strong>Sharper icons:</strong> App icons are rendered at full Retina resolution for the largest size they can reach under your magnification setting. Notification badges and the attention dot now move and scale with the icon during launch bounce, attention animations and magnification.</li>
+            <li><strong>Steadier Dock replacement:</strong> Deep-hiding the macOS Dock shows an "Updating macOS Dock…" status, re-checks itself after sleep/wake and when another utility changes Dock settings, and stops after two automatic repairs with a Retry Dock Setting button instead of looping. The info card now suggests moving the macOS Dock to an unused edge and links to Desktop &amp; Dock settings.</li>
+            <li><strong>Window previews recover on their own:</strong> Granting Screen Recording in System Settings takes effect on the next hover, no relaunch needed. Thumbnails are capped at 32 MB, cleared under memory pressure, and stale capture work is cancelled.</li>
+        </ul>
+
+        <h3>Bug Fixes</h3>
+        <ul>
+            <li><strong>Dock survives Hide Others and Cmd+H:</strong> Option+Cmd-clicking the desktop (Finder's Hide Others) or pressing Cmd+H no longer makes the dock, hover labels and previews disappear until the next click. Settings and Manager still hide as expected.</li>
+            <li><strong>Notch widgets stay readable in Light Mode:</strong> Content inside the black notch always uses dark-surface colors, so CPU, Memory, GPU and Battery values are legible regardless of the system appearance.</li>
+            <li><strong>Manager launch preference is honored:</strong> The Manager no longer opens on every launch regardless of the setting.</li>
+        </ul>
+
+        <h3>What We Need You To Test</h3>
+        <ul>
+            <li><strong>Magnification at 4×:</strong> On a long, dense dock at a screen corner, hover slowly and quickly. Icons should separate instead of overlapping, gaps should stay even, and labels, badges, running dots, previews and clicks should land on the moved icons. Repeat on floating, notch and vertical docks, with Reduce Motion, and on mixed-density displays.</li>
+            <li><strong>Live icons:</strong> Pin Clock and Calendar. Hands should tick every second and Calendar should show today's date, including after sleep/wake, a time-zone change and past midnight. A custom icon should override the live face and come back when removed.</li>
+            <li><strong>Drag handle side:</strong> Try every option on horizontal and vertical floating docks, for both the permanent and hover handle. Drag across the display midpoint and to another display; park a dock with the chosen end clipped and confirm the fallback; lock the position (picker disables); relaunch (choice persists).</li>
+            <li><strong>Icon quality and badges:</strong> Compare with the native Dock at rest and peak hover on standard and Retina displays, light and dark, custom icons, minimized apps. Badges and the attention dot must stay attached during bounce and magnification.</li>
+            <li><strong>Hide Others and Cmd+H:</strong> Option+Cmd-click the desktop and press Cmd+H from another app in menu-bar-only, with-Dock-icon and dock-only modes. The dock, labels and previews must stay clickable; Settings and Manager should hide; Finder → Show All must not duplicate anything.</li>
+            <li><strong>Notch widgets:</strong> Cycle When-idle through Show / Pill / Hidden and switch Dock/Notch layouts in light, dark and increased contrast with the CPU, Memory, GPU and Battery widgets. Everything must be readable.</li>
+            <li><strong>Startup:</strong> With Show Manager on launch off, log out and back in (or reboot) in each app mode; the Manager should stay closed. Turn it on; it should open. On a clean install, finishing or closing onboarding must still open the Manager.</li>
+            <li><strong>Pinned reveal distance:</strong> Compare At screen edge with Near screen edge (Narrow / Standard / Wide). Clicks in the invisible hover band must reach other apps. Try Finder drags, Mission Control, full-screen apps and an adjacent display.</li>
+            <li><strong>Dock replacement:</strong> Toggle deep-hide on and off, sleep/wake, then change a Dock setting with another utility. ExtraDock should repair at most twice, then pause with Retry Dock Setting. Use the Desktop &amp; Dock link to move the macOS Dock to another edge.</li>
+            <li><strong>Window previews:</strong> Revoke Screen Recording, hover (previews stop), re-grant, hover again (previews return without relaunch). Force-quit, relaunch and reboot with permission granted. Hover rapidly across many apps and check memory afterward.</li>
+            <li><strong>Reporting:</strong> Include your dock layout (position, floating/pinned/notch), display setup and macOS version.</li>
+        </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.8-beta.1/ExtraDock.dmg" length="17696835" type="application/octet-stream" sparkle:edSignature="8+kUDurpiS4C2IiAHDWqHLgLXQmRu5Xbliihg/djtkRF6Ao4CVFaOpAI5Z34HPpOhIGGBkezJ9WGuuQB5N32Cw=="/>
+        </item>
+        <item>
             <title>5.0.7</title>
             <pubDate>Tue, 08 Sep 2026 13:17:16 +0300</pubDate>
             <sparkle:version>58</sparkle:version>
