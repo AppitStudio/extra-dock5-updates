@@ -5,8 +5,8 @@
         <item>
             <title>5.0.8-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 11 Sep 2026 14:37:21 +0300</pubDate>
-            <sparkle:version>60</sparkle:version>
+            <pubDate>Fri, 11 Sep 2026 17:30:08 +0300</pubDate>
+            <sparkle:version>61</sparkle:version>
             <sparkle:shortVersionString>5.0.8-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
@@ -17,10 +17,16 @@
 
         <p>Everything in 5.0.7, plus:</p>
 
+        <h3>Build 61 (Sep 11)</h3>
+        <ul>
+            <li><strong>Icons stay sharp while the surface grows:</strong> In build 60 the expanded background could render as a blurry glass layer on top of the icons. The glass material now wraps the icon content itself, so icons stay crisp at every magnification.</li>
+            <li><strong>Native-style growth:</strong> The background keeps its resting thickness and grows only along the bar, extending its ends to cover the displaced neighbors and controls, while the magnified icons rise out of it toward the desktop like the macOS Dock. Hovering over a protruding icon keeps the dock magnified, clicking a protruding icon reaches that icon, and docks with a transparent background use the icon shapes alone.</li>
+        </ul>
+
         <h3>Build 60 (Sep 11)</h3>
         <ul>
             <li><strong>No dead zones at narrow falloff radii:</strong> The falloff now always reaches the neighboring icon, so moving between apps stays smooth even at the smallest Falloff radius. Your configured value is kept.</li>
-            <li><strong>The dock surface grows with magnification:</strong> The background, border and ambient effects now enclose the magnified icons and the displaced controls. Hovering over the expanded surface keeps the dock magnified, background drag still works there, and the floating hover handle follows the expanded end.</li>
+            <li><strong>The dock surface grows with magnification:</strong> The background, border and ambient effects now enclose the magnified icons and the displaced controls. Hovering over the expanded surface keeps the dock magnified, background drag still works there, and the floating hover handle follows the expanded end. Revised in build 61 (see above).</li>
         </ul>
 
         <h3>What's New</h3>
@@ -49,7 +55,7 @@
         <h3>What We Need You To Test</h3>
         <ul>
             <li><strong>Magnification at 4×:</strong> On a long, dense dock at a screen corner, hover slowly and quickly. Icons should separate instead of overlapping, gaps should stay even, and labels, badges, running dots, previews and clicks should land on the moved icons. Repeat on floating, notch and vertical docks, with Reduce Motion, and on mixed-density displays.</li>
-            <li><strong>Build 60 magnification follow-ups:</strong> At the minimum Falloff radius and 4×, the scale should change continuously with no gap between icons. The background and border must enclose the enlarged icons and pushed-aside controls; hovering there keeps the dock magnified, and after leaving, clicks in that area must reach the app behind. Check background drag and the floating handles at the expanded end.</li>
+            <li><strong>Build 61 magnification follow-ups:</strong> At the minimum Falloff radius and 4×, the scale should change continuously with no gap between icons, and every icon should stay sharp with no blurry glass layer over it. The background must keep its resting thickness and only its ends should extend over the pushed-aside icons and controls, with the enlarged icons rising out of it like the macOS Dock. Hovering a protruding icon keeps the dock magnified and clicking it reaches that icon; after leaving, clicks where the icons protruded must reach the app behind. Check background drag, the floating handles at the expanded end, and a transparent-background dock.</li>
             <li><strong>Live icons:</strong> Pin Clock and Calendar. Hands should tick every second and Calendar should show today's date, including after sleep/wake, a time-zone change and past midnight. A custom icon should override the live face and come back when removed.</li>
             <li><strong>Drag handle side:</strong> Try every option on horizontal and vertical floating docks, for both the permanent and hover handle. Drag across the display midpoint and to another display; park a dock with the chosen end clipped and confirm the fallback; lock the position (picker disables); relaunch (choice persists).</li>
             <li><strong>Icon quality and badges:</strong> Compare with the native Dock at rest and peak hover on standard and Retina displays, light and dark, custom icons, minimized apps. Badges and the attention dot must stay attached during bounce and magnification.</li>
@@ -63,7 +69,7 @@
         </ul>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.8-beta.1/ExtraDock.dmg" length="17722779" type="application/octet-stream" sparkle:edSignature="GkGC4CjjCTgwdvh/7f6L0yIgjELnhw9TZoB3VfSbQRxLCg+ykVjzgEeKTgQNEY1fsEg9o2Tiv9LQuue25bfqBQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.8-beta.1/ExtraDock.dmg" length="17721649" type="application/octet-stream" sparkle:edSignature="ygpPIgRG9+VZrCxXHSJ2mf9C2tYWYrq2G4xoDgMiDzYs/61ToOSpRrUEcJqQvdR/77M4M4VEfxy1eLxZZm0yBQ=="/>
         </item>
         <item>
             <title>5.0.7</title>
