@@ -1,16 +1,22 @@
-name: Validate and register releases
+name: Register releases and publish feed
 
 on:
   pull_request:
     paths:
       - appcast.xml
+      - release-notes.html
       - scripts/sync_keyper_releases.py
+      - scripts/test_sync_keyper_releases.py
       - .github/workflows/register-keyper-releases.yml
   push:
     branches:
       - main
     paths:
       - appcast.xml
+      - release-notes.html
+      - scripts/sync_keyper_releases.py
+      - scripts/test_sync_keyper_releases.py
+      - .github/workflows/register-keyper-releases.yml
   workflow_dispatch:
 
 permissions:
@@ -26,12 +32,42 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
+      - name: Test registration failure handling
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+
       - name: Validate retained appcast metadata
         run: python3 scripts/sync_keyper_releases.py --appcast appcast.xml --validate-only
 
       - name: Register retained releases with Keyper
-        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         env:
           KEYPER_RELEASE_TOKEN: ${{ secrets.KEYPER_RELEASE_TOKEN }}
           KEYPER_RELEASE_ENDPOINT: ${{ vars.KEYPER_RELEASE_ENDPOINT }}
         run: python3 scripts/sync_keyper_releases.py --appcast appcast.xml
+
+      # Only a successfully registered feed may become visible to Sparkle.
+      - name: Stage registered feed
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          mkdir -p _site
+          cp appcast.xml release-notes.html version.md _site/
+
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        with:
+          path: _site
+
+  deploy:
+    needs: validate-and-register
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish registered feed
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

@@ -11,6 +11,7 @@ import json
 import os
 from pathlib import Path
 import sys
+import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -118,14 +119,32 @@ def register_release(endpoint: str, token: str, release: Release) -> int:
             "User-Agent": "appit-updates-release-sync/1",
         },
     )
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            return response.status
-    except urllib.error.HTTPError as error:
-        response_body = error.read().decode("utf-8", errors="replace")[:500]
-        raise RuntimeError(
-            f"Keyper rejected {release.version} with HTTP {error.code}: {response_body}"
-        ) from error
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                payload = json.load(response)
+                expected = {
+                    "product": "extradock",
+                    "track": "v5-stable",
+                    "version": release.version,
+                    "download_url": release.download_url,
+                }
+                if response.status not in (200, 201) or not isinstance(payload, dict) or any(
+                    payload.get(key) != value for key, value in expected.items()
+                ):
+                    raise RuntimeError(f"Keyper did not confirm registration of {release.version}")
+                return response.status
+        except urllib.error.HTTPError as error:
+            response_body = error.read().decode("utf-8", errors="replace")[:500]
+            if attempt == 2 or error.code not in (403, 429, 500, 502, 503, 504):
+                raise RuntimeError(
+                    f"Keyper rejected {release.version} with HTTP {error.code}: {response_body}"
+                ) from error
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 2:
+                raise
+        time.sleep(2 ** (attempt + 1))
+    raise RuntimeError(f"Keyper registration failed for {release.version}")
 
 
 def main() -> int:

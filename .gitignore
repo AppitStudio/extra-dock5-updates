@@ -4,3 +4,5 @@
 *.dmg
 dmg/appcast.xml
 .DS_Store
+
+__pycache__/
