@@ -5,8 +5,8 @@
         <item>
             <title>5.0.9-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 13 Sep 2026 17:45:00 +0300</pubDate>
-            <sparkle:version>63</sparkle:version>
+            <pubDate>Mon, 14 Sep 2026 17:45:15 +0300</pubDate>
+            <sparkle:version>64</sparkle:version>
             <sparkle:shortVersionString>5.0.9-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
@@ -14,6 +14,15 @@
             <description><![CDATA[
 
         <h2>ExtraDock 5.0.9 (Beta 1) - Folders Open Beside the Dock! 📂✨</h2>
+
+        <h3>🔁 Build 64 (Sep 14)</h3>
+        <ul>
+            <li><strong>App Connections replaces the Talk section:</strong> Settings → Integrations now shows App Connections with clear states - nothing connected, an app wants to connect, pairing in progress with a countdown, and the list of allowed apps with Permissions… and Remove… - using the same wording as ExtraDock 4 and DockFlow!</li>
+            <li><strong>One-click connect from DockFlow:</strong> When DockFlow asks to connect, ExtraDock comes forward on App Connections with the requested permissions already ticked! Nothing pairs until you click Start Pairing.</li>
+            <li><strong>Simpler approval window:</strong> The "Allow Access to ExtraDock" panel is smaller, shows the verification code in groups of four and uses Allow / Don't Allow! Only a matching code proves you are connecting to the right app.</li>
+            <li><strong>Disabled docks are listed too:</strong> Connected apps now see every dock you own, including disabled ones (marked as disabled), so DockFlow presets can include them without pretending they can be shown!</li>
+            <li><strong>Please test:</strong> In DockFlow use Connect… on ExtraDock - ExtraDock should come forward on App Connections with permissions pre-ticked and pair only after you click Start Pairing! Compare the full code in both apps before Allow, then relaunch both and confirm the connection still shows as Allowed.</li>
+        </ul>
 
         <h3>✨ What's New</h3>
         <ul>
@@ -47,7 +56,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.9-beta.1/ExtraDock.dmg" length="18955708" type="application/octet-stream" sparkle:edSignature="TUq3a4UJBQ1mRWobhxpEt096Ezon7YMrtsR48HG7SXJ1zS5zNXy+9sk2qjzJtAdZXkakAH0L1RHdvDZ9nCs+AQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.9-beta.1/ExtraDock.dmg" length="18983979" type="application/octet-stream" sparkle:edSignature="m8uuQBBnV9k0dOy0hW6xhMiNF8nikyts1cgxf47dr+qfe8pERyiXi57JgTwDGqRVZzn/kTbXT/+bF5xzftOjCw=="/>
         </item>
         <item>
             <title>5.0.8</title>
