@@ -5,8 +5,8 @@
         <item>
             <title>5.0.9-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 14 Sep 2026 17:45:15 +0300</pubDate>
-            <sparkle:version>64</sparkle:version>
+            <pubDate>Tue, 15 Sep 2026 13:32:49 +0300</pubDate>
+            <sparkle:version>65</sparkle:version>
             <sparkle:shortVersionString>5.0.9-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
@@ -14,6 +14,14 @@
             <description><![CDATA[
 
         <h2>ExtraDock 5.0.9 (Beta 1) - Folders Open Beside the Dock! 📂✨</h2>
+
+        <h3>🔁 Build 65 (Sep 15)</h3>
+        <ul>
+            <li><strong>DockFlow preset switches no longer get lost during a Dock restart:</strong> When DockFlow applies a preset, macOS restarts the native Dock and ExtraDock briefly repairs its panels - a Talk request arriving in that window used to be answered "unavailable" for every dock, so the preset silently did nothing! ExtraDock now retries the unavailable docks every 200 ms for up to about three seconds, and the newest request always wins. Pair it with DockFlow B1.82 build 4.</li>
+            <li><strong>Export Performance Diagnostics:</strong> Settings → Diagnostics has a new Export Performance Diagnostics… button! Use it while a slowdown or battery drain is happening: it records ExtraDock's own CPU, memory, wakeups and disk activity for about ten seconds, adds power source, Low Power Mode, thermal state and an anonymous summary of your dock setup, and attaches the last 15 minutes of performance-related ExtraDock logs. You choose where to save the file - nothing is uploaded.</li>
+            <li><strong>Log exports show their real time coverage:</strong> The five-hour log export now checks entry dates and reports the actual first and last timestamps it contains, so a report can no longer claim a window it does not cover!</li>
+            <li><strong>Please test:</strong> With DockFlow B1.82 build 4 connected through Talk, switch between presets that show and hide ExtraDock docks five or six times in a row - every switch should land, including right after the macOS Dock restarts! Then run Export Performance Diagnostics… during normal use, check the saved file lists ten samples plus recent logs, and try Cancel once to confirm nothing is saved.</li>
+        </ul>
 
         <h3>🔁 Build 64 (Sep 14)</h3>
         <ul>
@@ -56,7 +64,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.9-beta.1/ExtraDock.dmg" length="18983979" type="application/octet-stream" sparkle:edSignature="m8uuQBBnV9k0dOy0hW6xhMiNF8nikyts1cgxf47dr+qfe8pERyiXi57JgTwDGqRVZzn/kTbXT/+bF5xzftOjCw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.9-beta.1/ExtraDock.dmg" length="19058298" type="application/octet-stream" sparkle:edSignature="/9mxlxYqpFZpvPQoKQMgEOOasvf5tzzhvdiVfjdfyveUyhfpglvwVFYSc/t8If5I5fwuYxU3kZXkbIqGrfpECg=="/>
         </item>
         <item>
             <title>5.0.8</title>
