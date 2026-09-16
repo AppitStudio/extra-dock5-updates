@@ -79,6 +79,39 @@
 </head>
 
 <body>
+    <div data-sparkle-version="5.0.9">
+        <h2>ExtraDock 5.0.9 - Folders Open Beside the Dock! 📂✨</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Browse pinned folders beside the dock:</strong> Click a pinned folder and its contents open right next to the icon in Grid, List or a curved Fan layout! Double-click opens files or enters subfolders, Back / Command-Up stops at the pinned folder, and you can drag files in from Finder or out to it. Browser drags always copy, so nothing moves by accident - use Cut and Paste to move.</li>
+            <li><strong>Per-folder view options:</strong> Each pinned folder remembers its own click behavior (Browse or Open in Finder), layout, icon size (24–96 pt), grid columns (3–8), grid names, hidden files, sort by name / kind / date modified, reverse order and folders first! View Options live inside the browser and in the folder settings, and they import from ExtraDock 4.</li>
+            <li><strong>App Stack file browser:</strong> Single-click selects, double-click opens, Command-click and Shift-click build multi-selections, and arrow keys move the selection! Right-click for native actions: Open / Open With, Get Info, Quick Look, Share, Tags, Copy Path, Rename, Duplicate, Compress, Copy / Cut / Paste and Move to Trash. Drag groups of files within the stack or to and from Finder - existing files are never silently replaced.</li>
+            <li><strong>App Stack grid size:</strong> Choose 3×3 up to 8×8 per stack (default 4×4), independent of icon density! Large folders scroll instead of clipping.</li>
+            <li><strong>Monitor Dock preset:</strong> The Manager's Items plus menu has a new Monitor Dock command below Native Dock Copy! One click adds CPU, Memory, GPU, Battery, IP Address and Bluetooth Battery, keeps what is already there and skips duplicates.</li>
+            <li><strong>IP widget adapters, local and public together:</strong> Choose Public, Local or Both, pick one or more adapters by their macOS interface name, and see labeled addresses in horizontal and vertical docks! A disconnected adapter shows as disconnected instead of silently switching, and Copy only ever copies a valid address.</li>
+            <li><strong>App Connections for DockFlow:</strong> Settings → Integrations → App Connections lets DockFlow show, hide or toggle your docks through the Talk SDK with explicit, code-verified pairing and per-permission consent! DockFlow can open the request with the permissions already ticked, nothing pairs until you click Start Pairing, the approval panel shows the code in groups of four, and connected apps see every dock you own - including disabled ones. The existing App Group bridge keeps running; DockFlow chooses which path it uses.</li>
+            <li><strong>Export Performance Diagnostics:</strong> Settings → Diagnostics has a new Export Performance Diagnostics… button! Use it while a slowdown or battery drain is happening: it records ExtraDock's own CPU, memory, wakeups and disk activity for about ten seconds, adds power source, Low Power Mode, thermal state and an anonymous summary of your dock setup, and attaches the last 15 minutes of performance-related ExtraDock logs. You choose where to save the file - nothing is uploaded.</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Native Dock spacers in Live Dock:</strong> Regular and small spacers from your macOS Dock now appear as gaps in the Live Dock at the right positions and follow size changes, moves, additions and removals live! Native Dock Copy imports folder/file-section spacers as Spacer widgets without duplicating the apps-section gaps.</li>
+            <li><strong>Saved App Stack names everywhere:</strong> A custom stack name (for example “Design”) now shows in the Manager's items list and in the dock hover label! Clear it to restore the default title.</li>
+            <li><strong>Log exports show their real time coverage:</strong> The five-hour log export now checks entry dates and reports the actual first and last timestamps it contains, so a report can no longer claim a window it does not cover!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>DockFlow preset switches no longer get lost during a Dock restart:</strong> When DockFlow applies a preset, macOS restarts the native Dock and ExtraDock briefly repairs its panels - a request arriving in that window used to be answered "unavailable" for every dock, so the preset silently did nothing! ExtraDock now retries the unavailable docks every 200 ms for up to about three seconds, and the newest request always wins.</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+    </div>
+
     <div data-sparkle-version="5.0.8">
         <h2>ExtraDock 5.0.8 - Bigger Magnification, Live Icons! 🔍✨</h2>
 
