@@ -3,20 +3,22 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.10-beta.1</title>
+            <title>5.0.10-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 18 Sep 2026 23:33:51 +0300</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>5.0.10-beta.1</sparkle:shortVersionString>
+            <pubDate>Sat, 19 Sep 2026 12:35:06 +0300</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>5.0.10-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.10 (Beta 1) - Steadier Live Icons and Widget Images! 🛠️✨</h2>
+        <h2>ExtraDock 5.0.10 (Beta 2) - Docks That Come Back After Sleep! 😴✨</h2>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
+            <li><strong>Docks come back after sleep and wake:</strong> After the Mac woke from sleep or the lid was opened, a dock could stay missing even though ExtraDock was still running, because the wake path only re-checked docks when the display layout or the current Space had changed! ExtraDock now reconciles every dock explicitly on wake, immediately and again once the screens settle, and brings docks that were left ordered out back through their normal show path. Docks pinned to a specific Space return only once macOS confirms that Space is current again, and the recovery checks ExtraDock 4 has used for years are back in ExtraDock 5.</li>
+            <li><strong>Diagnostics exports now tell a crash from a lost dock:</strong> Settings → Diagnostics exports cover the last 24 hours and record the launch session, process ID, app version, whether the previous run ended cleanly, and the last sleep or wake event ExtraDock saw!</li>
             <li><strong>Live Clock and Calendar icons no longer crash at midnight or on wake:</strong> macOS delivers the day-change notification, and some sleep and wake notifications, on a background thread, and the live-icon scheduler expected the main thread - so ExtraDock quit the moment one of them arrived! Every notification now reaches the scheduler on the main queue, and the icons keep refreshing at midnight, after wake, and after a time-zone or clock change. Affects 5.0.8 and 5.0.9 whenever at least one live Clock or Calendar icon is shown.</li>
             <li><strong>Widget custom icons survive a relaunch:</strong> A custom image on an App Stack, Folder Stack, Link or Finder widget could vanish after a relaunch because the launch clean-up only looked at regular dock items and deleted images those widgets were still using! The clean-up, the Icon Library counts and the delete guards now see widget-held icons too, and deleting an icon from the Icon Library also clears it from those widgets so it cannot quietly come back. An image that was already lost needs to be picked again once.</li>
         </ul>
@@ -27,7 +29,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.10-beta.1/ExtraDock.dmg" length="19073353" type="application/octet-stream" sparkle:edSignature="pnwgRTz24uwR4nSjYd9dU9y5Y/ukjB/k8YfZfoeXBDpxuE5IsyUXAgIxfRvWbnzmHlbP3a3NTc62fcb1MAwhCA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.10-beta.2/ExtraDock.dmg" length="19107085" type="application/octet-stream" sparkle:edSignature="1caUwioddi3T3srR4leo37bsBWj8w8WAkO7nggCj15ESSeZEmv1cfnRPzDve7V61Jiebn0dg+J12cWIudJUTCg=="/>
         </item>
         <item>
             <title>5.0.9</title>
