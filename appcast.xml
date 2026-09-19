@@ -3,68 +3,27 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.10-beta.2</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sat, 19 Sep 2026 12:35:06 +0300</pubDate>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>5.0.10-beta.2</sparkle:shortVersionString>
+            <title>5.0.10</title>
+            <pubDate>Sat, 19 Sep 2026 23:25:21 +0300</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>5.0.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.10 (Beta 2) - Docks That Come Back After Sleep! 😴✨</h2>
+        <h2>ExtraDock 5.0.10 - Your Docks Come Back After Sleep! 😴✨</h2>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Docks come back after sleep and wake:</strong> After the Mac woke from sleep or the lid was opened, a dock could stay missing even though ExtraDock was still running, because the wake path only re-checked docks when the display layout or the current Space had changed! ExtraDock now reconciles every dock explicitly on wake, immediately and again once the screens settle, and brings docks that were left ordered out back through their normal show path. Docks pinned to a specific Space return only once macOS confirms that Space is current again, and the recovery checks ExtraDock 4 has used for years are back in ExtraDock 5.</li>
-            <li><strong>Diagnostics exports now tell a crash from a lost dock:</strong> Settings → Diagnostics exports cover the last 24 hours and record the launch session, process ID, app version, whether the previous run ended cleanly, and the last sleep or wake event ExtraDock saw!</li>
-            <li><strong>Live Clock and Calendar icons no longer crash at midnight or on wake:</strong> macOS delivers the day-change notification, and some sleep and wake notifications, on a background thread, and the live-icon scheduler expected the main thread - so ExtraDock quit the moment one of them arrived! Every notification now reaches the scheduler on the main queue, and the icons keep refreshing at midnight, after wake, and after a time-zone or clock change. Affects 5.0.8 and 5.0.9 whenever at least one live Clock or Calendar icon is shown.</li>
-            <li><strong>Widget custom icons survive a relaunch:</strong> A custom image on an App Stack, Folder Stack, Link or Finder widget could vanish after a relaunch because the launch clean-up only looked at regular dock items and deleted images those widgets were still using! The clean-up, the Icon Library counts and the delete guards now see widget-held icons too, and deleting an icon from the Icon Library also clears it from those widgets so it cannot quietly come back. An image that was already lost needs to be picked again once.</li>
-        </ul>
-
-        <h3>What's Next?</h3>
-        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.10-beta.2/ExtraDock.dmg" length="19107085" type="application/octet-stream" sparkle:edSignature="1caUwioddi3T3srR4leo37bsBWj8w8WAkO7nggCj15ESSeZEmv1cfnRPzDve7V61Jiebn0dg+J12cWIudJUTCg=="/>
-        </item>
-        <item>
-            <title>5.0.9</title>
-            <pubDate>Wed, 16 Sep 2026 20:20:34 +0300</pubDate>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>5.0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.9 - Folders Open Beside the Dock! 📂✨</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>Browse pinned folders beside the dock:</strong> Click a pinned folder and its contents open right next to the icon in Grid, List or a curved Fan layout! Double-click opens files or enters subfolders, Back / Command-Up stops at the pinned folder, and you can drag files in from Finder or out to it. Browser drags always copy, so nothing moves by accident - use Cut and Paste to move.</li>
-            <li><strong>Per-folder view options:</strong> Each pinned folder remembers its own click behavior (Browse or Open in Finder), layout, icon size (24–96 pt), grid columns (3–8), grid names, hidden files, sort by name / kind / date modified, reverse order and folders first! View Options live inside the browser and in the folder settings, and they import from ExtraDock 4.</li>
-            <li><strong>App Stack file browser:</strong> Single-click selects, double-click opens, Command-click and Shift-click build multi-selections, and arrow keys move the selection! Right-click for native actions: Open / Open With, Get Info, Quick Look, Share, Tags, Copy Path, Rename, Duplicate, Compress, Copy / Cut / Paste and Move to Trash. Drag groups of files within the stack or to and from Finder - existing files are never silently replaced.</li>
-            <li><strong>App Stack grid size:</strong> Choose 3×3 up to 8×8 per stack (default 4×4), independent of icon density! Large folders scroll instead of clipping.</li>
-            <li><strong>Monitor Dock preset:</strong> The Manager's Items plus menu has a new Monitor Dock command below Native Dock Copy! One click adds CPU, Memory, GPU, Battery, IP Address and Bluetooth Battery, keeps what is already there and skips duplicates.</li>
-            <li><strong>IP widget adapters, local and public together:</strong> Choose Public, Local or Both, pick one or more adapters by their macOS interface name, and see labeled addresses in horizontal and vertical docks! A disconnected adapter shows as disconnected instead of silently switching, and Copy only ever copies a valid address.</li>
-            <li><strong>App Connections for DockFlow:</strong> Settings → Integrations → App Connections lets DockFlow show, hide or toggle your docks through the Talk SDK with explicit, code-verified pairing and per-permission consent! DockFlow can open the request with the permissions already ticked, nothing pairs until you click Start Pairing, the approval panel shows the code in groups of four, and connected apps see every dock you own - including disabled ones. The existing App Group bridge keeps running; DockFlow chooses which path it uses.</li>
-            <li><strong>Export Performance Diagnostics:</strong> Settings → Diagnostics has a new Export Performance Diagnostics… button! Use it while a slowdown or battery drain is happening: it records ExtraDock's own CPU, memory, wakeups and disk activity for about ten seconds, adds power source, Low Power Mode, thermal state and an anonymous summary of your dock setup, and attaches the last 15 minutes of performance-related ExtraDock logs. You choose where to save the file - nothing is uploaded.</li>
+            <li><strong>Docks come back after sleep and wake:</strong> After your Mac woke from sleep or you opened the lid, a dock could stay missing even though ExtraDock was still running! ExtraDock now checks every dock the moment the Mac wakes and again once your displays settle, so docks return on their own, in the same place - including docks pinned to a specific Space.</li>
+            <li><strong>Live Clock and Calendar icons no longer crash ExtraDock:</strong> With a live Clock or Calendar icon in a dock, ExtraDock could quit at midnight or when the Mac woke from sleep. Both cases are fixed, and the icons keep showing the right date and time after midnight, after wake and after a time-zone or clock change!</li>
+            <li><strong>Widget custom icons survive a relaunch:</strong> A custom image set on an App Stack, Folder Stack, Link or Finder widget could disappear after relaunching ExtraDock. Those images now stay put, and deleting one from the Icon Library clears it from the widget too! If an image already went missing, pick it once more and it stays.</li>
         </ul>
 
         <h3>⚡ Improvements</h3>
         <ul>
-            <li><strong>Native Dock spacers in Live Dock:</strong> Regular and small spacers from your macOS Dock now appear as gaps in the Live Dock at the right positions and follow size changes, moves, additions and removals live! Native Dock Copy imports folder/file-section spacers as Spacer widgets without duplicating the apps-section gaps.</li>
-            <li><strong>Saved App Stack names everywhere:</strong> A custom stack name (for example “Design”) now shows in the Manager's items list and in the dock hover label! Clear it to restore the default title.</li>
-            <li><strong>Log exports show their real time coverage:</strong> The five-hour log export now checks entry dates and reports the actual first and last timestamps it contains, so a report can no longer claim a window it does not cover!</li>
-        </ul>
-
-        <h3>🐞 Bug Fixes</h3>
-        <ul>
-            <li><strong>DockFlow preset switches no longer get lost during a Dock restart:</strong> When DockFlow applies a preset, macOS restarts the native Dock and ExtraDock briefly repairs its panels - a request arriving in that window used to be answered "unavailable" for every dock, so the preset silently did nothing! ExtraDock now retries the unavailable docks every 200 ms for up to about three seconds, and the newest request always wins.</li>
+            <li><strong>Diagnostics that tell a crash from a lost dock:</strong> Settings → Diagnostics exports now cover the last 24 hours and note whether ExtraDock was still running when a dock went missing, so support can see what happened at a glance!</li>
         </ul>
 
         <h3>What's Next?</h3>
@@ -73,7 +32,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.9/ExtraDock.dmg" length="19057398" type="application/octet-stream" sparkle:edSignature="bn5JIfLgv27POuy+MUJsWzsKi/aEFpSFJBXMvDVZilYos7UyjToG7hKNf09O/yYEuouI2B/OlKvBKqeNlZomAw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.10/ExtraDock.dmg" length="19105106" type="application/octet-stream" sparkle:edSignature="2rfubNvuGmJnJYzSyKrgqDx+ng2lFn7zbeFa4OVGg8siqq8CBDDWkmZbFwmaDTAH+QZqrOiGp4GZkWBL0pcaBA=="/>
         </item>
     </channel>
 </rss>
