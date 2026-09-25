@@ -3,6 +3,45 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.0.11-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 25 Sep 2026 23:25:12 +0300</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>5.0.11-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 5.0.11 (Beta 1) - Every Click Counts! 🖱️✨</h2>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Clicking the active app again works after you minimize or close its window:</strong> With "When clicking the active app" set to None (the default), ExtraDock used to ignore a click on the app that was already active - so after minimizing, closing its last window, or sending it to the Stage Manager strip, clicking its icon did nothing until you switched apps! Now the click restores, raises or reopens the app just like the native Dock, and your None / Minimize / Hide / Cycle setting still applies whenever a window is actually on screen.</li>
+            <li><strong>No more Settings or blank windows popping up on click:</strong> Apps like Termius and Claude keep hidden windows around, and ExtraDock could bring one of those forward instead of the main window! ExtraDock now skips windows an app hid itself, and when nothing else is left it reopens the app like the native Dock - so you get the real main window. Minimized windows and windows on other Spaces still come forward as before.</li>
+            <li><strong>Add Dock no longer fails silently:</strong> The Manager's "+" button, Duplicate and the menu bar's New Dock could do nothing while the license needed a refresh! ExtraDock now waits for the check, finishes your click when it succeeds, and explains what to do (with a button to Settings → License) when it can't.</li>
+        </ul>
+
+        <h3>🧪 What We Need You To Test</h3>
+        <ul>
+            <li>Minimize an app's window (or close its last window with the red X), then click its ExtraDock icon again - it should restore or reopen.</li>
+            <li>With a window visible and "When clicking the active app" set to None, clicking does nothing; Minimize, Hide and Cycle still act.</li>
+            <li>Termius: open and close Settings, then click Termius - you get the main window, never Settings.</li>
+            <li>Claude: close its window with the red X, then click Claude - you get the main window, not a blank one.</li>
+            <li>Stage Manager: clicking an app whose window is in the side strip brings its stage forward.</li>
+            <li>Apps with windows on another Space still come forward; Cmd-H hidden apps unhide.</li>
+            <li>Manager "+", Duplicate and menu bar New Dock create the dock or show a clear message.</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.11-beta.1/ExtraDock.dmg" length="19150201" type="application/octet-stream" sparkle:edSignature="C1CnQlIsVEmapmF8dqjojoXLGY4/t6oxihP/blElm0/fjinhxcCrozwl5OVbtaUnb1ln5BwfWkmQp18iHX0dBQ=="/>
+        </item>
+        <item>
             <title>5.0.10</title>
             <pubDate>Sat, 19 Sep 2026 23:25:21 +0300</pubDate>
             <sparkle:version>69</sparkle:version>
