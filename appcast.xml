@@ -3,74 +3,30 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.0.11-beta.2</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sat, 26 Sep 2026 16:26:14 +0300</pubDate>
-            <sparkle:version>71</sparkle:version>
-            <sparkle:shortVersionString>5.0.11-beta.2</sparkle:shortVersionString>
+            <title>5.0.11</title>
+            <pubDate>Sun, 27 Sep 2026 13:20:36 +0300</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>5.0.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.0.11 (Beta 2) - Notches Anywhere! 📍✨</h2>
+        <h2>ExtraDock 5.0.11 - Notches Anywhere, Clicks That Land! 📍✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
             <li><strong>Notch docks at the start, middle or end of any edge:</strong> Notch-style docks are no longer stuck in the centre! Pick leading, center or trailing on every edge - all twelve positions - so one edge can hold three notch docks, like top, middle and bottom on the right edge!</li>
             <li><strong>Smooth, end-anchored unfolding:</strong> The pill rests at the end you chose and unfolds away from it, with the hover ripple starting right there. Only a top-centre notch merges with the camera notch; top-left and top-right hang just below the menu bar, clear of the screen corners!</li>
             <li><strong>Animated moves:</strong> Choosing a new spot folds, fades, moves and unfolds the dock instead of jumping - and it moves instantly with Reduce Motion on!</li>
-            <li><strong>Smarter pickers:</strong> The position picker shows all twelve spots and marks ones another notch dock already uses, and the quick-actions and menu bar menus offer each edge's three ends!</li>
+            <li><strong>Smarter pickers:</strong> The position picker shows all twelve spots and marks the ones another notch dock already uses, and the quick-actions and menu bar menus offer each edge's three ends. Existing centred notch docks stay exactly as they were!</li>
         </ul>
 
-        <h3>🐞 Bug Fixes (from Beta 1)</h3>
+        <h3>🐞 Bug Fixes</h3>
         <ul>
             <li><strong>Clicking the active app again works after you minimize or close its window:</strong> With "When clicking the active app" set to None (the default), ExtraDock used to ignore a click on the app that was already active - so after minimizing, closing its last window, or sending it to the Stage Manager strip, clicking its icon did nothing until you switched apps! Now the click restores, raises or reopens the app just like the native Dock, and your None / Minimize / Hide / Cycle setting still applies whenever a window is actually on screen.</li>
             <li><strong>No more Settings or blank windows popping up on click:</strong> Apps like Termius and Claude keep hidden windows around, and ExtraDock could bring one of those forward instead of the main window! ExtraDock now skips windows an app hid itself, and when nothing else is left it reopens the app like the native Dock - so you get the real main window. Minimized windows and windows on other Spaces still come forward as before.</li>
             <li><strong>Add Dock no longer fails silently:</strong> The Manager's "+" button, Duplicate and the menu bar's New Dock could do nothing while the license needed a refresh! ExtraDock now waits for the check, finishes your click when it succeeds, and explains what to do (with a button to Settings → License) when it can't.</li>
-        </ul>
-
-        <h3>🧪 What We Need You To Test</h3>
-        <ul>
-            <li>Try a notch dock in all twelve positions - it lands at the right end of the edge and never overlaps a corner.</li>
-            <li>Put three notch docks on one edge (top, center, bottom) - no overlap, and positions survive a relaunch.</li>
-            <li>Only the top-centre notch merges with the camera notch; top-left and top-right sit below the menu bar.</li>
-            <li>Change positions in Show and Pill modes (and with Reduce Motion on) - moves are smooth, or instant with Reduce Motion.</li>
-            <li>Multiple displays: notch docks on a second display, plus unplugging/replugging and Space switches mid-move.</li>
-            <li>Existing centred notch docks look and behave exactly as before.</li>
-            <li>Re-check the Beta 1 fixes: clicking the active app after minimize/close, Termius Settings, Claude's blank window, and Add Dock.</li>
-        </ul>
-
-        <h3>What's Next?</h3>
-        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
-                        ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.11-beta.2/ExtraDock.dmg" length="19197550" type="application/octet-stream" sparkle:edSignature="kSa2+ptonI+e+ivpnV1fnSFHRQfG9d32mWGBXIKVMbE0LzmYVpdoCOmW3dkEMuPAn5z6aUjfJPcBw9Z2EMqGCQ=="/>
-        </item>
-        <item>
-            <title>5.0.10</title>
-            <pubDate>Sat, 19 Sep 2026 23:25:21 +0300</pubDate>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>5.0.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.10 - Your Docks Come Back After Sleep! 😴✨</h2>
-
-        <h3>🐞 Bug Fixes</h3>
-        <ul>
-            <li><strong>Docks come back after sleep and wake:</strong> After your Mac woke from sleep or you opened the lid, a dock could stay missing even though ExtraDock was still running! ExtraDock now checks every dock the moment the Mac wakes and again once your displays settle, so docks return on their own, in the same place - including docks pinned to a specific Space.</li>
-            <li><strong>Live Clock and Calendar icons no longer crash ExtraDock:</strong> With a live Clock or Calendar icon in a dock, ExtraDock could quit at midnight or when the Mac woke from sleep. Both cases are fixed, and the icons keep showing the right date and time after midnight, after wake and after a time-zone or clock change!</li>
-            <li><strong>Widget custom icons survive a relaunch:</strong> A custom image set on an App Stack, Folder Stack, Link or Finder widget could disappear after relaunching ExtraDock. Those images now stay put, and deleting one from the Icon Library clears it from the widget too! If an image already went missing, pick it once more and it stays.</li>
-        </ul>
-
-        <h3>⚡ Improvements</h3>
-        <ul>
-            <li><strong>Diagnostics that tell a crash from a lost dock:</strong> Settings → Diagnostics exports now cover the last 24 hours and note whether ExtraDock was still running when a dock went missing, so support can see what happened at a glance!</li>
         </ul>
 
         <h3>What's Next?</h3>
@@ -79,7 +35,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.10/ExtraDock.dmg" length="19105106" type="application/octet-stream" sparkle:edSignature="2rfubNvuGmJnJYzSyKrgqDx+ng2lFn7zbeFa4OVGg8siqq8CBDDWkmZbFwmaDTAH+QZqrOiGp4GZkWBL0pcaBA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.11/ExtraDock.dmg" length="19196710" type="application/octet-stream" sparkle:edSignature="TGHugTN6F82etoy8WRSiuxTEX6+4KpSC+ZY+8CgaTr8Rq9SgNzZZ4xmzK99Gbq0f0pNWIdMALPjV39KAGHYcAQ=="/>
         </item>
     </channel>
 </rss>
