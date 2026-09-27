@@ -3,6 +3,37 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.1.0-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sun, 27 Sep 2026 13:45:30 +0300</pubDate>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>5.1.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 5.1.0 Beta 1 - Out of Your Way, Fresh Widgets! 🫥✨</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Hide on Window Hover:</strong> A new per-dock toggle in Behavior settings (off by default)! The dock fades out as soon as another app's window overlaps it, lets your clicks pass through to that window, and fades back in once the area is clear. The show/toggle hotkey still brings it back for at least 2 seconds, and Reduce Motion makes the fades instant!</li>
+            <li><strong>Refreshed widget library:</strong> Search widgets, browse by category, and add them with Configure and Add - with all-new artwork for launchers, folders, shelves, Space Awareness, utility tiles and more!</li>
+            <li><strong>Redrawn widgets:</strong> Clock, CPU and Media Player now draw with the new shared widget renderer!</li>
+        </ul>
+
+        <h3>🔧 Changes</h3>
+        <ul>
+            <li><strong>Reserve space works hand in hand:</strong> Turning on Hide on Window Hover turns off that dock's "Reserve space for this dock" (and vice versa), so windows never bounce!</li>
+            <li><strong>Virtual Trash retired from the library:</strong> It can no longer be added, but docks that already have one keep it and it still works!</li>
+        </ul>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing ExtraDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.1.0-beta.1/ExtraDock.dmg" length="42466961" type="application/octet-stream" sparkle:edSignature="b+4SNF7hfn7/4yUl1FUbzSgm9VjGudqh5JuvL1SNLAq1B+RTRxXHce9dXySTNiYYKXwH+0JsJGNbFcbXZGneBg=="/>
+        </item>
+        <item>
             <title>5.0.11</title>
             <pubDate>Sun, 27 Sep 2026 13:20:36 +0300</pubDate>
             <sparkle:version>72</sparkle:version>
