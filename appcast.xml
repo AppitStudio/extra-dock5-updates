@@ -3,20 +3,22 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.1.0-beta.2</title>
+            <title>5.1.0-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 27 Sep 2026 22:31:59 +0300</pubDate>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>5.1.0-beta.2</sparkle:shortVersionString>
+            <pubDate>Wed, 30 Sep 2026 12:40:00 +0300</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>5.1.0-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.1.0 Beta 2 - Talk to Your Dock, Glass That Stays Clear! 🤖✨</h2>
+        <h2>ExtraDock 5.1.0 Beta 3 - Your Appit Studio Apps, Connected! 🔗✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
+            <li><strong>Connect your Appit Studio apps:</strong> ExtraDock, ExtraBar and DockFlow now find each other automatically in a new Talk Integrations library at the top of Settings → Integrations - no more pairing codes! Click an app to see what it can do, approve the connection once, and it reconnects on its own after restarts. You can still review permissions or remove access at any time!</li>
+            <li><strong>Pinned position controls are back:</strong> The Position tab has an Advanced group again for pinned docks - nudge the dock along its edge with an offset and set the padding from each screen edge!</li>
             <li><strong>Configure ExtraDock with an AI assistant:</strong> A new Settings → Integrations → AI Assistants (MCP) section lets Claude Code, Codex and other MCP clients inspect and arrange your docks, items and widgets! Install the bundled ExtraDock Assistant skill, copy the client configuration and check the connection - AI access stays off until you turn it on!</li>
             <li><strong>You stay in control:</strong> Deleting docks or items asks for your approval, and Allow for This Session approves the rest of that chat. YOLO mode skips prompts entirely (off by default, and assistants can't switch it on), and Revert Last AI Change undoes the latest assistant edit!</li>
             <li><strong>Hide on Window Hover:</strong> A new per-dock toggle in Behavior settings (off by default)! The dock fades out as soon as another app's window overlaps it, lets your clicks pass through to that window, and fades back in once the area is clear. The show/toggle hotkey still brings it back for at least 2 seconds, and Reduce Motion makes the fades instant!</li>
@@ -26,6 +28,7 @@
 
         <h3>🔧 Changes</h3>
         <ul>
+            <li><strong>Clearer glass option:</strong> The Liquid Glass toggle that darkens the dock background is now called "Dark glass", so it says what it does. Your existing setting is kept!</li>
             <li><strong>Reserve space works hand in hand:</strong> Turning on Hide on Window Hover turns off that dock's "Reserve space for this dock" (and vice versa), so windows never bounce!</li>
             <li><strong>Virtual Trash retired from the library:</strong> It can no longer be added, but docks that already have one keep it and it still works!</li>
         </ul>
@@ -39,7 +42,7 @@
         <p style="margin-top: 20px;"><em>Thank you for testing ExtraDock betas! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.1.0-beta.2/ExtraDock.dmg" length="46381498" type="application/octet-stream" sparkle:edSignature="umdOk2OihV19DWo9FycVaHr6gjK3s8+hZtgwtRW49QgPI3eUr1h2zlYSfQUFfC7mpS1BIyZhbRA4nseS72x+Ag=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.1.0-beta.3/ExtraDock.dmg" length="46440616" type="application/octet-stream" sparkle:edSignature="hghEIkN2yHX/hYYbVj4qb5OkbwQSnAp0n62muQoKCjfoE02CrvenLo9P7TKb5RNOxxt5FOltxs+dQWHUvsb/BQ=="/>
         </item>
         <item>
             <title>5.0.11</title>
