@@ -1,10 +1,12 @@
-VERSION: 5.0.11
+VERSION: 5.1.0
 DETAILS:
 
-new: Notch docks can sit at the leading, center or trailing end of any edge (twelve positions); one edge can hold three notch docks
-new: Only a top-centre notch merges with the camera notch; top-left and top-right notches hang below the menu bar and keep clear of screen corners
-new: Changing a notch dock's position animates (fold, fade, move, unfold); instant with Reduce Motion
-improved: The position picker shows all twelve spots and marks ones another notch dock uses; quick-actions and menu bar menus offer each edge's three ends
-bug fix: Clicking the already-active app after minimizing or closing its window now restores, raises or reopens it like the native Dock
-bug fix: Hidden windows (e.g. Termius Settings, Claude's blank window) are never raised on click; when every window is hidden the click reopens the app
-bug fix: Add Dock, Duplicate and New Dock no longer fail silently while a license check is pending; a blocked dock creation explains why and links to Settings → License
+new: AI assistant control (MCP) in Settings → Integrations → AI Assistants (MCP), off by default, with a bundled ExtraDock Assistant skill for Claude Code and Codex
+new: Approval prompts for destructive AI changes, Allow for This Session, opt-in YOLO mode, and Revert Last AI Change
+new: Talk Integrations library — ExtraDock, ExtraBar and DockFlow discover each other without pairing codes, reconnect after restarts, with Permissions… and Remove…
+new: Hide on Window Hover — per-dock Behavior toggle that fades the dock out while another app's window overlaps it, with click-through
+new: Refreshed widget library with search, categories, Configure and Add…, new artwork and redrawn Clock, CPU and Media Player
+new: Pinned docks regain Position → Advanced (Offset along edge, per-edge padding)
+improved: Liquid Glass bar uses the system Dock glass — unaffected by app focus and identical whether switched live or at launch
+improved: The darkening Liquid Glass toggle is renamed Dark glass (setting kept)
+improved: Virtual Trash can no longer be added from the library; existing ones keep working

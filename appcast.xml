@@ -3,72 +3,32 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.1.0-beta.3</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Wed, 30 Sep 2026 12:40:00 +0300</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>5.1.0-beta.3</sparkle:shortVersionString>
+            <title>5.1.0</title>
+            <pubDate>Fri, 02 Oct 2026 06:12:24 +0300</pubDate>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>5.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.1.0 Beta 3 - Your Appit Studio Apps, Connected! 🔗✨</h2>
+        <h2>ExtraDock 5.1.0 - AI Help, Connected Apps &amp; Docks That Get Out of the Way! 🤖🔗✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
-            <li><strong>Connect your Appit Studio apps:</strong> ExtraDock, ExtraBar and DockFlow now find each other automatically in a new Talk Integrations library at the top of Settings → Integrations - no more pairing codes! Click an app to see what it can do, approve the connection once, and it reconnects on its own after restarts. You can still review permissions or remove access at any time!</li>
-            <li><strong>Pinned position controls are back:</strong> The Position tab has an Advanced group again for pinned docks - nudge the dock along its edge with an offset and set the padding from each screen edge!</li>
-            <li><strong>Configure ExtraDock with an AI assistant:</strong> A new Settings → Integrations → AI Assistants (MCP) section lets Claude Code, Codex and other MCP clients inspect and arrange your docks, items and widgets! Install the bundled ExtraDock Assistant skill, copy the client configuration and check the connection - AI access stays off until you turn it on!</li>
-            <li><strong>You stay in control:</strong> Deleting docks or items asks for your approval, and Allow for This Session approves the rest of that chat. YOLO mode skips prompts entirely (off by default, and assistants can't switch it on), and Revert Last AI Change undoes the latest assistant edit!</li>
-            <li><strong>Hide on Window Hover:</strong> A new per-dock toggle in Behavior settings (off by default)! The dock fades out as soon as another app's window overlaps it, lets your clicks pass through to that window, and fades back in once the area is clear. The show/toggle hotkey still brings it back for at least 2 seconds, and Reduce Motion makes the fades instant!</li>
-            <li><strong>Refreshed widget library:</strong> Search widgets, browse by category, and add them with Configure and Add - with all-new artwork for launchers, folders, shelves, Space Awareness, utility tiles and more!</li>
-            <li><strong>Redrawn widgets:</strong> Clock, CPU and Media Player now draw with the new shared widget renderer!</li>
+            <li><strong>Configure ExtraDock with an AI assistant:</strong> The new Settings → Integrations → AI Assistants (MCP) section lets assistants like Claude Code or Codex inspect and arrange your docks, items and widgets. It stays off until you turn on Allow AI assistants to configure ExtraDock, and Install or Update Skill adds the bundled ExtraDock Assistant skill in one click!</li>
+            <li><strong>You stay in control:</strong> Deleting docks or items asks for your approval first. Allow for This Session approves the rest of that assistant's changes until it disconnects, YOLO mode (off by default) skips the prompts, and Revert Last AI Change undoes the most recent AI edit without touching changes you made afterwards!</li>
+            <li><strong>Connect your Appit Studio apps:</strong> ExtraDock, ExtraBar and DockFlow now find each other automatically in a new Talk Integrations library at the top of Settings → Integrations, with no pairing codes. Approve a connection once and it reconnects on its own after restarts, and Permissions… and Remove… let you review or take back access at any time!</li>
+            <li><strong>Hide on Window Hover:</strong> A new toggle in each dock's Behavior settings fades the dock out as soon as another app's window overlaps it, and brings it back once the area stays clear. Clicks pass through to the window underneath, and the show/toggle hotkey still brings the dock up whenever you need it!</li>
+            <li><strong>Refreshed widget library:</strong> Search widgets, browse by category and use Configure and Add…, with new artwork for launchers, folders, shelves, Space Awareness, Stripe and more. Clock, CPU and Media Player are redrawn too!</li>
+            <li><strong>Pinned position controls are back:</strong> The Position tab has an Advanced group again for pinned docks, with Offset along edge plus Top, Right, Bottom and Left padding!</li>
         </ul>
 
-        <h3>🔧 Changes</h3>
+        <h3>🛠️ Improvements</h3>
         <ul>
-            <li><strong>Clearer glass option:</strong> The Liquid Glass toggle that darkens the dock background is now called "Dark glass", so it says what it does. Your existing setting is kept!</li>
-            <li><strong>Reserve space works hand in hand:</strong> Turning on Hide on Window Hover turns off that dock's "Reserve space for this dock" (and vice versa), so windows never bounce!</li>
+            <li><strong>Liquid Glass that always looks right:</strong> The bar now uses the same glass as the macOS Dock. It no longer turns into a frosted blur when another app has focus, and switching to Liquid Glass while ExtraDock is running looks exactly like it does after a relaunch!</li>
+            <li><strong>Clearer glass option:</strong> The Liquid Glass toggle that darkens the dock background is now called Dark glass. Your existing setting is kept!</li>
             <li><strong>Virtual Trash retired from the library:</strong> It can no longer be added, but docks that already have one keep it and it still works!</li>
-        </ul>
-
-        <h3>🐞 Bug Fixes</h3>
-        <ul>
-            <li><strong>Liquid Glass no matter which app is in front:</strong> Clear Glass no longer turns into a frosted blur when another app has focus!</li>
-            <li><strong>No more dark rim after switching to Liquid Glass:</strong> The dock now uses the same glass as the macOS Dock, so switching to Liquid Glass while ExtraDock is running looks exactly like it does after a relaunch!</li>
-        </ul>
-
-        <p style="margin-top: 20px;"><em>Thank you for testing ExtraDock betas! Your feedback drives every improvement we make.</em></p>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.1.0-beta.3/ExtraDock.dmg" length="46440616" type="application/octet-stream" sparkle:edSignature="hghEIkN2yHX/hYYbVj4qb5OkbwQSnAp0n62muQoKCjfoE02CrvenLo9P7TKb5RNOxxt5FOltxs+dQWHUvsb/BQ=="/>
-        </item>
-        <item>
-            <title>5.0.11</title>
-            <pubDate>Sun, 27 Sep 2026 13:20:36 +0300</pubDate>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>5.0.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.0.11 - Notches Anywhere, Clicks That Land! 📍✨</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>Notch docks at the start, middle or end of any edge:</strong> Notch-style docks are no longer stuck in the centre! Pick leading, center or trailing on every edge - all twelve positions - so one edge can hold three notch docks, like top, middle and bottom on the right edge!</li>
-            <li><strong>Smooth, end-anchored unfolding:</strong> The pill rests at the end you chose and unfolds away from it, with the hover ripple starting right there. Only a top-centre notch merges with the camera notch; top-left and top-right hang just below the menu bar, clear of the screen corners!</li>
-            <li><strong>Animated moves:</strong> Choosing a new spot folds, fades, moves and unfolds the dock instead of jumping - and it moves instantly with Reduce Motion on!</li>
-            <li><strong>Smarter pickers:</strong> The position picker shows all twelve spots and marks the ones another notch dock already uses, and the quick-actions and menu bar menus offer each edge's three ends. Existing centred notch docks stay exactly as they were!</li>
-        </ul>
-
-        <h3>🐞 Bug Fixes</h3>
-        <ul>
-            <li><strong>Clicking the active app again works after you minimize or close its window:</strong> With "When clicking the active app" set to None (the default), ExtraDock used to ignore a click on the app that was already active - so after minimizing, closing its last window, or sending it to the Stage Manager strip, clicking its icon did nothing until you switched apps! Now the click restores, raises or reopens the app just like the native Dock, and your None / Minimize / Hide / Cycle setting still applies whenever a window is actually on screen.</li>
-            <li><strong>No more Settings or blank windows popping up on click:</strong> Apps like Termius and Claude keep hidden windows around, and ExtraDock could bring one of those forward instead of the main window! ExtraDock now skips windows an app hid itself, and when nothing else is left it reopens the app like the native Dock - so you get the real main window. Minimized windows and windows on other Spaces still come forward as before.</li>
-            <li><strong>Add Dock no longer fails silently:</strong> The Manager's "+" button, Duplicate and the menu bar's New Dock could do nothing while the license needed a refresh! ExtraDock now waits for the check, finishes your click when it succeeds, and explains what to do (with a button to Settings → License) when it can't.</li>
         </ul>
 
         <h3>What's Next?</h3>
@@ -77,7 +37,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.0.11/ExtraDock.dmg" length="19196710" type="application/octet-stream" sparkle:edSignature="TGHugTN6F82etoy8WRSiuxTEX6+4KpSC+ZY+8CgaTr8Rq9SgNzZZ4xmzK99Gbq0f0pNWIdMALPjV39KAGHYcAQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.1.0/ExtraDock.dmg" length="46442124" type="application/octet-stream" sparkle:edSignature="wjGz99MSao05jW4wSKS6JvjkEiWtLqJoLDTC/DdbsNbTQBFhTVGtMcMVY3IJc4Bi10+wj4aszcljgJ4UPU6pCQ=="/>
         </item>
     </channel>
 </rss>
