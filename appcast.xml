@@ -3,17 +3,17 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.0-beta.1</title>
+            <title>5.2.0-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 08 Oct 2026 23:22:48 +0300</pubDate>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>5.2.0-beta.1</sparkle:shortVersionString>
+            <pubDate>Sun, 11 Oct 2026 19:08:09 +0300</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>5.2.0-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.2.0 Beta 1 - Edit Mode, Browser Profiles &amp; a Smoother Dock! ✏️🌐✨</h2>
+        <h2>ExtraDock 5.2.0 Beta 2 - Edit Mode, Browser Profiles &amp; a Smoother Dock! ✏️🌐✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
@@ -41,6 +41,7 @@
             <li><strong>Stacks and launchers stay clickable:</strong> App Stack, Folder Stack and launcher widgets now respond right after you edit them and right after launch!</li>
             <li><strong>Windows stay put when menus open:</strong> Reserve Dock Space no longer moves or resizes a window while that app's menu is open (like FaceTime's ⋯ menu over the dock)!</li>
             <li><strong>File drops on tiles:</strong> Dropping a file on File Shelf, Trash, Dropbox or AirDrop now hands it to that tile instead of pinning it to the dock!</li>
+            <li><strong>Manager stays closed:</strong> The ExtraDock Manager window no longer pops up by itself when DockFlow or ExtraBar reconnect over Talk!</li>
         </ul>
 
         <h3>What's Next?</h3>
@@ -49,7 +50,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.0-beta.1/ExtraDock.dmg" length="47071065" type="application/octet-stream" sparkle:edSignature="lN/oQr4B1JsSXHUe7FaZ4B7jgcUBX5n+kbGrQ6UdW5hJz4dv8kc1ii4YjXPW8LYdnmB2mFi7KG10NSchP4vECA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.0-beta.2/ExtraDock.dmg" length="47072590" type="application/octet-stream" sparkle:edSignature="BJqzGnmK/2+FBsJ72jis+B1fbmPr4X+5okWV3G62PsidhFJ0lETyfZDbHYBSMhH2jCw41fJZOmfzokts5VTVBw=="/>
         </item>
         <item>
             <title>5.1.0</title>
