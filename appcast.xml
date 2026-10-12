@@ -3,17 +3,23 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.0-beta.2</title>
+            <title>5.2.0-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 11 Oct 2026 19:08:09 +0300</pubDate>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>5.2.0-beta.2</sparkle:shortVersionString>
+            <pubDate>Mon, 12 Oct 2026 14:28:29 +0300</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>5.2.0-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.2.0 Beta 2 - Edit Mode, Browser Profiles &amp; a Smoother Dock! ✏️🌐✨</h2>
+        <h2>ExtraDock 5.2.0 Beta 3 - Edit Mode, Browser Profiles &amp; a Smoother Dock! ✏️🌐✨</h2>
+
+        <h3>🆕 New In Beta 3</h3>
+        <ul>
+            <li><strong>New windows really stay on your Space:</strong> New Window and New Incognito Window for Chrome and other Chromium browsers, and Safari's New Window, from the App Launcher widget now open on the Space you're on, even when that app's other windows live on a different Desktop. Safari with profiles opens a new window in your profile right away, and if a new window can't be opened you'll see a message instead of being whisked off to another Space!</li>
+            <li><strong>Clearer update diagnostics:</strong> The Software updates section in Diagnostics → Export Logs now shows correctly when an update gets stuck while it's being unpacked, so those problems are easier for Appit Studio to track down!</li>
+        </ul>
 
         <h3>✨ What's New</h3>
         <ul>
@@ -50,7 +56,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.0-beta.2/ExtraDock.dmg" length="47072590" type="application/octet-stream" sparkle:edSignature="BJqzGnmK/2+FBsJ72jis+B1fbmPr4X+5okWV3G62PsidhFJ0lETyfZDbHYBSMhH2jCw41fJZOmfzokts5VTVBw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.0-beta.3/ExtraDock.dmg" length="47073229" type="application/octet-stream" sparkle:edSignature="gZgpsI/S5edXbcBxg1GWgVOBhlZo47HpS/ZR+pht4Mhg2GCHqZx+uURoAz37JKWWWcBwECWjAWrBEx8Y/4mWDA=="/>
         </item>
         <item>
             <title>5.1.0</title>
