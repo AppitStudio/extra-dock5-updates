@@ -3,97 +3,55 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.0-beta.3</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 12 Oct 2026 14:28:29 +0300</pubDate>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>5.2.0-beta.3</sparkle:shortVersionString>
+            <title>5.2.0</title>
+            <pubDate>Tue, 13 Oct 2026 20:39:01 +0300</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>5.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.2.0 Beta 3 - Edit Mode, Browser Profiles &amp; a Smoother Dock! ✏️🌐✨</h2>
-
-        <h3>🆕 New In Beta 3</h3>
-        <ul>
-            <li><strong>New windows really stay on your Space:</strong> New Window and New Incognito Window for Chrome and other Chromium browsers, and Safari's New Window, from the App Launcher widget now open on the Space you're on, even when that app's other windows live on a different Desktop. Safari with profiles opens a new window in your profile right away, and if a new window can't be opened you'll see a message instead of being whisked off to another Space!</li>
-            <li><strong>Clearer update diagnostics:</strong> The Software updates section in Diagnostics → Export Logs now shows correctly when an update gets stuck while it's being unpacked, so those problems are easier for Appit Studio to track down!</li>
-        </ul>
+        <h2>ExtraDock 5.2.0 - Edit Mode, Browser Profiles &amp; a Smoother Dock! ✏️🌐✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
-            <li><strong>Dock Edit Mode:</strong> Your docks now stay locked, so nothing gets moved or removed by accident, and dropping a file on Trash, a shelf or an app always sends it there instead of pinning it. Right-click the dock, any item or widget, or the ExtraDock menu and choose Edit Dock to reorder items, remove them with the minus badge, drag them out, or drop files from Finder to pin them. A floating Save button sits beside the dock, and Save, Done Editing, Escape or Return finishes!</li>
-            <li><strong>A helpful hint:</strong> Drop something on a locked dock where it can't go and a short "Right-click › Edit Dock to add items" hint shows you how!</li>
+            <li><strong>Dock Edit Mode:</strong> Your docks now stay locked, so nothing gets moved or removed by accident, and dropping a file on Trash, a shelf or an app always sends it there instead of pinning it. Right-click the dock, any item or widget, or the ExtraDock menu and choose Edit Dock to reorder items, remove them with the minus badge, drag them out, or drop files from Finder to pin them. Click the floating Save button, choose Done Editing, or press Escape or Return when you're finished!</li>
+            <li><strong>Helpful hint on locked docks:</strong> Drop something on a locked dock where it can't go and a short "Right-click › Edit Dock to add items" hint shows you the way!</li>
             <li><strong>New Window with Profile:</strong> Right-click Chrome, Brave, Edge, Vivaldi or Chromium (including their Beta, Dev and Canary builds) in the dock or in the App Launcher widget to open a new window in any of your browser profiles!</li>
-            <li><strong>See who hid a dock:</strong> When DockFlow, a Focus filter or the menu bar hides a dock, the Manager now says so (for example "Hidden by DockFlow") and offers Show Dock to bring it right back!</li>
-            <li><strong>Easier license activation:</strong> The License tab has a Paste button, the key field is ready to type in, and Return activates. A valid key no longer shows a server error when you chose Later on importing your ExtraDock 4 license!</li>
-            <li><strong>Better update diagnostics:</strong> Diagnostics → Export Logs now includes a Software updates section, with personal details removed, so update problems are much easier for Appit Studio to track down!</li>
+            <li><strong>See who hid a dock:</strong> When DockFlow, a Focus filter or the menu bar hides a dock, the Manager now says so (for example "Hidden by DockFlow") and offers Show Dock to bring it back!</li>
+            <li><strong>Easier license activation:</strong> The License tab has a Paste button, the key field is ready to type in, and Return activates!</li>
         </ul>
 
-        <h3>🛠️ Improvements</h3>
+        <h3>🚀 Improvements</h3>
         <ul>
-            <li><strong>Silky notch:</strong> The notch opens and closes at a steady 60 frames per second, even the very first time after launch!</li>
+            <li><strong>Smoother notch:</strong> The notch opens and closes at a steady 60 frames per second, even the first time after launch!</li>
             <li><strong>Smoother everywhere:</strong> Collapsing a dock and auto-hide sliding in and out are smoother, and the dock no longer stutters while apps launch or quit!</li>
             <li><strong>Lighter on your battery:</strong> ExtraDock does much less work in the background while you're not using it!</li>
-            <li><strong>Notch pill on screens without a camera notch:</strong> It no longer pops open while your pointer is over browser tabs just below the top of the screen!</li>
-            <li><strong>New windows on the current Space:</strong> New Window, New Incognito Window, Safari's New Private Window and Notion's New Window from the App Launcher widget now open where you are, instead of jumping to another Space!</li>
+            <li><strong>New windows on your Space:</strong> New Window, New Incognito Window, Safari's New Window and New Private Window, and Notion's New Window from the App Launcher widget now open on the Space you're on, even when that app's other windows live on a different Desktop. Safari with profiles opens the window in your profile right away!</li>
             <li><strong>Temperature on M5 Macs:</strong> The Temperature and Temperature Chart widgets now read the CPU temperature on M5 Macs!</li>
+            <li><strong>Update troubleshooting:</strong> Diagnostics → Export Logs now includes a Software updates section (with personal details removed) that shows exactly where an update stopped, so Appit Studio support can solve update problems faster!</li>
         </ul>
 
-        <h3>🐞 Bug Fixes</h3>
+        <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>No more crash loop:</strong> Running two copies of the same app (for example two Bambu Studio windows opened separately) no longer makes the dock crash over and over!</li>
-            <li><strong>Stacks and launchers stay clickable:</strong> App Stack, Folder Stack and launcher widgets now respond right after you edit them and right after launch!</li>
-            <li><strong>Windows stay put when menus open:</strong> Reserve Dock Space no longer moves or resizes a window while that app's menu is open (like FaceTime's ⋯ menu over the dock)!</li>
-            <li><strong>File drops on tiles:</strong> Dropping a file on File Shelf, Trash, Dropbox or AirDrop now hands it to that tile instead of pinning it to the dock!</li>
-            <li><strong>Manager stays closed:</strong> The ExtraDock Manager window no longer pops up by itself when DockFlow or ExtraBar reconnect over Talk!</li>
+            <li><strong>No more crash loops:</strong> Running two copies of the same app (for example two Bambu Studio windows opened separately) no longer makes the dock crash over and over!</li>
+            <li><strong>Manager stays closed:</strong> The ExtraDock Manager window no longer pops up by itself when DockFlow or ExtraBar reconnect!</li>
+            <li><strong>Responsive widgets:</strong> App Stack, Folder Stack and launcher widgets respond right after you edit them and right after launch!</li>
+            <li><strong>Reserve Dock Space:</strong> Windows no longer move or resize while that app's menu is open, like FaceTime's ⋯ menu over the dock!</li>
+            <li><strong>Drops land where you aim:</strong> Dropping a file on File Shelf, Trash, Dropbox or AirDrop hands it to that tile instead of pinning it to the dock!</li>
+            <li><strong>Notch pill hover:</strong> On screens without a camera notch, the notch pill no longer pops open while your pointer is over browser tabs just below the top of the screen!</li>
+            <li><strong>License import:</strong> A valid license key no longer shows a server error when you chose Later on importing your ExtraDock 4 license!</li>
+            <li><strong>Clear messages:</strong> If a new window can't be opened from the App Launcher, you now see a message instead of being taken to another Space!</li>
         </ul>
 
-        <h3>What's Next?</h3>
+        <h3>🚀 What's Next?</h3>
         <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.0-beta.3/ExtraDock.dmg" length="47073229" type="application/octet-stream" sparkle:edSignature="gZgpsI/S5edXbcBxg1GWgVOBhlZo47HpS/ZR+pht4Mhg2GCHqZx+uURoAz37JKWWWcBwECWjAWrBEx8Y/4mWDA=="/>
-        </item>
-        <item>
-            <title>5.1.0</title>
-            <pubDate>Fri, 02 Oct 2026 06:12:24 +0300</pubDate>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>5.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.1.0 - AI Help, Connected Apps &amp; Docks That Get Out of the Way! 🤖🔗✨</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>Configure ExtraDock with an AI assistant:</strong> The new Settings → Integrations → AI Assistants (MCP) section lets assistants like Claude Code or Codex inspect and arrange your docks, items and widgets. It stays off until you turn on Allow AI assistants to configure ExtraDock, and Install or Update Skill adds the bundled ExtraDock Assistant skill in one click!</li>
-            <li><strong>You stay in control:</strong> Deleting docks or items asks for your approval first. Allow for This Session approves the rest of that assistant's changes until it disconnects, YOLO mode (off by default) skips the prompts, and Revert Last AI Change undoes the most recent AI edit without touching changes you made afterwards!</li>
-            <li><strong>Connect your Appit Studio apps:</strong> ExtraDock, ExtraBar and DockFlow now find each other automatically in a new Talk Integrations library at the top of Settings → Integrations, with no pairing codes. Approve a connection once and it reconnects on its own after restarts, and Permissions… and Remove… let you review or take back access at any time!</li>
-            <li><strong>Hide on Window Hover:</strong> A new toggle in each dock's Behavior settings fades the dock out as soon as another app's window overlaps it, and brings it back once the area stays clear. Clicks pass through to the window underneath, and the show/toggle hotkey still brings the dock up whenever you need it!</li>
-            <li><strong>Refreshed widget library:</strong> Search widgets, browse by category and use Configure and Add…, with new artwork for launchers, folders, shelves, Space Awareness, Stripe and more. Clock, CPU and Media Player are redrawn too!</li>
-            <li><strong>Pinned position controls are back:</strong> The Position tab has an Advanced group again for pinned docks, with Offset along edge plus Top, Right, Bottom and Left padding!</li>
-        </ul>
-
-        <h3>🛠️ Improvements</h3>
-        <ul>
-            <li><strong>Liquid Glass that always looks right:</strong> The bar now uses the same glass as the macOS Dock. It no longer turns into a frosted blur when another app has focus, and switching to Liquid Glass while ExtraDock is running looks exactly like it does after a relaunch!</li>
-            <li><strong>Clearer glass option:</strong> The Liquid Glass toggle that darkens the dock background is now called Dark glass. Your existing setting is kept!</li>
-            <li><strong>Virtual Trash retired from the library:</strong> It can no longer be added, but docks that already have one keep it and it still works!</li>
-        </ul>
-
-        <h3>What's Next?</h3>
-        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.1.0/ExtraDock.dmg" length="46442124" type="application/octet-stream" sparkle:edSignature="wjGz99MSao05jW4wSKS6JvjkEiWtLqJoLDTC/DdbsNbTQBFhTVGtMcMVY3IJc4Bi10+wj4aszcljgJ4UPU6pCQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.0/ExtraDock.dmg" length="47071897" type="application/octet-stream" sparkle:edSignature="2HNzjeLcl5nMNuAPdT7KAi5LJr4uR5fod69qEKJt6TT7MvhG9jIqLaArdofgaC974ctOxKVfKXXQ+VzbYpiBBw=="/>
         </item>
     </channel>
 </rss>

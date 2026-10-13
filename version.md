@@ -1,12 +1,22 @@
-VERSION: 5.1.0
+VERSION: 5.2.0
 DETAILS:
 
-new: AI assistant control (MCP) in Settings → Integrations → AI Assistants (MCP), off by default, with a bundled ExtraDock Assistant skill for Claude Code and Codex
-new: Approval prompts for destructive AI changes, Allow for This Session, opt-in YOLO mode, and Revert Last AI Change
-new: Talk Integrations library — ExtraDock, ExtraBar and DockFlow discover each other without pairing codes, reconnect after restarts, with Permissions… and Remove…
-new: Hide on Window Hover — per-dock Behavior toggle that fades the dock out while another app's window overlaps it, with click-through
-new: Refreshed widget library with search, categories, Configure and Add…, new artwork and redrawn Clock, CPU and Media Player
-new: Pinned docks regain Position → Advanced (Offset along edge, per-edge padding)
-improved: Liquid Glass bar uses the system Dock glass — unaffected by app focus and identical whether switched live or at launch
-improved: The darkening Liquid Glass toggle is renamed Dark glass (setting kept)
-improved: Virtual Trash can no longer be added from the library; existing ones keep working
+new: Dock Edit Mode — docks are locked by default; right-click › Edit Dock to reorder, remove or pin items, finish with the floating Save button, Done Editing, Escape or Return; drops on Trash, shelves and apps always go to that target
+new: "Right-click › Edit Dock to add items" hint when a locked dock refuses a drop
+new: New Window with Profile for Chrome, Brave, Edge, Vivaldi and Chromium (incl. Beta/Dev/Canary) in the dock and App Launcher widget
+new: Manager shows who hid a dock (DockFlow, Focus filter, menu bar) with a Show Dock button
+new: License tab Paste button; key field focused and Return activates
+improved: Notch opens and closes at a steady 60 fps, including the first time after launch
+improved: Smoother collapse and auto-hide; no stutter while apps launch or quit
+improved: Much less background work while idle (battery)
+improved: App Launcher New Window / New Incognito / Safari New (Private) Window / Notion New Window open on the current Space; Safari profiles respected
+improved: Temperature widgets read the CPU temperature on M5 Macs
+improved: Diagnostics → Export Logs includes a Software updates section (personal details removed)
+bug fix: Dock crash loop with two copies of the same app running
+bug fix: Manager window no longer pops up when DockFlow or ExtraBar reconnect over Talk
+bug fix: App Stack, Folder Stack and launcher widgets respond right after editing and after launch
+bug fix: Reserve Dock Space no longer moves or resizes a window while that app's menu is open
+bug fix: Drops on File Shelf, Trash, Dropbox and AirDrop go to that tile instead of pinning
+bug fix: Notch pill no longer opens over browser tabs on screens without a camera notch
+bug fix: Valid license key no longer shows a server error after choosing Later on the V4 license import
+bug fix: App Launcher shows a message when a new window can't be opened instead of switching Spaces
