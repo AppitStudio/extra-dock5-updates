@@ -3,6 +3,66 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.2.1-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Mon, 19 Oct 2026 12:58:39 +0300</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>5.2.1-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 5.2.1 Beta 1 - Drops, Windows &amp; a Lighter, Steadier Dock! 📂🪟✨</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Open windows in the right-click menu:</strong> Right-click a running app in the dock to see its open windows and jump straight to the one you want!</li>
+            <li><strong>First click cycles windows:</strong> With "Clicking the active app" set to Cycle Windows, the very first click already switches to the app's next window. New docks and ExtraDock 4 imports now use Cycle Windows by default!</li>
+            <li><strong>Free System Trash and File Shelf:</strong> The System Trash and File Shelf widgets are now free for everyone!</li>
+            <li><strong>Badges everywhere:</strong> The Running Apps widget and the Space Awareness strip now show app badges, just like the dock!</li>
+        </ul>
+
+        <h3>🚀 Improvements</h3>
+        <ul>
+            <li><strong>Fewer Keychain password prompts:</strong> Your license is now stored securely without asking for your Mac password!</li>
+            <li><strong>Up-to-date updater:</strong> The built-in updater moves to Sparkle 2.10 with the latest security fixes!</li>
+            <li><strong>Much less disk writing:</strong> ExtraDock writes far less to your disk every day, and old caches, history and leftovers now clean themselves up!</li>
+            <li><strong>Faster, steadier window previews:</strong> Previews appear faster, no longer jump or resize while you hover, use less memory, and sit on a dark plate so they're easy to read. Blank windows show the app's icon instead of an empty card!</li>
+            <li><strong>Widgets keep their data while the dock hides:</strong> Clock, Now Playing, system, network, media, Folder Stack, App Stack and Pro widgets keep their values and icons while an auto-hide dock is hidden, and editing one dock no longer clears widgets on your other docks!</li>
+            <li><strong>Faster widget popovers:</strong> Widget popovers and the App Switcher open faster and more smoothly!</li>
+            <li><strong>Smarter Trash widget:</strong> The Trash widget only checks with Finder when the Trash actually changed, and asks politely before it needs Finder access!</li>
+            <li><strong>Album covers:</strong> Media and Now Playing show Music's own album covers!</li>
+            <li><strong>Matching gauges:</strong> CPU, Memory, GPU and Bluetooth Battery rings now match the Battery ring, even on docks with a thin bar!</li>
+            <li><strong>Steady Link and Finder widgets:</strong> They no longer grow with cursor magnification!</li>
+            <li><strong>Background Sounds:</strong> Every sound plays at the same level and loops without a click!</li>
+            <li><strong>Clear lock messages:</strong> A locked widget now says exactly why, for example "Pro required" or "Pro expired"!</li>
+            <li><strong>Faster Export Logs:</strong> Diagnostics → Export Logs finishes in seconds and now includes crash reports, so Appit Studio support can help you faster!</li>
+        </ul>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Finder drops work again:</strong> Dropping files from Finder onto docked folders, apps and the Trash works again (5.2.0 refused them)!</li>
+            <li><strong>Closed apps really hide:</strong> With "Show apps with no windows" turned off, apps you closed leave the dock again!</li>
+            <li><strong>Closed windows come back:</strong> Clicking an app in the dock or the App Launcher widget reopens its main window, even while a smaller window of that app is still open (like Outlook)!</li>
+            <li><strong>Floating docks on stacked displays:</strong> A floating dock moved to a display arranged above your built-in screen now lands in the right place!</li>
+            <li><strong>Folder Launcher previews refresh:</strong> The Stack Preview updates when the folder's contents change!</li>
+            <li><strong>Screenshots widget:</strong> It comes back after you resize the dock!</li>
+            <li><strong>TamaDocky:</strong> Your pet's stats change while it's on screen, pause while it's away or the screen is locked, and survive a relaunch!</li>
+            <li><strong>Crash fixes:</strong> Fixed a crash when apps launch or quit quickly, and a busy dock database is no longer mistaken for a damaged one!</li>
+            <li><strong>Quieter system log:</strong> Reserve Dock Space no longer keeps retrying apps that already quit!</li>
+            <li><strong>Exports always finish:</strong> Saving diagnostics can no longer freeze the app!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.1-beta.1/ExtraDock.dmg" length="48145962" type="application/octet-stream" sparkle:edSignature="cfXegcrFxYdnks+PRZX9o2VQtemtYJVdLRwU05+nlIpLelwQZSNF6Ul6oYjQITMLNqQaqZJGGnZ679DJRHyACg=="/>
+        </item>
+        <item>
             <title>5.2.0</title>
             <pubDate>Tue, 13 Oct 2026 20:39:01 +0300</pubDate>
             <sparkle:version>80</sparkle:version>
