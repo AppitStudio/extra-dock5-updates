@@ -3,17 +3,17 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.1-beta.1</title>
+            <title>5.2.1-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 19 Oct 2026 12:58:39 +0300</pubDate>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>5.2.1-beta.1</sparkle:shortVersionString>
+            <pubDate>Wed, 21 Oct 2026 16:10:43 +0300</pubDate>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>5.2.1-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.2.1 Beta 1 - Drops, Windows &amp; a Lighter, Steadier Dock! 📂🪟✨</h2>
+        <h2>ExtraDock 5.2.1 Beta 2 - Drops, Windows &amp; a Lighter, Steadier Dock! 📂🪟✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
@@ -44,6 +44,7 @@
         <ul>
             <li><strong>Finder drops work again:</strong> Dropping files from Finder onto docked folders, apps and the Trash works again (5.2.0 refused them)!</li>
             <li><strong>Closed apps really hide:</strong> With "Show apps with no windows" turned off, apps you closed leave the dock again!</li>
+            <li><strong>Reopened apps come to the front:</strong> Clicking an app whose last window you closed (like Mail or Canva) brings its new window to the front instead of leaving it behind other apps!</li>
             <li><strong>Closed windows come back:</strong> Clicking an app in the dock or the App Launcher widget reopens its main window, even while a smaller window of that app is still open (like Outlook)!</li>
             <li><strong>Floating docks on stacked displays:</strong> A floating dock moved to a display arranged above your built-in screen now lands in the right place!</li>
             <li><strong>Folder Launcher previews refresh:</strong> The Stack Preview updates when the folder's contents change!</li>
@@ -60,7 +61,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.1-beta.1/ExtraDock.dmg" length="48145962" type="application/octet-stream" sparkle:edSignature="cfXegcrFxYdnks+PRZX9o2VQtemtYJVdLRwU05+nlIpLelwQZSNF6Ul6oYjQITMLNqQaqZJGGnZ679DJRHyACg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.1-beta.2/ExtraDock.dmg" length="48148373" type="application/octet-stream" sparkle:edSignature="6MvKEK7gdEDqa76DwmFf2ZxBHRKl84Zy9UxiwJ5RRCe84ZVoKh3nMmYu3rwkR8O6yqHs72D7hIvSNL62hZxdBQ=="/>
         </item>
         <item>
             <title>5.2.0</title>
