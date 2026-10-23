@@ -3,17 +3,16 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.1-beta.2</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Wed, 21 Oct 2026 16:10:43 +0300</pubDate>
-            <sparkle:version>82</sparkle:version>
-            <sparkle:shortVersionString>5.2.1-beta.2</sparkle:shortVersionString>
+            <title>5.2.1</title>
+            <pubDate>Fri, 23 Oct 2026 14:00:48 +0300</pubDate>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>5.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.2.1 Beta 2 - Drops, Windows &amp; a Lighter, Steadier Dock! 📂🪟✨</h2>
+        <h2>ExtraDock 5.2.1 - Drops, Windows &amp; a Lighter, Steadier Dock! 📂🪟✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
@@ -55,64 +54,13 @@
             <li><strong>Exports always finish:</strong> Saving diagnostics can no longer freeze the app!</li>
         </ul>
 
-        <h3>What's Next?</h3>
-        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
-
-        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
-]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.1-beta.2/ExtraDock.dmg" length="48148373" type="application/octet-stream" sparkle:edSignature="6MvKEK7gdEDqa76DwmFf2ZxBHRKl84Zy9UxiwJ5RRCe84ZVoKh3nMmYu3rwkR8O6yqHs72D7hIvSNL62hZxdBQ=="/>
-        </item>
-        <item>
-            <title>5.2.0</title>
-            <pubDate>Tue, 13 Oct 2026 20:39:01 +0300</pubDate>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>5.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-
-        <h2>ExtraDock 5.2.0 - Edit Mode, Browser Profiles &amp; a Smoother Dock! ✏️🌐✨</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>Dock Edit Mode:</strong> Your docks now stay locked, so nothing gets moved or removed by accident, and dropping a file on Trash, a shelf or an app always sends it there instead of pinning it. Right-click the dock, any item or widget, or the ExtraDock menu and choose Edit Dock to reorder items, remove them with the minus badge, drag them out, or drop files from Finder to pin them. Click the floating Save button, choose Done Editing, or press Escape or Return when you're finished!</li>
-            <li><strong>Helpful hint on locked docks:</strong> Drop something on a locked dock where it can't go and a short "Right-click › Edit Dock to add items" hint shows you the way!</li>
-            <li><strong>New Window with Profile:</strong> Right-click Chrome, Brave, Edge, Vivaldi or Chromium (including their Beta, Dev and Canary builds) in the dock or in the App Launcher widget to open a new window in any of your browser profiles!</li>
-            <li><strong>See who hid a dock:</strong> When DockFlow, a Focus filter or the menu bar hides a dock, the Manager now says so (for example "Hidden by DockFlow") and offers Show Dock to bring it back!</li>
-            <li><strong>Easier license activation:</strong> The License tab has a Paste button, the key field is ready to type in, and Return activates!</li>
-        </ul>
-
-        <h3>🚀 Improvements</h3>
-        <ul>
-            <li><strong>Smoother notch:</strong> The notch opens and closes at a steady 60 frames per second, even the first time after launch!</li>
-            <li><strong>Smoother everywhere:</strong> Collapsing a dock and auto-hide sliding in and out are smoother, and the dock no longer stutters while apps launch or quit!</li>
-            <li><strong>Lighter on your battery:</strong> ExtraDock does much less work in the background while you're not using it!</li>
-            <li><strong>New windows on your Space:</strong> New Window, New Incognito Window, Safari's New Window and New Private Window, and Notion's New Window from the App Launcher widget now open on the Space you're on, even when that app's other windows live on a different Desktop. Safari with profiles opens the window in your profile right away!</li>
-            <li><strong>Temperature on M5 Macs:</strong> The Temperature and Temperature Chart widgets now read the CPU temperature on M5 Macs!</li>
-            <li><strong>Update troubleshooting:</strong> Diagnostics → Export Logs now includes a Software updates section (with personal details removed) that shows exactly where an update stopped, so Appit Studio support can solve update problems faster!</li>
-        </ul>
-
-        <h3>🐛 Bug Fixes</h3>
-        <ul>
-            <li><strong>No more crash loops:</strong> Running two copies of the same app (for example two Bambu Studio windows opened separately) no longer makes the dock crash over and over!</li>
-            <li><strong>Manager stays closed:</strong> The ExtraDock Manager window no longer pops up by itself when DockFlow or ExtraBar reconnect!</li>
-            <li><strong>Responsive widgets:</strong> App Stack, Folder Stack and launcher widgets respond right after you edit them and right after launch!</li>
-            <li><strong>Reserve Dock Space:</strong> Windows no longer move or resize while that app's menu is open, like FaceTime's ⋯ menu over the dock!</li>
-            <li><strong>Drops land where you aim:</strong> Dropping a file on File Shelf, Trash, Dropbox or AirDrop hands it to that tile instead of pinning it to the dock!</li>
-            <li><strong>Notch pill hover:</strong> On screens without a camera notch, the notch pill no longer pops open while your pointer is over browser tabs just below the top of the screen!</li>
-            <li><strong>License import:</strong> A valid license key no longer shows a server error when you chose Later on importing your ExtraDock 4 license!</li>
-            <li><strong>Clear messages:</strong> If a new window can't be opened from the App Launcher, you now see a message instead of being taken to another Space!</li>
-        </ul>
-
         <h3>🚀 What's Next?</h3>
         <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.0/ExtraDock.dmg" length="47071897" type="application/octet-stream" sparkle:edSignature="2HNzjeLcl5nMNuAPdT7KAi5LJr4uR5fod69qEKJt6TT7MvhG9jIqLaArdofgaC974ctOxKVfKXXQ+VzbYpiBBw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.1/ExtraDock.dmg" length="48150042" type="application/octet-stream" sparkle:edSignature="mUVR4xxbQ+qOxf2FaO9cknlHDfcK3295t2VVWWNyc20BUKOc5F2Wz6QpsugRtvl80dFl3taToQHH1Bu9HZiFCg=="/>
         </item>
     </channel>
 </rss>
