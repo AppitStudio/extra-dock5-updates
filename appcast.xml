@@ -3,6 +3,50 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.2.2-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sun, 25 Oct 2026 01:00:01 +0300</pubDate>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>5.2.2-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 5.2.2 Beta 1 - Steadier, Quieter &amp; Smarter Folders! 🛠️📂✨</h2>
+
+        <h3>🐛 Fixed</h3>
+        <ul>
+            <li><strong>Settings and Manager open safely:</strong> Fixed a crash when opening Settings or the Manager while window previews are on!</li>
+            <li><strong>No more Keychain prompt at launch:</strong> ExtraDock no longer asks for your Keychain password every time it starts!</li>
+            <li><strong>More stable:</strong> Fixed crashes that could happen on launch and in folder widgets!</li>
+            <li><strong>Auto-hide handle:</strong> A collapsed floating dock with auto-hide stays hidden until you reach its handle, instead of staying visible!</li>
+            <li><strong>Collapsed docks stay collapsed:</strong> A bar dock you left collapsed starts collapsed again after a relaunch!</li>
+            <li><strong>Quit means quit:</strong> The AI assistant helper no longer launches ExtraDock every time a Claude session starts!</li>
+            <li><strong>Reserve Dock Space:</strong> It no longer gets stuck!</li>
+            <li><strong>Choosers open smoothly:</strong> Picking folders, apps, icons and files opens above the dock without freezing it!</li>
+        </ul>
+
+        <h3>🚀 Improved</h3>
+        <ul>
+            <li><strong>Window Previews switch:</strong> Turn window previews on or off straight from the menu-bar menu!</li>
+            <li><strong>Export Logs in the menu bar:</strong> "Export Logs…" is now in the menu-bar menu, so sending diagnostics to Appit Studio support is one click away!</li>
+            <li><strong>Folder popup previews:</strong> The folder popup shows file previews, press Space for Quick Look, and can optionally close after you drag a file out. It also opens faster!</li>
+            <li><strong>Open folders with any app:</strong> "Open folders with" can pick any app again, including Bloom!</li>
+            <li><strong>AI Assistants:</strong> Add ExtraDock to Cursor, VS Code, Claude Desktop and ChatGPT (Codex) right from Settings!</li>
+            <li><strong>Collapse state remembered:</strong> Your docks remember whether they were collapsed!</li>
+            <li><strong>Smoother window previews:</strong> Previews draw in step with your display for a steadier look!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock beta! Your feedback drives every improvement we make.</em></p>
+            
+]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.2-beta.1/ExtraDock.dmg" length="48586347" type="application/octet-stream" sparkle:edSignature="PZZ+2oZ/VxQCf1VnYZaMCmPMg04Q/wYOPUeC9LdlaO5BWfdNjNOGthwPPJuVMy3LHrhbD/O30+5oEfNq08duAw=="/>
+        </item>
+        <item>
             <title>5.2.1</title>
             <pubDate>Fri, 23 Oct 2026 14:00:48 +0300</pubDate>
             <sparkle:version>83</sparkle:version>
