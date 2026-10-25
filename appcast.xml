@@ -3,16 +3,26 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.2-beta.1</title>
+            <title>5.2.2-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 25 Oct 2026 01:00:01 +0300</pubDate>
-            <sparkle:version>84</sparkle:version>
-            <sparkle:shortVersionString>5.2.2-beta.1</sparkle:shortVersionString>
+            <pubDate>Sun, 25 Oct 2026 21:37:18 +0200</pubDate>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>5.2.2-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.2 Beta 1 - Steadier, Quieter &amp; Smarter Folders! 🛠️📂✨</h2>
+        <h2>ExtraDock 5.2.2 Beta 2 - Steadier, Quieter &amp; Smarter Folders! 🛠️📂✨</h2>
+
+        <h3>🆕 New In Beta 2</h3>
+        <ul>
+            <li><strong>Auto-hide handle on macOS 27:</strong> A collapsed floating dock with auto-hide now fades its handle out completely, instead of leaving it on screen!</li>
+            <li><strong>Even more stable:</strong> More crash fixes in widgets and fullscreen detection!</li>
+            <li><strong>No Keychain prompt loops:</strong> ExtraDock 4's license is checked at most once, so the Keychain prompt can't come back on every launch!</li>
+            <li><strong>Faster popovers:</strong> Folder Stack, Now Playing and folder View Options open faster!</li>
+            <li><strong>Lighter:</strong> Lower memory use over long sessions!</li>
+        </ul>
+
 
         <h3>🐛 Fixed</h3>
         <ul>
@@ -44,7 +54,7 @@
             
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.2-beta.1/ExtraDock.dmg" length="48586347" type="application/octet-stream" sparkle:edSignature="PZZ+2oZ/VxQCf1VnYZaMCmPMg04Q/wYOPUeC9LdlaO5BWfdNjNOGthwPPJuVMy3LHrhbD/O30+5oEfNq08duAw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.2-beta.2/ExtraDock.dmg" length="48648170" type="application/octet-stream" sparkle:edSignature="e9G/n89m8RZTFbA2/6mrFb/jrgD64FDq5ZODTP6c2nYvYaSIlNW8QKqCFGodzfmDeDuEhcckJ+vnghFaILE5Aw=="/>
         </item>
         <item>
             <title>5.2.1</title>
