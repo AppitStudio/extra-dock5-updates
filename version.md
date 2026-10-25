@@ -1,6 +1,7 @@
-VERSION: 5.2.2
+VERSION: 5.2.3
 DETAILS:
 
+bug fix: Folder popup takes the keyboard: Space opens and closes Quick Look, arrows and Escape work while another app is in front
 bug fix: Opening Settings or the Manager with window previews on no longer crashes
 bug fix: No Keychain password prompt at every launch
 bug fix: Crash fixes on launch, in folder widgets, other widgets and fullscreen detection

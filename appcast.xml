@@ -3,18 +3,19 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.2</title>
-            <pubDate>Sun, 25 Oct 2026 22:22:08 +0200</pubDate>
-            <sparkle:version>86</sparkle:version>
-            <sparkle:shortVersionString>5.2.2</sparkle:shortVersionString>
+            <title>5.2.3</title>
+            <pubDate>Sun, 25 Oct 2026 23:13:24 +0200</pubDate>
+            <sparkle:version>87</sparkle:version>
+            <sparkle:shortVersionString>5.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.2 - Steadier, Quieter &amp; Smarter Folders! 🛠️📂✨</h2>
+        <h2>ExtraDock 5.2.3 - Steadier, Quieter &amp; Smarter Folders! 🛠️📂✨</h2>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
+            <li><strong>Folder popup keyboard:</strong> Press Space to preview the selected file in Quick Look and Space again to close it, and use the arrow keys and Escape, even while another app is in front. Before, the keys went to that app instead!</li>
             <li><strong>Settings and Manager open safely:</strong> Fixed a crash when opening Settings or the Manager while window previews are on!</li>
             <li><strong>No more Keychain prompt at launch:</strong> ExtraDock no longer asks for your Keychain password every time it starts!</li>
             <li><strong>More stable:</strong> Fixed crashes that could happen on launch, in folder widgets, in other widgets and in fullscreen detection!</li>
@@ -45,7 +46,7 @@
 
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.2/ExtraDock.dmg" length="48648221" type="application/octet-stream" sparkle:edSignature="M5nxhCxlyNWNd7PPJ0v92p/nBPvEIKzjmiR0xHhtoi/0cySN3Qdi9pagTa85x0/sHR8/Wy9i1+egYnG0jGHdAw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.3/ExtraDock.dmg" length="48632349" type="application/octet-stream" sparkle:edSignature="m9pM3+rcD+sd8+5RRoGlaW8lJBz1n3C+ftw8S03v6hloyDyycqJwasjZE+bGIHrPm8ueyMulym9i2SZ7xODOCw=="/>
         </item>
     </channel>
 </rss>
