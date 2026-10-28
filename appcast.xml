@@ -3,6 +3,58 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.2.4-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Wed, 28 Oct 2026 06:03:52 +0200</pubDate>
+            <sparkle:version>88</sparkle:version>
+            <sparkle:shortVersionString>5.2.4-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 5.2.4 Beta 1 - Edge Peek, Smarter Menus &amp; Easy App Stacks! 🫣📌✨</h2>
+
+        <h3>🆕 New</h3>
+        <ul>
+            <li><strong>Show at screen edge while hidden:</strong> A new per-dock option in Manager → your dock → Behavior. When Hide on Fullscreen or Hide on Window Hover has hidden a dock pinned to a screen edge, rest the pointer on that edge to bring it back. It hides again when you move away. Thanks to Radek for the idea!</li>
+            <li><strong>App Stacks from the right-click menu:</strong> Right-click an app, folder or file and choose "New App Stack with" or "Add to App Stack"!</li>
+            <li><strong>Timer presets:</strong> Pick 5, 10, 15, 25 or 60 minutes, or choose Custom and type the minutes. Saved timers keep their exact time!</li>
+        </ul>
+
+        <h3>🚀 Improved</h3>
+        <ul>
+            <li><strong>Menus beside the item:</strong> Right-click and Control-click menus open centred beside the item, like the macOS Dock, and never cover the dock!</li>
+            <li><strong>Clearer Reserve Dock Space:</strong> The dock editor tells you when Reserve Dock Space is off in Settings and lets you turn it on right there!</li>
+            <li><strong>Smoother first hover:</strong> The first item name after launch no longer stutters!</li>
+            <li><strong>Manage Devices:</strong> License keys get a Manage Devices… button that opens your licenses page in Appit Services!</li>
+            <li><strong>AI assistant changes are kept:</strong> Saving an open settings sheet no longer undoes a change an AI assistant or a dock menu made meanwhile!</li>
+            <li><strong>No error-reporting library:</strong> ExtraDock no longer includes one (it never sent anything), and the Privacy section in Settings → General is gone!</li>
+            <li><strong>Better Export Logs:</strong> Exported logs now include widget log lines too!</li>
+        </ul>
+
+        <h3>🐛 Fixed</h3>
+        <ul>
+            <li><strong>The Shelf stays a shelf:</strong> After you add files it shows a full tray with a count badge instead of file icons!</li>
+            <li><strong>Focus filters remember your docks:</strong> Docks to Show and Docks to Hide now keep your choice on macOS 26.5. Filters made with an older version need their docks picked again once.</li>
+        </ul>
+
+        <h3>✅ What to test</h3>
+        <ul>
+            <li>Turn on "Show at screen edge while hidden" on a pinned dock, then open a fullscreen app or maximize a window over the dock and rest the pointer on the edge.</li>
+            <li>Right-click items on bottom, side and top docks: the menu opens beside the item.</li>
+            <li>Make a new App Stack and add an app to it from the right-click menu.</li>
+            <li>Set a Timer with a preset and with Custom minutes.</li>
+            <li>With an AI assistant connected, change a widget while its settings sheet is open, then Save: both changes stay.</li>
+            <li>Drop files on a Shelf, and re-pick docks in a Focus filter.</li>
+        </ul>
+
+        <p style="margin-top: 20px;"><em>This is a beta build. Thank you for testing! Please send anything that looks off, with Export Logs, to support@appitstudio.com.</em></p>
+
+]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.4-beta.1/ExtraDock.dmg" length="47470864" type="application/octet-stream" sparkle:edSignature="0IcbE8SZuLIQrrAAQweCAJi1kTX5S+WqCpifEhoGeI31NYm6+CC4F8m8DgpsR5//ipEDqx4I9r/HNtO9MfNbBQ=="/>
+        </item>
+        <item>
             <title>5.2.3</title>
             <pubDate>Sun, 25 Oct 2026 23:13:24 +0200</pubDate>
             <sparkle:version>87</sparkle:version>
