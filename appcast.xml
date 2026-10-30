@@ -3,16 +3,24 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.4-beta.1</title>
+            <title>5.2.4-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Wed, 28 Oct 2026 06:03:52 +0200</pubDate>
-            <sparkle:version>88</sparkle:version>
-            <sparkle:shortVersionString>5.2.4-beta.1</sparkle:shortVersionString>
+            <pubDate>Fri, 30 Oct 2026 09:38:56 +0200</pubDate>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>5.2.4-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.4 Beta 1 - Edge Peek, Smarter Menus &amp; Easy App Stacks! 🫣📌✨</h2>
+        <h2>ExtraDock 5.2.4 Beta 2 - Hide Dock That Really Hides! 🙈✨</h2>
+
+        <h3>🆕 New In Beta 2</h3>
+        <ul>
+            <li><strong>Hide Dock really hides the dock:</strong> Hiding a dock from the menu bar, its right-click menu or your shortcut now fully removes it from the screen, so it no longer sits invisibly over other windows (like the App Store's Touch ID purchase sheet)!</li>
+            <li><strong>Better dock diagnostics:</strong> Export All Dock Diagnostics now lists other apps' windows that a dock overlaps!</li>
+        </ul>
+
+        <h2>Also in 5.2.4 (from Beta 1) - Edge Peek, Smarter Menus &amp; Easy App Stacks! 🫣📌✨</h2>
 
         <h3>🆕 New</h3>
         <ul>
@@ -40,6 +48,7 @@
 
         <h3>✅ What to test</h3>
         <ul>
+            <li>Hide a dock from the menu bar, its right-click menu and your shortcut, then show it again: it disappears completely and comes back in the same place.</li>
             <li>Turn on "Show at screen edge while hidden" on a pinned dock, then open a fullscreen app or maximize a window over the dock and rest the pointer on the edge.</li>
             <li>Right-click items on bottom, side and top docks: the menu opens beside the item.</li>
             <li>Make a new App Stack and add an app to it from the right-click menu.</li>
@@ -52,7 +61,7 @@
 
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.4-beta.1/ExtraDock.dmg" length="47470864" type="application/octet-stream" sparkle:edSignature="0IcbE8SZuLIQrrAAQweCAJi1kTX5S+WqCpifEhoGeI31NYm6+CC4F8m8DgpsR5//ipEDqx4I9r/HNtO9MfNbBQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.4-beta.2/ExtraDock.dmg" length="47487211" type="application/octet-stream" sparkle:edSignature="HuVBlvgl5jbrLHxm2e8bGK8BrnOeX2fcTgKg4CuefT9YKCLG7ZT5hIG1xNK0aP1ObENUILmfxgsDB1LDJT9hCQ=="/>
         </item>
         <item>
             <title>5.2.3</title>
