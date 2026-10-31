@@ -3,18 +3,25 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.4-beta.2</title>
+            <title>5.2.4-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 30 Oct 2026 09:38:56 +0200</pubDate>
-            <sparkle:version>89</sparkle:version>
-            <sparkle:shortVersionString>5.2.4-beta.2</sparkle:shortVersionString>
+            <pubDate>Sat, 31 Oct 2026 09:12:06 +0200</pubDate>
+            <sparkle:version>90</sparkle:version>
+            <sparkle:shortVersionString>5.2.4-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.4 Beta 2 - Hide Dock That Really Hides! 🙈✨</h2>
 
-        <h3>🆕 New In Beta 2</h3>
+        <h2>ExtraDock 5.2.4 Beta 3 - Every Copy Gets Its Own Spot! 🎨🧭</h2>
+
+        <h3>🐛 Fixed In Beta 3</h3>
+        <ul>
+            <li><strong>Two copies of one app stay apart:</strong> Apps that install each yearly version side by side (like Photoshop 2025 and 2026) are now separate in your dock. Only the running copy shows a dot, and clicking a copy opens or brings forward that copy, never the other one!</li>
+            <li><strong>No freeze on Automation permission checks:</strong> When macOS stops answering whether ExtraDock may control Finder, ExtraDock no longer freezes. It waits a few seconds at most and the Trash keeps its last count!</li>
+        </ul>
+
+        <h3>🙈 From Beta 2</h3>
         <ul>
             <li><strong>Hide Dock really hides the dock:</strong> Hiding a dock from the menu bar, its right-click menu or your shortcut now fully removes it from the screen, so it no longer sits invisibly over other windows (like the App Store's Touch ID purchase sheet)!</li>
             <li><strong>Better dock diagnostics:</strong> Export All Dock Diagnostics now lists other apps' windows that a dock overlaps!</li>
@@ -48,6 +55,8 @@
 
         <h3>✅ What to test</h3>
         <ul>
+            <li>Put two copies of one app (like Photoshop 2025 and 2026) in a dock: only the running one shows a dot, and each click opens or brings forward the copy you clicked.</li>
+            <li>Open the Widgets Library, add the Trash and empty it: nothing freezes.</li>
             <li>Hide a dock from the menu bar, its right-click menu and your shortcut, then show it again: it disappears completely and comes back in the same place.</li>
             <li>Turn on "Show at screen edge while hidden" on a pinned dock, then open a fullscreen app or maximize a window over the dock and rest the pointer on the edge.</li>
             <li>Right-click items on bottom, side and top docks: the menu opens beside the item.</li>
@@ -61,7 +70,7 @@
 
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.4-beta.2/ExtraDock.dmg" length="47487211" type="application/octet-stream" sparkle:edSignature="HuVBlvgl5jbrLHxm2e8bGK8BrnOeX2fcTgKg4CuefT9YKCLG7ZT5hIG1xNK0aP1ObENUILmfxgsDB1LDJT9hCQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.4-beta.3/ExtraDock.dmg" length="47638477" type="application/octet-stream" sparkle:edSignature="usVidaRypgil1ImV0Rrx7nw7YLDeYNhYihQ+Kt0nW3z1dcz9baqK1EZ49EWLbGWkjYtD/1LpHvHClpfVGhFZCQ=="/>
         </item>
         <item>
             <title>5.2.3</title>
