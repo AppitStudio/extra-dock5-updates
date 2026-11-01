@@ -3,19 +3,24 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.4-beta.3</title>
+            <title>5.2.4-beta.4</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sat, 31 Oct 2026 09:12:06 +0200</pubDate>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>5.2.4-beta.3</sparkle:shortVersionString>
+            <pubDate>Sun, 01 Nov 2026 18:31:54 +0200</pubDate>
+            <sparkle:version>91</sparkle:version>
+            <sparkle:shortVersionString>5.2.4-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 5.2.4 Beta 3 - Every Copy Gets Its Own Spot! 🎨🧭</h2>
+        <h2>ExtraDock 5.2.4 Beta 4 - Your Visibility Switches Are Back! 👀🖥️</h2>
 
-        <h3>🐛 Fixed In Beta 3</h3>
+        <h3>🐛 Fixed In Beta 4</h3>
+        <ul>
+            <li><strong>Visibility settings are back:</strong> Manager → your dock → Behavior shows Visibility again, with Show on (All Spaces, Active Space, Pinned) and Hide when a fullscreen app is active, so you can keep a dock showing over fullscreen apps!</li>
+        </ul>
+
+        <h3>🎨 From Beta 3</h3>
         <ul>
             <li><strong>Two copies of one app stay apart:</strong> Apps that install each yearly version side by side (like Photoshop 2025 and 2026) are now separate in your dock. Only the running copy shows a dot, and clicking a copy opens or brings forward that copy, never the other one!</li>
             <li><strong>No freeze on Automation permission checks:</strong> When macOS stops answering whether ExtraDock may control Finder, ExtraDock no longer freezes. It waits a few seconds at most and the Trash keeps its last count!</li>
@@ -55,6 +60,7 @@
 
         <h3>✅ What to test</h3>
         <ul>
+            <li>Open Manager → a dock → Behavior: the Visibility section is there. Turn off Hide when a fullscreen app is active and open a fullscreen app: the dock stays visible.</li>
             <li>Put two copies of one app (like Photoshop 2025 and 2026) in a dock: only the running one shows a dot, and each click opens or brings forward the copy you clicked.</li>
             <li>Open the Widgets Library, add the Trash and empty it: nothing freezes.</li>
             <li>Hide a dock from the menu bar, its right-click menu and your shortcut, then show it again: it disappears completely and comes back in the same place.</li>
@@ -70,7 +76,7 @@
 
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.4-beta.3/ExtraDock.dmg" length="47638477" type="application/octet-stream" sparkle:edSignature="usVidaRypgil1ImV0Rrx7nw7YLDeYNhYihQ+Kt0nW3z1dcz9baqK1EZ49EWLbGWkjYtD/1LpHvHClpfVGhFZCQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.4-beta.4/ExtraDock.dmg" length="47656589" type="application/octet-stream" sparkle:edSignature="tol3m9uzLWyuty2KBAOoO3WqbAhaTKgB/R1Oom9fOwNDN+Ju7/7C6vf3YKwut0OSpXNMG3tMmRAKRLHpAbh8Aw=="/>
         </item>
         <item>
             <title>5.2.3</title>
