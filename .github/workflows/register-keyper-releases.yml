@@ -6,6 +6,7 @@ on:
       - appcast.xml
       - release-notes.html
       - scripts/sync_keyper_releases.py
+      - scripts/test_stable_release_registration.py
       - scripts/test_sync_keyper_releases.py
       - .github/workflows/register-keyper-releases.yml
   push:
