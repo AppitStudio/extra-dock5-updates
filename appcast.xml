@@ -3,6 +3,57 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.2.5-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Wed, 04 Nov 2026 20:00:02 +0200</pubDate>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>5.2.5-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 5.2.5 Beta 1 - Notch Looks, Private Sharing &amp; Smarter Folders! 🎨🙈📂</h2>
+
+        <h3>🆕 New</h3>
+        <ul>
+            <li><strong>Notch dock backgrounds:</strong> Style → Background lets a notch dock be Black, any Color, Blur or Liquid Glass (still marked Beta on macOS 27). Thanks to David and Akiva for asking!</li>
+            <li><strong>Hide docks from screen sharing:</strong> Settings → Behavior → Privacy keeps your docks out of Zoom, Meet and Teams shares, recordings and screenshots, while they stay on your screen!</li>
+            <li><strong>One shortcut for several docks:</strong> Give docks the same Show/Hide shortcut and one press shows or hides them all together!</li>
+            <li><strong>Label widget:</strong> A free widget that names a group of icons with a title, an optional second line and a length you choose, with vertical text for side docks!</li>
+            <li><strong>Tint icons:</strong> Style → Icons → Tint icons colors every app, file and folder icon in a dock in one color!</li>
+            <li><strong>Always show item names:</strong> Style → Size &amp; Spacing shows every item's name without hovering!</li>
+            <li><strong>Hide a dock item for a while:</strong> Click the eye button in Manager → Items to hide an item without removing it. It comes back in the same place!</li>
+            <li><strong>One setting for every folder:</strong> Settings → Behavior → Clicking a folder picks Browse beside dock or Open in Finder for all folders at once!</li>
+            <li><strong>App Stack single click:</strong> A new App Stack setting opens apps and folders with one click!</li>
+            <li><strong>Shelf after dragging out:</strong> Shelf and Shelf (Cloud) can keep an item or remove it once you drop it somewhere else!</li>
+        </ul>
+
+        <h3>🚀 Improved</h3>
+        <ul>
+            <li><strong>Safer Move to Trash:</strong> In App Stacks and the folder browser it sits alone at the bottom, always asks first, and can be hidden in Settings → Behavior!</li>
+            <li><strong>Folder browser closes like the macOS Dock:</strong> A click in another app, on the desktop or in the menu bar closes it!</li>
+            <li><strong>The same folder twice:</strong> Add a folder again so one copy opens in Finder and the other browses beside the dock!</li>
+            <li><strong>Manager window always fits:</strong> Its content no longer gets cut off or pushed under the title bar!</li>
+            <li><strong>macOS 27 permission name:</strong> ExtraDock uses the new "Device Control and Data Access" name on macOS 27!</li>
+        </ul>
+
+        <h3>✅ What to test</h3>
+        <ul>
+            <li>Turn on Hide docks from screen sharing, take a screenshot and share your screen: the docks are missing. Turn it off and on again without relaunching.</li>
+            <li>Give two docks the same Show/Hide shortcut and press it.</li>
+            <li>Try each notch background, opening and closing the notch.</li>
+            <li>Hide an item with the eye button, then relaunch ExtraDock.</li>
+            <li>Switch Clicking a folder, click outside an open folder browser, and set a Shelf to Remove from Shelf.</li>
+            <li>Add a Label widget, tint a dock's icons and turn on Always show item names.</li>
+        </ul>
+
+        <p style="margin-top: 20px;"><em>This is a beta build. Thank you for testing! Please send anything that looks off, with Export Logs, to support@appitstudio.com.</em></p>
+
+]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.5-beta.1/ExtraDock.dmg" length="47965473" type="application/octet-stream" sparkle:edSignature="NGs2qweeFSegtrxXyOYqhwpkA98gPpY5isDEP0bKsidzvFgbnatbRltDGxtzyQfSx2bXRtFkdWZJ/f30DwYrCQ=="/>
+        </item>
+        <item>
             <title>5.2.4</title>
             <pubDate>Mon, 02 Nov 2026 21:38:27 +0200</pubDate>
             <sparkle:version>92</sparkle:version>
