@@ -3,18 +3,24 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.5-beta.2</title>
+            <title>5.2.5-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 06 Nov 2026 18:45:03 +0200</pubDate>
-            <sparkle:version>94</sparkle:version>
-            <sparkle:shortVersionString>5.2.5-beta.2</sparkle:shortVersionString>
+            <pubDate>Fri, 06 Nov 2026 19:45:22 +0200</pubDate>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>5.2.5-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.5 Beta 2 - A New Color Picker &amp; Drops That Land! 🎨📥</h2>
+        <h2>ExtraDock 5.2.5 Beta 3 - Drag Out Without Losing Files! 📂✅</h2>
 
-        <h3>🆕 New In Beta 2</h3>
+        <h3>🆕 New In Beta 3</h3>
+        <ul>
+            <li><strong>File Shelf keeps files you didn't drop:</strong> With a File Shelf set to Remove after drag out, cancelling a drag (Escape) or dropping where nothing accepts it no longer removes the file. It's removed only after it lands somewhere!</li>
+            <li><strong>Ask every time asks after the drop:</strong> With Ask every time, ExtraDock asks once the file has landed, in a small window you can answer with Remove or Keep, instead of stopping you the moment you start dragging. Cancel the drag and nothing is asked!</li>
+        </ul>
+
+        <h3>🎨 In Beta 2</h3>
         <ul>
             <li><strong>A new color picker:</strong> Every color setting opens a small picker right next to it instead of the macOS Colors window, with a palette, your recent colors, a Custom tab, a hex field and an eyedropper!</li>
             <li><strong>Widget colors:</strong> The Battery, Bluetooth and Clock widgets use the new picker too. Your saved colors stay the same!</li>
@@ -24,7 +30,6 @@
             <li><strong>No duplicate Shelf items:</strong> Dropping a Shelf item back onto its own Shelf is refused. Dropping it on the other Shelf adds it once!</li>
             <li><strong>Deleted apps leave the Live Dock:</strong> Apps you deleted no longer show up in a Live Dock as blank white icons. Thanks to Brandon for the report!</li>
         </ul>
-        <p><em>Known issue: with a File Shelf set to Remove after drag out, pressing Escape during a drag still removes the item.</em></p>
 
         <h3>🆕 New in 5.2.5</h3>
         <ul>
@@ -51,19 +56,21 @@
 
         <h3>✅ What to test</h3>
         <ul>
+            <li>File Shelf set to Remove after drag out: drag a file out and press Escape, it stays. Drop it on Finder, it's removed. Drop it back on its own tile, it stays with no duplicate.</li>
+            <li>File Shelf set to Ask every time: drop a file on Finder, the question appears after the drop and both Remove and Keep work.</li>
             <li>Drag a file from Finder onto a File Shelf tile: it shows the real name.</li>
             <li>Drag a file from the Shelf or File Shelf panel, the Screenshots gallery or the Trash onto an app in a dock: it opens in that app.</li>
             <li>Drop a Shelf item back on its own Shelf: it slides back with no duplicate.</li>
             <li>After any drag, click the empty part of a dock: the click goes to the window below.</li>
             <li>Drag a widget from the Widgets Library onto a dock, and try a few colors with the new color picker.</li>
-            <li>Beta 1 features: hide docks from screen sharing, a shared Show/Hide shortcut, notch backgrounds, the item eye button, Clicking a folder, the Label widget, Tint icons and Always show item names.</li>
+            <li>Beta 2 and Beta 1 features: the new color picker, drops onto dock apps, the Widgets Library drag, hide docks from screen sharing, a shared Show/Hide shortcut, notch backgrounds, the item eye button, Clicking a folder, the Label widget, Tint icons and Always show item names.</li>
         </ul>
 
         <p style="margin-top: 20px;"><em>This is a beta build. Thank you for testing! Please send anything that looks off, with Export Logs, to support@appitstudio.com.</em></p>
 
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.5-beta.2/ExtraDock.dmg" length="48302745" type="application/octet-stream" sparkle:edSignature="N9g2U69nKcylmA2JYAA7E8Jn0hC0mKhwFfEomsoN/XdC6aI3o2HxeM3MGAS0ysoc7Wk7SCsLnFkBJNuyveG0Aw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.5-beta.3/ExtraDock.dmg" length="48307795" type="application/octet-stream" sparkle:edSignature="uYEJ8a9PcFmre50TJpPLHbL4hYR2A+gQ3AI/eatt0LVCgEF6eVrBup+EDki3Ivlf7K1lYfhul9YP7/b8DPqzAg=="/>
         </item>
         <item>
             <title>5.2.4</title>
