@@ -3,18 +3,30 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.5-beta.1</title>
+            <title>5.2.5-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Wed, 04 Nov 2026 20:00:02 +0200</pubDate>
-            <sparkle:version>93</sparkle:version>
-            <sparkle:shortVersionString>5.2.5-beta.1</sparkle:shortVersionString>
+            <pubDate>Fri, 06 Nov 2026 18:45:03 +0200</pubDate>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>5.2.5-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.5 Beta 1 - Notch Looks, Private Sharing &amp; Smarter Folders! 🎨🙈📂</h2>
+        <h2>ExtraDock 5.2.5 Beta 2 - A New Color Picker &amp; Drops That Land! 🎨📥</h2>
 
-        <h3>🆕 New</h3>
+        <h3>🆕 New In Beta 2</h3>
+        <ul>
+            <li><strong>A new color picker:</strong> Every color setting opens a small picker right next to it instead of the macOS Colors window, with a palette, your recent colors, a Custom tab, a hex field and an eyedropper!</li>
+            <li><strong>Widget colors:</strong> The Battery, Bluetooth and Clock widgets use the new picker too. Your saved colors stay the same!</li>
+            <li><strong>Drop files on your dock apps:</strong> Drag a file from the Shelf or File Shelf panel, the Screenshots gallery or the Trash popover onto an app in a dock and it opens in that app, instead of landing on the Desktop!</li>
+            <li><strong>File Shelf shows the real file:</strong> Files dropped on a File Shelf tile show their real name instead of a "Missing" card!</li>
+            <li><strong>Drag widgets from the Widgets Library:</strong> Dropping a widget card from the Manager onto a dock adds it there!</li>
+            <li><strong>No duplicate Shelf items:</strong> Dropping a Shelf item back onto its own Shelf is refused. Dropping it on the other Shelf adds it once!</li>
+            <li><strong>Deleted apps leave the Live Dock:</strong> Apps you deleted no longer show up in a Live Dock as blank white icons. Thanks to Brandon for the report!</li>
+        </ul>
+        <p><em>Known issue: with a File Shelf set to Remove after drag out, pressing Escape during a drag still removes the item.</em></p>
+
+        <h3>🆕 New in 5.2.5</h3>
         <ul>
             <li><strong>Notch dock backgrounds:</strong> Style → Background lets a notch dock be Black, any Color, Blur or Liquid Glass (still marked Beta on macOS 27). Thanks to David and Akiva for asking!</li>
             <li><strong>Hide docks from screen sharing:</strong> Settings → Behavior → Privacy keeps your docks out of Zoom, Meet and Teams shares, recordings and screenshots, while they stay on your screen!</li>
@@ -28,7 +40,7 @@
             <li><strong>Shelf after dragging out:</strong> Shelf and Shelf (Cloud) can keep an item or remove it once you drop it somewhere else!</li>
         </ul>
 
-        <h3>🚀 Improved</h3>
+        <h3>🚀 Improved in 5.2.5</h3>
         <ul>
             <li><strong>Safer Move to Trash:</strong> In App Stacks and the folder browser it sits alone at the bottom, always asks first, and can be hidden in Settings → Behavior!</li>
             <li><strong>Folder browser closes like the macOS Dock:</strong> A click in another app, on the desktop or in the menu bar closes it!</li>
@@ -39,19 +51,19 @@
 
         <h3>✅ What to test</h3>
         <ul>
-            <li>Turn on Hide docks from screen sharing, take a screenshot and share your screen: the docks are missing. Turn it off and on again without relaunching.</li>
-            <li>Give two docks the same Show/Hide shortcut and press it.</li>
-            <li>Try each notch background, opening and closing the notch.</li>
-            <li>Hide an item with the eye button, then relaunch ExtraDock.</li>
-            <li>Switch Clicking a folder, click outside an open folder browser, and set a Shelf to Remove from Shelf.</li>
-            <li>Add a Label widget, tint a dock's icons and turn on Always show item names.</li>
+            <li>Drag a file from Finder onto a File Shelf tile: it shows the real name.</li>
+            <li>Drag a file from the Shelf or File Shelf panel, the Screenshots gallery or the Trash onto an app in a dock: it opens in that app.</li>
+            <li>Drop a Shelf item back on its own Shelf: it slides back with no duplicate.</li>
+            <li>After any drag, click the empty part of a dock: the click goes to the window below.</li>
+            <li>Drag a widget from the Widgets Library onto a dock, and try a few colors with the new color picker.</li>
+            <li>Beta 1 features: hide docks from screen sharing, a shared Show/Hide shortcut, notch backgrounds, the item eye button, Clicking a folder, the Label widget, Tint icons and Always show item names.</li>
         </ul>
 
         <p style="margin-top: 20px;"><em>This is a beta build. Thank you for testing! Please send anything that looks off, with Export Logs, to support@appitstudio.com.</em></p>
 
 ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.5-beta.1/ExtraDock.dmg" length="47965473" type="application/octet-stream" sparkle:edSignature="NGs2qweeFSegtrxXyOYqhwpkA98gPpY5isDEP0bKsidzvFgbnatbRltDGxtzyQfSx2bXRtFkdWZJ/f30DwYrCQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.5-beta.2/ExtraDock.dmg" length="48302745" type="application/octet-stream" sparkle:edSignature="N9g2U69nKcylmA2JYAA7E8Jn0hC0mKhwFfEomsoN/XdC6aI3o2HxeM3MGAS0ysoc7Wk7SCsLnFkBJNuyveG0Aw=="/>
         </item>
         <item>
             <title>5.2.4</title>
