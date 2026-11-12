@@ -3,6 +3,47 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.2.6-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Thu, 12 Nov 2026 18:19:14 +0200</pubDate>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>5.2.6-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 5.2.6 Beta 1 - Dock Tabs, GIFs &amp; Smarter Spaces! 🗂️🎞️</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Dock tabs:</strong> A dock can now hold several sets of items, each with its own tab. Switch from the strip next to the dock, and in Manager → Items pick whether the tabs are Always Visible or appear On Hover!</li>
+            <li><strong>GIF widget:</strong> A free widget that plays a GIF, animated PNG or WebP from your Mac. A click can grow it out of the dock, open an app or folder, play a sound or open a link!</li>
+            <li><strong>Bring to this screen:</strong> A new click gesture (the new Shift-click default) moves an app's window to the screen of the dock you clicked. Manager → Behavior → Clicking can also do it on a plain click with "Open apps on this dock's screen"!</li>
+            <li><strong>Space Awareness app order:</strong> Sort each Space's apps by name, by launch order, or in your own Custom order!</li>
+            <li><strong>Minimize / Restore All Windows:</strong> A new Space Awareness left-click choice that tucks away or brings back all of an app's windows at once!</li>
+            <li><strong>Hidden and minimized apps stay put:</strong> Space Awareness keeps them on their own Space's strip, shown dimmed!</li>
+            <li><strong>Move the macOS Dock to the side:</strong> Mission Control always shows the macOS Dock, so this new Deep-hide option moves it to a side edge and makes it small. Turn it off and your Dock comes back as it was!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Badges from the start:</strong> New docks show notification badges right away. Existing docks keep their setting!</li>
+            <li><strong>Smoother window restore:</strong> Bringing back a minimized window no longer freezes the dock while it animates!</li>
+            <li><strong>Clearer styles:</strong> The Style editor explains when Reduce Transparency or opaque backgrounds turn Blur or Liquid Glass into a solid color!</li>
+            <li><strong>Preview exclusions:</strong> Pick excluded apps with an app picker. They stay excluded after a language change!</li>
+            <li><strong>Groundwork for upcoming translations</strong> (English text unchanged)!</li>
+        </ul>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Menus keep the dock open:</strong> A hover-expanded notch dock or an auto-hide dock no longer closes while one of its right-click menus is open!</li>
+            <li><strong>Finder widget dot:</strong> Its running dot now matches the dots under your other apps!</li>
+        </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.1/ExtraDock.dmg" length="50912656" type="application/octet-stream" sparkle:edSignature="rQWLJ9cUo6FX2NMdwQATSirFKvtARU43EiTKSALbVY/lpmj9bBqD7S7oCLrDZk4mT+cAvpazjhxmhX/dZ6zXAw=="/>
+        </item>
+        <item>
             <title>5.2.5</title>
             <pubDate>Tue, 10 Nov 2026 16:33:07 +0200</pubDate>
             <sparkle:version>96</sparkle:version>
