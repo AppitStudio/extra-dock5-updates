@@ -3,17 +3,34 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.6-beta.1</title>
+            <title>5.2.6-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Thu, 12 Nov 2026 18:19:14 +0200</pubDate>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>5.2.6-beta.1</sparkle:shortVersionString>
+            <pubDate>Fri, 13 Nov 2026 22:11:22 +0200</pubDate>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>5.2.6-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.6 Beta 1 - Dock Tabs, GIFs &amp; Smarter Spaces! 🗂️🎞️</h2>
+        <h2>ExtraDock 5.2.6 Beta 2 - Your Feedback, Fixed! 🛠️✨</h2>
 
+        <h3>🆕 New in Beta 2</h3>
+        <ul>
+            <li><strong>Cleaner menu bar menu:</strong> Shorter names ("ExtraDock Manager", "Settings", "Export Logs", "Check for Updates"), New Dock now sits with your docks, and each dock opens straight in the ExtraDock Manager!</li>
+            <li><strong>Tidier + menu:</strong> Items, Widgets, Monitoring Dock and Add Tab are all in one place!</li>
+            <li><strong>Text-only tabs:</strong> Dock tabs now show just their name by default. Turn on "Tab Background" for the filled look!</li>
+            <li><strong>GIFs that stay put:</strong> The GIF widget keeps its own copy, so it keeps playing after you move or delete the original file. It's now labeled "Custom GIF" in the Manager!</li>
+            <li><strong>Reorder by drag:</strong> In Dock Edit Mode, drag apps in Space Awareness (Custom order), Live Dock and Running Apps. Right-click Move Left/Right/Start/End works too, with Reset Order to go back!</li>
+        </ul>
+
+        <h3>🐛 Fixed in Beta 2</h3>
+        <ul>
+            <li><strong>Smooth Space switching:</strong> Space Awareness no longer briefly resizes when you switch Spaces!</li>
+            <li><strong>Docks on the bottom edge:</strong> With "Move the macOS Dock to the side" on, docks on the bottom edge sit flush again instead of floating above an empty strip!</li>
+            <li><strong>Edit Tab:</strong> The color swatch lines up with its label!</li>
+        </ul>
+
+        <h3>📦 Also in 5.2.6</h3>
         <h3>✨ What's New</h3>
         <ul>
             <li><strong>Dock tabs:</strong> A dock can now hold several sets of items, each with its own tab. Switch from the strip next to the dock, and in Manager → Items pick whether the tabs are Always Visible or appear On Hover!</li>
@@ -41,7 +58,7 @@
         </ul>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.1/ExtraDock.dmg" length="50912656" type="application/octet-stream" sparkle:edSignature="rQWLJ9cUo6FX2NMdwQATSirFKvtARU43EiTKSALbVY/lpmj9bBqD7S7oCLrDZk4mT+cAvpazjhxmhX/dZ6zXAw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.2/ExtraDock.dmg" length="51426408" type="application/octet-stream" sparkle:edSignature="weQO7LVjDpFyIjhJsS0DPp39XrNf5nnm492F2rSSIM6M+AO2ZoRePPIUI07/TknPtHRcng5szxqz/RIXK67KDg=="/>
         </item>
         <item>
             <title>5.2.5</title>
