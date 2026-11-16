@@ -3,16 +3,24 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.6-beta.2</title>
+            <title>5.2.6-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 13 Nov 2026 22:11:22 +0200</pubDate>
-            <sparkle:version>98</sparkle:version>
-            <sparkle:shortVersionString>5.2.6-beta.2</sparkle:shortVersionString>
+            <pubDate>Mon, 16 Nov 2026 13:18:58 +0200</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>5.2.6-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.6 Beta 2 - Your Feedback, Fixed! 🛠️✨</h2>
+        <h2>ExtraDock 5.2.6 Beta 3 - Quick Look on the Shelf &amp; Windowless Apps! 👀✨</h2>
+
+        <h3>🆕 New in Beta 3</h3>
+        <ul>
+            <li><strong>Space Awareness shows apps with no windows:</strong> A new setting in the Space Awareness widget, off by default. Turn it on and apps running with no open windows (like BBEdit) show dimmed on every Space. Thanks to Sander for asking!</li>
+            <li><strong>File Shelf Quick Look:</strong> With the File Shelf open, press Space to preview the ticked files, or the file under the pointer. Arrow keys step through several files, and right-click → Quick Look works too!</li>
+            <li><strong>File Shelf keeps your app in front:</strong> Opening the File Shelf no longer brings ExtraDock forward, so anything you type still goes to the app you were using!</li>
+            <li><strong>GIFs fit in:</strong> The GIF widget is now the same size as the app icons beside it, with the same rounded corners!</li>
+        </ul>
 
         <h3>🆕 New in Beta 2</h3>
         <ul>
@@ -58,7 +66,7 @@
         </ul>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.2/ExtraDock.dmg" length="51426408" type="application/octet-stream" sparkle:edSignature="weQO7LVjDpFyIjhJsS0DPp39XrNf5nnm492F2rSSIM6M+AO2ZoRePPIUI07/TknPtHRcng5szxqz/RIXK67KDg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.3/ExtraDock.dmg" length="51499566" type="application/octet-stream" sparkle:edSignature="oQ42Lo9pxE/DGV9JHuluG0J34IhZ/WnPEhPIRihFUu1X/4C5Ygqxv08G51yDnZqqbIrfZd8wW8nUoZqWRQPWAg=="/>
         </item>
         <item>
             <title>5.2.5</title>
