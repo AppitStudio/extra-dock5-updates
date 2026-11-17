@@ -3,6 +3,28 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.2.7-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Tue, 17 Nov 2026 20:16:02 +0200</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>5.2.7-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 5.2.7 Beta 1 - TamaDocky Stays Awake! 🐱</h2>
+
+        <h3>🐛 Fixed in Beta 1</h3>
+        <ul>
+            <li><strong>TamaDocky stays awake:</strong> A TamaDocky pet on a dock that collapses and expands could turn gray after a few minutes and stop responding until you changed its settings. Now it stays live and clickable every time the dock opens!</li>
+        </ul>
+
+        <h3>📦 Also includes everything in 5.2.6</h3>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.7-beta.1/ExtraDock.dmg" length="51654588" type="application/octet-stream" sparkle:edSignature="YDGjDMtO1xH/3Bwd2YGUKzsP5pHnM74BNs1uUpa0l0DH9mz8RJ+zAF/H/8lhRpHTPfTx8ylD30aI/dVBLSu7DA=="/>
+        </item>
+        <item>
             <title>5.2.6</title>
             <pubDate>Tue, 17 Nov 2026 17:05:02 +0200</pubDate>
             <sparkle:version>101</sparkle:version>
