@@ -3,127 +3,53 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.6-beta.4</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Tue, 17 Nov 2026 15:28:20 +0200</pubDate>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>5.2.6-beta.4</sparkle:shortVersionString>
+            <title>5.2.6</title>
+            <pubDate>Tue, 17 Nov 2026 17:05:02 +0200</pubDate>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>5.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.6 Beta 4 - Clear License Help &amp; A Dock That Stays Hidden! 🔑🙈</h2>
+        <h2>ExtraDock 5.2.6 - Dock Tabs, A GIF Widget &amp; Smarter Space Awareness! 🗂️🎞️</h2>
 
-        <h3>🆕 New in Beta 4</h3>
-        <ul>
-            <li><strong>"Activate ExtraDock" when there's no license:</strong> Your docks stay on screen, and clicking one opens a small window that explains what's needed, with Open License Settings and Get a License buttons. Settings, the Manager and the menu bar keep working!</li>
-            <li><strong>Hide from Space Awareness:</strong> Right-click an app on a Space Awareness strip and choose "Hide from Space Awareness". The old "Remove from Dock" there did nothing. Thanks to Sander for the report!</li>
-            <li><strong>Move the macOS Dock aside:</strong> With Deep-hide on and a dock on the macOS Dock's edge, Settings › General now offers a one-click "Move to the Side" so the macOS Dock stops popping up!</li>
-            <li><strong>Settings links open the right page:</strong> Open License Settings and the other buttons that send you to Settings now land on the right page!</li>
-            <li><strong>Deep-hide stays hidden:</strong> If the macOS Dock comes back after a restart or logout, ExtraDock hides it again!</li>
-            <li><strong>GIF widget follows its file:</strong> Edit or replace the GIF and the widget updates, and a grown GIF hides at once when you switch dock tabs!</li>
-            <li><strong>Network drives no longer slow the Trash:</strong> The Trash widgets don't wait on slow or offline network volumes anymore!</li>
-            <li><strong>Better problem reports:</strong> Export Logs includes more dock details and full crash reports, so we can fix things faster!</li>
-        </ul>
-
-        <h3>🆕 New in Beta 3</h3>
-        <ul>
-            <li><strong>Space Awareness shows apps with no windows:</strong> A new setting in the Space Awareness widget, off by default. Turn it on and apps running with no open windows (like BBEdit) show dimmed on every Space. Thanks to Sander for asking!</li>
-            <li><strong>File Shelf Quick Look:</strong> With the File Shelf open, press Space to preview the ticked files, or the file under the pointer. Arrow keys step through several files, and right-click → Quick Look works too!</li>
-            <li><strong>File Shelf keeps your app in front:</strong> Opening the File Shelf no longer brings ExtraDock forward, so anything you type still goes to the app you were using!</li>
-            <li><strong>GIFs fit in:</strong> The GIF widget is now the same size as the app icons beside it, with the same rounded corners!</li>
-        </ul>
-
-        <h3>🆕 New in Beta 2</h3>
-        <ul>
-            <li><strong>Cleaner menu bar menu:</strong> Shorter names ("ExtraDock Manager", "Settings", "Export Logs", "Check for Updates"), New Dock now sits with your docks, and each dock opens straight in the ExtraDock Manager!</li>
-            <li><strong>Tidier + menu:</strong> Items, Widgets, Monitoring Dock and Add Tab are all in one place!</li>
-            <li><strong>Text-only tabs:</strong> Dock tabs now show just their name by default. Turn on "Tab Background" for the filled look!</li>
-            <li><strong>GIFs that stay put:</strong> The GIF widget keeps its own copy, so it keeps playing after you move or delete the original file. It's now labeled "Custom GIF" in the Manager!</li>
-            <li><strong>Reorder by drag:</strong> In Dock Edit Mode, drag apps in Space Awareness (Custom order), Live Dock and Running Apps. Right-click Move Left/Right/Start/End works too, with Reset Order to go back!</li>
-        </ul>
-
-        <h3>🐛 Fixed in Beta 2</h3>
-        <ul>
-            <li><strong>Smooth Space switching:</strong> Space Awareness no longer briefly resizes when you switch Spaces!</li>
-            <li><strong>Docks on the bottom edge:</strong> With "Move the macOS Dock to the side" on, docks on the bottom edge sit flush again instead of floating above an empty strip!</li>
-            <li><strong>Edit Tab:</strong> The color swatch lines up with its label!</li>
-        </ul>
-
-        <h3>📦 Also in 5.2.6</h3>
         <h3>✨ What's New</h3>
         <ul>
-            <li><strong>Dock tabs:</strong> A dock can now hold several sets of items, each with its own tab. Switch from the strip next to the dock, and in Manager → Items pick whether the tabs are Always Visible or appear On Hover!</li>
-            <li><strong>GIF widget:</strong> A free widget that plays a GIF, animated PNG or WebP from your Mac. A click can grow it out of the dock, open an app or folder, play a sound or open a link!</li>
+            <li><strong>Dock tabs:</strong> A dock can now hold several sets of items, each with its own tab. Switch tabs from the strip next to the dock, and in Manager → Items choose whether the tabs are Always Visible or appear On Hover. Tabs show just their name by default; turn on "Tab Background" for the filled look!</li>
+            <li><strong>GIF widget:</strong> A free widget that plays a GIF, animated PNG or WebP from your Mac, at the same size as the app icons beside it. A click can grow it out of the dock, open an app or folder, play a sound or open a link. It keeps its own copy of the file, and picks up your changes when you edit or replace it. ExtraDock 4 GIF widgets carry over when you import!</li>
             <li><strong>Bring to this screen:</strong> A new click gesture (the new Shift-click default) moves an app's window to the screen of the dock you clicked. Manager → Behavior → Clicking can also do it on a plain click with "Open apps on this dock's screen"!</li>
-            <li><strong>Space Awareness app order:</strong> Sort each Space's apps by name, by launch order, or in your own Custom order!</li>
+            <li><strong>Space Awareness app order:</strong> Sort each Space's apps by name, by launch order, or in your own Custom order. In Dock Edit Mode you can drag apps to reorder them in Space Awareness, Live Dock and Running Apps, or use Move Left / Right / Start / End from the right-click menu!</li>
             <li><strong>Minimize / Restore All Windows:</strong> A new Space Awareness left-click choice that tucks away or brings back all of an app's windows at once!</li>
             <li><strong>Hidden and minimized apps stay put:</strong> Space Awareness keeps them on their own Space's strip, shown dimmed!</li>
-            <li><strong>Move the macOS Dock to the side:</strong> Mission Control always shows the macOS Dock, so this new Deep-hide option moves it to a side edge and makes it small. Turn it off and your Dock comes back as it was!</li>
+            <li><strong>Show apps with no windows:</strong> A new Space Awareness setting (off by default) shows apps that are running with no open windows, dimmed on every Space. Thanks to Sander for asking!</li>
+            <li><strong>Hide an app from Space Awareness:</strong> Right-click an app on a Space Awareness strip and choose "Hide from Space Awareness". Before, the menu offered "Remove from Dock" there, which did nothing. Thanks to Sander for the report!</li>
+            <li><strong>Move the macOS Dock to the side:</strong> Mission Control always shows the macOS Dock, so this new Deep-hide option moves it to a side edge and makes it small. When one of your docks shares an edge with the macOS Dock, Settings → General offers it with a one-click "Move to the Side". Turn it off and your Dock comes back as it was!</li>
+            <li><strong>File Shelf Quick Look:</strong> With the File Shelf open, press Space to preview the ticked files or the file under the pointer. Arrow keys step through several files, and right-click → Quick Look works too!</li>
         </ul>
 
-        <h3>⚡ Improvements</h3>
+        <h3>🚀 Improvements</h3>
         <ul>
-            <li><strong>Badges from the start:</strong> New docks show notification badges right away. Existing docks keep their setting!</li>
+            <li><strong>Clear help when a license is needed:</strong> Without an active license your docks stay on screen, and using one opens a small "Activate ExtraDock" window with Open License Settings and Get a License buttons. Settings, the Manager and the menu bar keep working!</li>
+            <li><strong>Deep-hide stays hidden:</strong> If the macOS Dock comes back after a restart or logout, ExtraDock hides it again!</li>
+            <li><strong>Badges from the start:</strong> New docks show notification badges (Slack, Teams, Mail…) right away. Existing docks keep their setting!</li>
             <li><strong>Smoother window restore:</strong> Bringing back a minimized window no longer freezes the dock while it animates!</li>
-            <li><strong>Clearer styles:</strong> The Style editor explains when Reduce Transparency or opaque backgrounds turn Blur or Liquid Glass into a solid color!</li>
-            <li><strong>Preview exclusions:</strong> Pick excluded apps with an app picker. They stay excluded after a language change!</li>
+            <li><strong>File Shelf keeps your app in front:</strong> Opening the File Shelf no longer brings ExtraDock forward, so anything you type still goes to the app you were using!</li>
+            <li><strong>Cleaner menus:</strong> The menu bar menu has shorter names ("ExtraDock Manager", "Settings", "Export Logs", "Check for Updates"), New Dock sits with your docks, and each dock opens straight in the Manager. The + menu has Items, Widgets, Monitoring Dock and Add Tab in one place!</li>
+            <li><strong>Clearer styles:</strong> The Style editor explains when Reduce Transparency or "Always use opaque dock backgrounds" turns Blur or Liquid Glass into a solid color!</li>
+            <li><strong>Preview exclusions:</strong> Pick excluded apps with an app picker. They stay excluded after a language change or when an app's name differs!</li>
+            <li><strong>Better problem reports:</strong> Export Logs includes more dock details and full crash reports, so we can fix things faster!</li>
             <li><strong>Groundwork for upcoming translations</strong> (English text unchanged)!</li>
         </ul>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
             <li><strong>Menus keep the dock open:</strong> A hover-expanded notch dock or an auto-hide dock no longer closes while one of its right-click menus is open!</li>
+            <li><strong>Settings links open the right page:</strong> Open License Settings and the other buttons and links that send you to Settings now land on the right page!</li>
+            <li><strong>Network drives no longer slow the Trash:</strong> The Trash and System Trash widget no longer wait on network volumes that are slow or offline!</li>
+            <li><strong>Smooth Space switching:</strong> Space Awareness no longer briefly resizes when you switch Spaces!</li>
+            <li><strong>Docks on the bottom edge:</strong> With "Move the macOS Dock to the side" on, docks on the bottom edge sit flush instead of floating above an empty strip!</li>
             <li><strong>Finder widget dot:</strong> Its running dot now matches the dots under your other apps!</li>
-        </ul>
-            ]]></description>
-
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.4/ExtraDock.dmg" length="51645089" type="application/octet-stream" sparkle:edSignature="xbYlPaceMVfGgwyunGRvkIynW6w1RVQvC0gBZ3nh4A7QC7HM4vYJJqeeA4RvQJVFw+NawWp+oV9I2w/djPg+AA=="/>
-        </item>
-        <item>
-            <title>5.2.5</title>
-            <pubDate>Tue, 10 Nov 2026 16:33:07 +0200</pubDate>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>5.2.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
-                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
-            <description><![CDATA[
-        <h2>ExtraDock 5.2.5 - Notch Backgrounds, A New Color Picker &amp; Smarter Drags! 🎨📂</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>Notch dock backgrounds:</strong> Style → Background lets a notch dock be Black, any Color, Blur or Liquid Glass (still marked Beta on macOS 27). Thanks to David and Akiva for asking!</li>
-            <li><strong>Hide docks from screen sharing:</strong> Settings → Behavior → Privacy keeps your docks out of Zoom, Meet and Teams shares, recordings and screenshots, while they stay on your screen!</li>
-            <li><strong>A new color picker:</strong> Every color setting opens a small picker right next to it instead of the macOS Colors window, with a palette, your recent colors, a Custom tab, a hex field and an eyedropper. The Battery, Bluetooth and Clock widgets use it too, and your saved colors stay the same!</li>
-            <li><strong>One shortcut for several docks:</strong> Give docks the same Show/Hide shortcut and one press shows or hides them all together!</li>
-            <li><strong>Label widget:</strong> A free widget that names a group of icons with a title, an optional second line and a length you choose, with vertical text for side docks!</li>
-            <li><strong>Tint icons:</strong> Style → Icons → Tint icons colors every app, file and folder icon in a dock in one color!</li>
-            <li><strong>Always show item names:</strong> Style → Size &amp; Spacing shows every item's name without hovering!</li>
-            <li><strong>Hide a dock item for a while:</strong> Click the eye button in Manager → Items to hide an item without removing it. It comes back in the same place!</li>
-            <li><strong>One setting for every folder:</strong> Settings → Behavior → Clicking a folder picks Browse beside dock or Open in Finder for all folders at once!</li>
-            <li><strong>App Stack single click:</strong> A new App Stack setting opens apps and folders with one click!</li>
-            <li><strong>Shelf after dragging out:</strong> Shelf and Shelf (Cloud) can keep an item or remove it once you drop it somewhere else!</li>
-        </ul>
-
-        <h3>🚀 Improvements</h3>
-        <ul>
-            <li><strong>Safer Move to Trash:</strong> In App Stacks and the folder browser it sits alone at the bottom, always asks first, and can be hidden in Settings → Behavior!</li>
-            <li><strong>Folder browser closes like the macOS Dock:</strong> A click in another app, on the desktop or in the menu bar closes it!</li>
-            <li><strong>The same folder twice:</strong> Add a folder again so one copy opens in Finder and the other browses beside the dock!</li>
-            <li><strong>Drag widgets from the Widgets Library:</strong> Dropping a widget card from the Manager onto a dock adds it there!</li>
-            <li><strong>No duplicate Shelf items:</strong> Dropping a Shelf item back onto its own Shelf is refused. Dropping it on the other Shelf adds it once!</li>
-            <li><strong>Manager window always fits:</strong> Its content no longer gets cut off or pushed under the title bar!</li>
-            <li><strong>Ready for macOS 27:</strong> ExtraDock uses the new "Device Control and Data Access" name for Accessibility on macOS 27!</li>
-        </ul>
-
-        <h3>🐛 Bug Fixes</h3>
-        <ul>
-            <li><strong>Drop files on your dock apps:</strong> Drag a file from the Shelf or File Shelf panel, the Screenshots gallery or the Trash popover onto an app in a dock and it opens in that app, instead of landing on the Desktop!</li>
-            <li><strong>File Shelf keeps files you didn't drop:</strong> With Remove after drag out, cancelling a drag (Escape) or dropping where nothing accepts it no longer removes the file. With Ask every time, ExtraDock asks after the file has landed, not the moment you start dragging!</li>
-            <li><strong>File Shelf shows the real file:</strong> Files dropped on a File Shelf tile show their real name instead of a "Missing" card!</li>
-            <li><strong>Deleted apps leave the Live Dock:</strong> Apps you deleted no longer show up in a Live Dock as blank white icons. Thanks to Brandon for the report!</li>
-            <li><strong>Folders keep their click choice:</strong> Exporting and importing a dock keeps each folder's click setting again!</li>
+            <li><strong>Edit Tab:</strong> The color swatch lines up with its label!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -132,7 +58,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.5/ExtraDock.dmg" length="48308348" type="application/octet-stream" sparkle:edSignature="2zZJCWn9Npes+eBn/8ThTm4Fef7DnrQTVD4eWUGW4KNeh3nHGBKgOPTRA6J4q6AFl1iI6ctGm6k+Iqi8hTW6DQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6/ExtraDock.dmg" length="51645872" type="application/octet-stream" sparkle:edSignature="iekZDW/DsH59Lxgn5gbBRmeGbP/ZBvNssrp9orNiC6NPIkuZbtl4BBQRDuj6IBmC+lupkWZlFCxwqJ5vLmh2Cw=="/>
         </item>
     </channel>
 </rss>
