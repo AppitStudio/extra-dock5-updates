@@ -3,16 +3,28 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.6-beta.3</title>
+            <title>5.2.6-beta.4</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 16 Nov 2026 13:18:58 +0200</pubDate>
-            <sparkle:version>99</sparkle:version>
-            <sparkle:shortVersionString>5.2.6-beta.3</sparkle:shortVersionString>
+            <pubDate>Tue, 17 Nov 2026 15:28:20 +0200</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>5.2.6-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.6 Beta 3 - Quick Look on the Shelf &amp; Windowless Apps! 👀✨</h2>
+        <h2>ExtraDock 5.2.6 Beta 4 - Clear License Help &amp; A Dock That Stays Hidden! 🔑🙈</h2>
+
+        <h3>🆕 New in Beta 4</h3>
+        <ul>
+            <li><strong>"Activate ExtraDock" when there's no license:</strong> Your docks stay on screen, and clicking one opens a small window that explains what's needed, with Open License Settings and Get a License buttons. Settings, the Manager and the menu bar keep working!</li>
+            <li><strong>Hide from Space Awareness:</strong> Right-click an app on a Space Awareness strip and choose "Hide from Space Awareness". The old "Remove from Dock" there did nothing. Thanks to Sander for the report!</li>
+            <li><strong>Move the macOS Dock aside:</strong> With Deep-hide on and a dock on the macOS Dock's edge, Settings › General now offers a one-click "Move to the Side" so the macOS Dock stops popping up!</li>
+            <li><strong>Settings links open the right page:</strong> Open License Settings and the other buttons that send you to Settings now land on the right page!</li>
+            <li><strong>Deep-hide stays hidden:</strong> If the macOS Dock comes back after a restart or logout, ExtraDock hides it again!</li>
+            <li><strong>GIF widget follows its file:</strong> Edit or replace the GIF and the widget updates, and a grown GIF hides at once when you switch dock tabs!</li>
+            <li><strong>Network drives no longer slow the Trash:</strong> The Trash widgets don't wait on slow or offline network volumes anymore!</li>
+            <li><strong>Better problem reports:</strong> Export Logs includes more dock details and full crash reports, so we can fix things faster!</li>
+        </ul>
 
         <h3>🆕 New in Beta 3</h3>
         <ul>
@@ -66,7 +78,7 @@
         </ul>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.3/ExtraDock.dmg" length="51499566" type="application/octet-stream" sparkle:edSignature="oQ42Lo9pxE/DGV9JHuluG0J34IhZ/WnPEhPIRihFUu1X/4C5Ygqxv08G51yDnZqqbIrfZd8wW8nUoZqWRQPWAg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.6-beta.4/ExtraDock.dmg" length="51645089" type="application/octet-stream" sparkle:edSignature="xbYlPaceMVfGgwyunGRvkIynW6w1RVQvC0gBZ3nh4A7QC7HM4vYJJqeeA4RvQJVFw+NawWp+oV9I2w/djPg+AA=="/>
         </item>
         <item>
             <title>5.2.5</title>
