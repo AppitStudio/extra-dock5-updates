@@ -3,16 +3,23 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.7-beta.2</title>
+            <title>5.2.7-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 22 Nov 2026 11:15:00 +0200</pubDate>
-            <sparkle:version>103</sparkle:version>
-            <sparkle:shortVersionString>5.2.7-beta.2</sparkle:shortVersionString>
+            <pubDate>Sun, 22 Nov 2026 20:43:42 +0200</pubDate>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>5.2.7-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.7 Beta 2 - Windows As Dock Items, Settings Search &amp; Glass Tones! 🪟🔍</h2>
+        <h2>ExtraDock 5.2.7 Beta 3 - Clock Date Color, Calmer Shift-Click &amp; A Quicker Trash! 🕒🗑️</h2>
+
+        <h3>🆕 New In Beta 3</h3>
+        <ul>
+            <li><strong>Clock date color:</strong> The date on the Clock widget now follows your Text color, so it stays easy to read on a dark wallpaper. Want a different color for the date? Pick one with the new Date color setting, right below Text color!</li>
+            <li><strong>Shift-click stays on your desktop:</strong> Shift-clicking an app to bring it to this screen never switches you to another desktop anymore. If the app's window sits on a desktop you're not looking at, ExtraDock beeps and leaves you where you are!</li>
+            <li><strong>Trash empties right away:</strong> After you empty items you deleted from iCloud Drive, the Trash on your dock shows empty within seconds, even without Full Disk Access. Before, it could take up to a minute!</li>
+        </ul>
 
         <h3>✨ New in Beta 2</h3>
         <ul>
@@ -49,7 +56,7 @@
         <h3>📦 Also includes everything in 5.2.6</h3>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.7-beta.2/ExtraDock.dmg" length="52708820" type="application/octet-stream" sparkle:edSignature="C5rAzx2pY1hnqgaLpH45XBLBD3BcWf8nWZ9rfAFxAslsrq+5h5umskG+sfHfS3q23UGsHlsOif6CVD3mXOcEDw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.7-beta.3/ExtraDock.dmg" length="52734208" type="application/octet-stream" sparkle:edSignature="NhFfZg+Hy2zgEXGhMn8+k3xgSwPoHICSkwgXbewVwomuX8fWqZ2saas9FyZpxTFqwsBmWqFUWPEF1R4CkB5HDQ=="/>
         </item>
         <item>
             <title>5.2.6</title>
