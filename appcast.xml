@@ -3,16 +3,43 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.7-beta.1</title>
+            <title>5.2.7-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Tue, 17 Nov 2026 20:16:02 +0200</pubDate>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>5.2.7-beta.1</sparkle:shortVersionString>
+            <pubDate>Sun, 22 Nov 2026 11:15:00 +0200</pubDate>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>5.2.7-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.7 Beta 1 - TamaDocky Stays Awake! 🐱</h2>
+        <h2>ExtraDock 5.2.7 Beta 2 - Windows As Dock Items, Settings Search &amp; Glass Tones! 🪟🔍</h2>
+
+        <h3>✨ New in Beta 2</h3>
+        <ul>
+            <li><strong>Show Windows Separately:</strong> Right-click an app on your dock (or open Manager › Items) and turn on "Show Windows Separately". Each open window gets its own dock item right after the app (up to 10, including windows on other Spaces). Click one to bring that exact window to the front, minimized windows show dimmed, and right-click a window item to Close Window. Works in Native Dock Copy and Running Apps sections too!</li>
+            <li><strong>Search in Settings:</strong> A search field now sits at the top of the Settings sidebar. Type what you're looking for in your own words and Settings jumps to the right page, scrolls to the setting and highlights it!</li>
+            <li><strong>Liquid Glass tone:</strong> Pick Clear, Light, Dark or Automatic under Style › Liquid Glass. Dark is new, and Automatic follows macOS Light and Dark mode live. Your docks keep their look, and new docks start on Automatic!</li>
+            <li><strong>Drag a file onto a running app:</strong> Rest a dragged file on a running app's dock icon and the app comes forward with its windows, so you can drop the file right where you want it!</li>
+            <li><strong>Bluetooth charging:</strong> The Bluetooth Battery widget shows a green bolt while a Magic Keyboard, Mouse or Trackpad is charging!</li>
+        </ul>
+
+        <h3>🚀 Improved in Beta 2</h3>
+        <ul>
+            <li><strong>Settings opens pages instantly:</strong> Every page shows at once, search results land right on their setting, and changing a setting no longer makes your docks and widgets redraw. Closing Settings gives the memory back!</li>
+            <li><strong>Smoother docks:</strong> Adding or removing apps, window items and running apps is lighter, and the dock never shifts while it animates!</li>
+            <li><strong>Quicker launch:</strong> The Launch at Login and DockFlow connection checks no longer hold up ExtraDock at launch or while you work!</li>
+            <li><strong>TamaDocky goes easy on your Mac:</strong> An idle pet now uses far less CPU, and it pauses while it's covered, the screen is locked or the display sleeps!</li>
+            <li><strong>GIF widget follows your file:</strong> The GIF widget now plays the file you chose and picks up your edits. If you added a GIF widget with 5.2.6 or Beta 1, choose its GIF once more so it can follow the file!</li>
+            <li><strong>One icon per copy:</strong> Apps that run more than one copy at a time (like Wormhole) now show a dock icon for each copy, with its window title!</li>
+        </ul>
+
+        <h3>🐛 Fixed in Beta 2</h3>
+        <ul>
+            <li><strong>Windows open on your desktop:</strong> With several desktops, Settings, the Manager, the activation window and widget windows such as File Shelf and Trash now open on the desktop you're on!</li>
+            <li><strong>Settings window buttons:</strong> The window buttons of Settings no longer crowd its top-left corner on macOS Tahoe!</li>
+            <li><strong>Reserve Dock Space and dragged windows:</strong> With Active on Drag off, a window you're holding is no longer moved mid-drag. It's moved out of the dock area after you let go!</li>
+            <li><strong>System Trash widget menu:</strong> "Allow Finder Access…" only appears while access is missing, and Widget Settings… and Remove Widget are back!</li>
+        </ul>
 
         <h3>🐛 Fixed in Beta 1</h3>
         <ul>
@@ -22,7 +49,7 @@
         <h3>📦 Also includes everything in 5.2.6</h3>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.7-beta.1/ExtraDock.dmg" length="51654588" type="application/octet-stream" sparkle:edSignature="YDGjDMtO1xH/3Bwd2YGUKzsP5pHnM74BNs1uUpa0l0DH9mz8RJ+zAF/H/8lhRpHTPfTx8ylD30aI/dVBLSu7DA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.7-beta.2/ExtraDock.dmg" length="52708820" type="application/octet-stream" sparkle:edSignature="C5rAzx2pY1hnqgaLpH45XBLBD3BcWf8nWZ9rfAFxAslsrq+5h5umskG+sfHfS3q23UGsHlsOif6CVD3mXOcEDw=="/>
         </item>
         <item>
             <title>5.2.6</title>
