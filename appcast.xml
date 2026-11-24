@@ -3,18 +3,23 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.7-beta.4</title>
+            <title>5.2.7-beta.5</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 23 Nov 2026 15:31:19 +0200</pubDate>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>5.2.7-beta.4</sparkle:shortVersionString>
+            <pubDate>Tue, 24 Nov 2026 11:54:47 +0200</pubDate>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>5.2.7-beta.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.7 Beta 4 - A Steady Trash Icon &amp; Tabs That Make Room! 🗑️🗂️</h2>
+        <h2>ExtraDock 5.2.7 Beta 5 - Docks That Go Back When Your Focus Ends! 🌙🔁</h2>
 
-        <h3>🆕 New In Beta 4</h3>
+        <h3>🆕 New In Beta 5</h3>
+        <ul>
+            <li><strong>Restore Docks When Focus Ends:</strong> Your ExtraDock Focus filter already shows or hides docks when a Focus turns on. Now, when that Focus turns off, ExtraDock can put those docks back the way they were before it! A dock you showed or hid by hand during the Focus stays the way you left it, and going from one Focus straight to another still brings back how things were before the first one. It's off by default: turn it on in Settings › Behavior › Focus Filters, where Open Focus Settings… takes you to System Settings › Focus to set up the filter!</li>
+        </ul>
+
+        <h3>✨ New in Beta 4</h3>
         <ul>
             <li><strong>Trash keeps its icon:</strong> Dragging the Icon Size slider no longer swaps the System Trash widget's icon for a placeholder symbol for a moment!</li>
             <li><strong>Widgets stay put while you change a dock:</strong> Resizing or renaming a dock no longer restarts widgets such as the File Shelf and the System Trash, so they keep showing what they showed. Changing a widget's own settings still refreshes it right away!</li>
@@ -63,7 +68,7 @@
         <h3>📦 Also includes everything in 5.2.6</h3>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.7-beta.4/ExtraDock.dmg" length="52758553" type="application/octet-stream" sparkle:edSignature="K1E+ComNeTH3hOcxRUsf6cQ1Dz0rWgcYn6rxmLFX/Jui+wxxFIBKPmXIZlAz2lmHstttk5S8T9TdA9OtyH/XDg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.7-beta.5/ExtraDock.dmg" length="52785272" type="application/octet-stream" sparkle:edSignature="eW6POS+hOtG+EGmKSvFVhxSz/FVot2jIWgadoU7J04F/+5EqkhJrAM0QnlzPdKPUk/N00CaWVsFUrc1Q9DkrCg=="/>
         </item>
         <item>
             <title>5.2.6</title>
