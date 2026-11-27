@@ -3,16 +3,21 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.8-beta.2</title>
+            <title>5.2.8-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 27 Nov 2026 15:22:16 +0200</pubDate>
-            <sparkle:version>109</sparkle:version>
-            <sparkle:shortVersionString>5.2.8-beta.2</sparkle:shortVersionString>
+            <pubDate>Fri, 27 Nov 2026 17:18:26 +0200</pubDate>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>5.2.8-beta.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.8 Beta 2 - Smoother Minimize on Every Screen! 🪟🖥️</h2>
+        <h2>ExtraDock 5.2.8 Beta 3 - Smoother Minimize on Every Screen! 🪟🖥️</h2>
+
+        <h3>🛠️ Fixed In Beta 3</h3>
+        <ul>
+            <li><strong>macOS 27:</strong> On macOS 27, Minimize into ExtraDock is now off and its switch is disabled. The macOS 27 Dock ignores the instant-minimize setting, so windows showed the macOS animation under the effect. On macOS 26 and earlier nothing changes!</li>
+        </ul>
 
         <h3>🛠️ Fixed In Beta 2</h3>
         <ul>
@@ -37,7 +42,7 @@
         <h3>📦 Also includes everything in 5.2.7</h3>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.8-beta.2/ExtraDock.dmg" length="53268147" type="application/octet-stream" sparkle:edSignature="0RMYor+8weYfEz8sYL5SK3xObrei2fsB/VP/TBSFcpxMQQIKIXdieRGpfK0LuI1bppU8YCQOHd4NEsMRfNIOBA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.8-beta.3/ExtraDock.dmg" length="53267485" type="application/octet-stream" sparkle:edSignature="6xnEcvR/U8M9nEAFEvNdLFa2Y7pWOhutIBWI9RY142L1+QDrNLHoV253U7Z535GExcbG5+JG+qXmpPX8hHHoBw=="/>
         </item>
         <item>
             <title>5.2.7</title>
