@@ -3,20 +3,29 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.8-beta.3</title>
+            <title>5.2.8-beta.4</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 27 Nov 2026 17:18:26 +0200</pubDate>
-            <sparkle:version>110</sparkle:version>
-            <sparkle:shortVersionString>5.2.8-beta.3</sparkle:shortVersionString>
+            <pubDate>Fri, 27 Nov 2026 21:51:27 +0200</pubDate>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>5.2.8-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.8 Beta 3 - Smoother Minimize on Every Screen! 🪟🖥️</h2>
+        <h2>ExtraDock 5.2.8 Beta 4 - Minimize into ExtraDock on macOS 27! 🪟🖥️</h2>
 
-        <h3>🛠️ Fixed In Beta 3</h3>
+        <h3>🛠️ Fixed In Beta 4</h3>
         <ul>
-            <li><strong>macOS 27:</strong> On macOS 27, Minimize into ExtraDock is now off and its switch is disabled. The macOS 27 Dock ignores the instant-minimize setting, so windows showed the macOS animation under the effect. On macOS 26 and earlier nothing changes!</li>
+            <li><strong>Back on macOS 27:</strong> Minimize windows into ExtraDock works on macOS 27 again, and its switch is no longer disabled. Beta 3 had turned it off there!</li>
+            <li><strong>Only one animation on every Mac:</strong> On Macs where the macOS setting "Minimize windows into application icon" was off, the macOS animation could still play under the effect. While Minimize windows into ExtraDock is on, ExtraDock now turns that macOS setting on as well, and puts your own choice back when you turn the option off or quit ExtraDock!</li>
+        </ul>
+
+        <h3>🧪 What To Test In Beta 4</h3>
+        <ul>
+            <li>On macOS 27, the Minimize windows into ExtraDock switch can be turned on, and a minimized window shows only the ExtraDock effect, on each display.</li>
+            <li>On macOS 26 with "Minimize windows into application icon" off in System Settings › Desktop &amp; Dock, the same: only the ExtraDock effect plays.</li>
+            <li>After you turn the option off or quit ExtraDock, "Minimize windows into application icon" is back to what you had before.</li>
+            <li>Known limit: windows of apps that have no Dock icon still use the macOS animation.</li>
         </ul>
 
         <h3>🛠️ Fixed In Beta 2</h3>
@@ -42,7 +51,7 @@
         <h3>📦 Also includes everything in 5.2.7</h3>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.8-beta.3/ExtraDock.dmg" length="53267485" type="application/octet-stream" sparkle:edSignature="6xnEcvR/U8M9nEAFEvNdLFa2Y7pWOhutIBWI9RY142L1+QDrNLHoV253U7Z535GExcbG5+JG+qXmpPX8hHHoBw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.8-beta.4/ExtraDock.dmg" length="53272062" type="application/octet-stream" sparkle:edSignature="G5Lw1QOEgg54IMa9tt168rrvZG4+MDIgVo8dMO+QqBMjCC4KhEcX2dZrL1KVJKoLZs4EyeNK5XRfsJtJvk/0Bg=="/>
         </item>
         <item>
             <title>5.2.7</title>
