@@ -17,15 +17,15 @@
         <h3>🛠️ Fixed In Beta 2</h3>
         <ul>
             <li><strong>One minimize animation, not two:</strong> Minimize no longer plays the macOS animation and the window effect one after the other (seen with two displays). The effect now plays only when the instant system minimize is really in place!</li>
-            <li><strong>More reliable in newly opened apps:</strong> Minimizing a window in an app you just opened now flies into your dock every time!</li>
-            <li><strong>Smoother restores:</strong> Restoring several minimized windows flies them all back, and a window that comes back early never shows under the flying picture!</li>
-            <li><strong>Safe on future macOS:</strong> If a macOS update stops supporting the instant minimize, ExtraDock leaves the macOS animation alone and tells you why in Settings!</li>
         </ul>
 
         <h3>🆕 New In 5.2.8</h3>
         <ul>
             <li><strong>Minimize windows into ExtraDock (Beta):</strong> With Deep-hide native macOS Dock on, turn on Settings › Behavior › Window Effects › Minimize windows into ExtraDock, and a window you minimize flies straight into its app's icon on your dock instead of the hidden macOS Dock. Click the icon and it flies back out!</li>
             <li><strong>Minimize effects (Beta):</strong> Pick how a window leaves the screen: Fly to Dock, Fade, Shatter, Explode or Black Hole!</li>
+            <li><strong>More reliable in newly opened apps:</strong> Minimizing a window in an app you just opened now flies into your dock every time!</li>
+            <li><strong>Smoother restores:</strong> Restoring several minimized windows flies them all back, and a window that comes back early never shows under the flying picture!</li>
+            <li><strong>Safe on future macOS:</strong> If a macOS update stops supporting the instant minimize, ExtraDock leaves the macOS animation alone and tells you why in Settings!</li>
             <li><strong>Close effects (Beta):</strong> Choose an effect under Window Effects › When a window closes, and windows you close fade, shatter, explode or fall into a black hole. Works with or without Deep-hide!</li>
             <li><strong>Clear about Screen Recording:</strong> Window effects show a picture of the window, which needs Screen Recording. ExtraDock tells you before you turn an effect on, so the macOS permission prompt never comes as a surprise. You can also use the effects without window pictures!</li>
             <li><strong>Your Dock comes back when ExtraDock quits:</strong> Quitting ExtraDock now puts the macOS Dock and its minimize animation back, and opening ExtraDock hides them again!</li>
