@@ -3,6 +3,35 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>5.2.8-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 27 Nov 2026 13:21:31 +0200</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>5.2.8-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 5.2.8 Beta 1 - Windows That Fly Into Your Dock! 🪟✨</h2>
+
+        <h3>🆕 New In Beta 1</h3>
+        <ul>
+            <li><strong>Minimize windows into ExtraDock (Beta):</strong> With Deep-hide native macOS Dock on, turn on Settings › Behavior › Window Effects › Minimize windows into ExtraDock, and a window you minimize flies straight into its app's icon on your dock instead of the hidden macOS Dock. Click the icon and it flies back out!</li>
+            <li><strong>Minimize effects (Beta):</strong> Pick how a window leaves the screen: Fly to Dock, Fade, Shatter, Explode or Black Hole!</li>
+            <li><strong>Close effects (Beta):</strong> Choose an effect under Window Effects › When a window closes, and windows you close fade, shatter, explode or fall into a black hole. Works with or without Deep-hide!</li>
+            <li><strong>Clear about Screen Recording:</strong> Window effects show a picture of the window, which needs Screen Recording. ExtraDock tells you before you turn an effect on, so the macOS permission prompt never comes as a surprise. You can also use the effects without window pictures!</li>
+            <li><strong>Your Dock comes back when ExtraDock quits:</strong> Quitting ExtraDock now puts the macOS Dock and its minimize animation back, and opening ExtraDock hides them again!</li>
+            <li><strong>Docks on every desktop:</strong> Docks set to show on all desktops now appear reliably on every desktop, including new ones!</li>
+            <li><strong>Click to another desktop:</strong> Clicking an app whose window is on another desktop takes you there!</li>
+            <li><strong>Change Window Icon…:</strong> With Show Windows Separately on, right-click a window item to give that one window its own icon!</li>
+        </ul>
+
+        <h3>📦 Also includes everything in 5.2.7</h3>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.8-beta.1/ExtraDock.dmg" length="53259959" type="application/octet-stream" sparkle:edSignature="vFIeqTKAVIL/q/9VEwxl1Gn2a04du0TpettMZcGLeufj3EHsR6X7aMdy19SfLNZhsn26tuedyqEII6jyfcXwBA=="/>
+        </item>
+        <item>
             <title>5.2.7</title>
             <pubDate>Thu, 26 Nov 2026 11:54:02 +0200</pubDate>
             <sparkle:version>107</sparkle:version>
