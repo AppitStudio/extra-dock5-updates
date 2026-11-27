@@ -3,18 +3,26 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>5.2.8-beta.1</title>
+            <title>5.2.8-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Fri, 27 Nov 2026 13:21:31 +0200</pubDate>
-            <sparkle:version>108</sparkle:version>
-            <sparkle:shortVersionString>5.2.8-beta.1</sparkle:shortVersionString>
+            <pubDate>Fri, 27 Nov 2026 15:22:16 +0200</pubDate>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>5.2.8-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock5-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>ExtraDock 5.2.8 Beta 1 - Windows That Fly Into Your Dock! 🪟✨</h2>
+        <h2>ExtraDock 5.2.8 Beta 2 - Smoother Minimize on Every Screen! 🪟🖥️</h2>
 
-        <h3>🆕 New In Beta 1</h3>
+        <h3>🛠️ Fixed In Beta 2</h3>
+        <ul>
+            <li><strong>One minimize animation, not two:</strong> Minimize no longer plays the macOS animation and the window effect one after the other (seen with two displays). The effect now plays only when the instant system minimize is really in place!</li>
+            <li><strong>More reliable in newly opened apps:</strong> Minimizing a window in an app you just opened now flies into your dock every time!</li>
+            <li><strong>Smoother restores:</strong> Restoring several minimized windows flies them all back, and a window that comes back early never shows under the flying picture!</li>
+            <li><strong>Safe on future macOS:</strong> If a macOS update stops supporting the instant minimize, ExtraDock leaves the macOS animation alone and tells you why in Settings!</li>
+        </ul>
+
+        <h3>🆕 New In 5.2.8</h3>
         <ul>
             <li><strong>Minimize windows into ExtraDock (Beta):</strong> With Deep-hide native macOS Dock on, turn on Settings › Behavior › Window Effects › Minimize windows into ExtraDock, and a window you minimize flies straight into its app's icon on your dock instead of the hidden macOS Dock. Click the icon and it flies back out!</li>
             <li><strong>Minimize effects (Beta):</strong> Pick how a window leaves the screen: Fly to Dock, Fade, Shatter, Explode or Black Hole!</li>
@@ -29,7 +37,7 @@
         <h3>📦 Also includes everything in 5.2.7</h3>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.8-beta.1/ExtraDock.dmg" length="53259959" type="application/octet-stream" sparkle:edSignature="vFIeqTKAVIL/q/9VEwxl1Gn2a04du0TpettMZcGLeufj3EHsR6X7aMdy19SfLNZhsn26tuedyqEII6jyfcXwBA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock5-updates/releases/download/v5.2.8-beta.2/ExtraDock.dmg" length="53268147" type="application/octet-stream" sparkle:edSignature="0RMYor+8weYfEz8sYL5SK3xObrei2fsB/VP/TBSFcpxMQQIKIXdieRGpfK0LuI1bppU8YCQOHd4NEsMRfNIOBA=="/>
         </item>
         <item>
             <title>5.2.7</title>
